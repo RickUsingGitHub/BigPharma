@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Big Pharma on Trial</title>
+  <meta name="description" content="Thirty years of fines, fraud, buried trials and p-hacking by the world's biggest drug companies. Interactive charts, company rap sheets, a p-hacking lab, and a verdict: are they good or bad, and are they getting better?">
+  <meta name="theme-color" content="#b42318">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='11' width='26' height='10' rx='5' fill='%23b42318' transform='rotate(-35 16 16)'/%3E%3Cpath d='M16 16 L21.6 8 A5 5 0 0 1 28.9 13.1 L23.3 21.1Z' fill='%23fff' opacity='.9' transform='rotate(0)'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    try { var t = localStorage.getItem('bp-theme'); if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Big Pharma on Trial, home">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <g transform="rotate(-35 16 16)"><rect x="3" y="11" width="26" height="10" rx="5" fill="var(--accent)"/><rect x="16" y="11" width="13" height="10" rx="5" fill="var(--ink)"/><rect x="16" y="11" width="5" height="10" fill="var(--ink)"/></g>
+      </svg>
+      <span>Big Pharma on Trial</span>
+    </a>
+    <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="nav" id="nav" aria-label="Sections">
+      <a href="#playbook">Playbook</a>
+      <a href="#lab">Science lab</a>
+      <a href="#companies">Rap sheets</a>
+      <a href="#money">Follow the money</a>
+      <a href="#verdict">Verdict</a>
+      <a href="#cases">All cases</a>
+      <a href="#sources">Sources</a>
+    </nav>
+    <button class="icon-btn" id="themeBtn" aria-label="Toggle dark mode">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" id="top">
+    <div class="wrap">
+      <span class="kicker">An evidence file · 1996 – 2026</span>
+      <h1>Big Pharma <em>on trial</em></h1>
+      <p class="deck">Thirty years of guilty pleas, record fines, buried trials, ghostwritten papers, bribed doctors and tortured statistics, from the companies that also make the medicines keeping most of us alive. What did they do, what did it cost them, and are they getting any better?</p>
+
+      <div class="hero-figure" aria-live="polite">
+        <div class="label">Penalties paid to governments by the companies tracked here</div>
+        <div class="value" id="heroTotal">$0bn</div>
+        <div class="note" id="heroNote">US$, nominal. Excludes private lawsuits, tax disputes, overturned rulings and cases still under appeal.</div>
+      </div>
+
+      <div class="tiles" id="heroTiles"></div>
+
+      <div class="hero-cta">
+        <a class="btn primary" href="#verdict">Skip to the verdict</a>
+        <a class="btn" href="#lab">Try the p-hacking lab</a>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ═══════════════ PLAYBOOK ═══════════════ -->
+  <section class="block" id="playbook">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2><span class="num">01</span>The playbook</h2>
+        <p>The same sixteen moves turn up again and again across companies, countries and decades. Some corrupt the science that tells doctors what works. Others buy the prescription, or game the price. Tap any card for real cases, the numbers, and what (if anything) has been done to stop it.</p>
+      </div>
+      <div class="chips" role="group" aria-label="Filter tactics" id="tacticFilters">
+        <button class="chip" aria-pressed="true" data-group="all">All 16</button>
+        <button class="chip" aria-pressed="false" data-group="science">Rigging the science</button>
+        <button class="chip" aria-pressed="false" data-group="selling">Buying the prescription</button>
+        <button class="chip" aria-pressed="false" data-group="money">Gaming the money</button>
+      </div>
+      <div class="tactics" id="tactics"></div>
+    </div>
+  </section>
+
+  <dialog class="sheet" id="tacticSheet" aria-labelledby="sheetTitle">
+    <div class="sheet-inner">
+      <button class="icon-btn sheet-close" id="sheetClose" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <div id="sheetBody"></div>
+    </div>
+  </dialog>
+
+  <hr class="divider">
+
+  <!-- ═══════════════ LAB ═══════════════ -->
+  <section class="block" id="lab">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2><span class="num">02</span>The science lab</h2>
+        <p>Most research distortion is not outright fraud. It is a set of quiet choices: which trials get published, which outcomes get reported, how many ways the data get sliced. Each choice is defensible on its own; together they turn a dud into a "breakthrough". Below you can watch it happen, and do it yourself.</p>
+      </div>
+
+      <!-- Publication bias -->
+      <div class="chart-card reveal" id="pubBiasCard">
+        <div class="chart-head">
+          <div>
+            <div class="chart-title">The vanishing trials: antidepressants, 1987–2004</div>
+            <div class="chart-sub">Each dot is one of the 74 trials of 12 antidepressants that companies submitted to the FDA. Watch what happens between what regulators saw and what doctors could read in journals.</div>
+          </div>
+          <div class="seg" role="group" aria-label="Choose view">
+            <button aria-pressed="true" data-step="0">1 · What the FDA saw</button>
+            <button aria-pressed="false" data-step="1">2 · What got published</button>
+          </div>
+        </div>
+        <div class="legend" id="pubLegend"></div>
+        <div class="chart" id="pubBias"></div>
+        <p class="small muted" id="pubCaption" aria-live="polite"></p>
+        <p class="small muted">Source: <a href="https://sciencedaily.com/releases/2008/01/080116202037.htm" target="_blank" rel="noopener">Turner et al., <i>NEJM</i> 2008</a>. 23 trials were never published (22 negative or questionable, 1 positive). Of the 14 negative or questionable trials that were published, 11 were written up as if positive.</p>
+      </div>
+
+      <!-- P-hacking simulator -->
+      <div class="lab-grid" style="margin-top:16px">
+        <div class="card reveal" id="phackCard">
+          <span class="kicker">Hands-on</span>
+          <h3>Make a sugar pill "work"</h3>
+          <p class="muted small">Meet <strong>Wonderzol</strong>. It is a sugar pill, compared against another sugar pill. Its true effect on everything is exactly zero. Each run is a fresh randomised trial with 100 patients per arm. Your job is to find a publishable p &lt; 0.05 anyway.</p>
+          <div class="controls">
+            <div class="control">
+              <label for="nOutcomes">Outcomes measured</label><output id="nOutcomesOut">1</output>
+              <input type="range" id="nOutcomes" min="1" max="20" value="1">
+            </div>
+            <div class="control">
+              <label for="nSubgroups">Subgroup slices (men, over-65s, smokers…)</label><output id="nSubgroupsOut">0</output>
+              <input type="range" id="nSubgroups" min="0" max="6" value="0">
+            </div>
+            <label class="check"><input type="checkbox" id="peek"> <span><strong>Peek early.</strong> Check the results after every 20 patients and stop the moment anything hits p &lt; 0.05.</span></label>
+          </div>
+          <div class="btn-row">
+            <button class="btn primary" id="runOne">Run one trial</button>
+            <button class="btn" id="runMany">Run 1,000 trials</button>
+          </div>
+          <div class="headline" id="headline" aria-live="polite">
+            <div class="h-tag">Press release</div>
+            <div class="h-text">Press "Run one trial" to begin.</div>
+          </div>
+        </div>
+        <div class="chart-card reveal">
+          <div class="chart-title">Every test you ran</div>
+          <div class="chart-sub">One dot per statistical test, by p-value (log scale). Anything left of the line is "statistically significant".</div>
+          <div class="chart" id="pStrip"></div>
+          <div class="chart-title" style="margin-top:16px">Chance of at least one "significant" finding</div>
+          <div class="chart-sub">For a drug that does nothing. An honest single pre-registered test gives 5%.</div>
+          <div class="meter" id="fpMeter"></div>
+          <div class="progress" aria-hidden="true"><div id="fpProgress"></div></div>
+          <p class="small muted" id="fpNote" style="margin-top:10px">Run 1,000 trials to measure your false-positive rate.</p>
+        </div>
+      </div>
+
+      <div class="card reveal" style="margin-top:16px">
+        <h3>Why this works: the garden of forking paths</h3>
+        <p class="muted">With one pre-specified test, a useless drug "wins" 5% of the time. Test 20 independent outcomes and the chance of at least one false positive is 1 − 0.95<sup>20</sup> ≈ <strong>64%</strong>. Add subgroups and an optional stopping rule and it climbs further. Then publish only the winner, call it the "primary outcome", and leave out the 19 losers. Nobody can tell, unless the trial was <a href="#t-switch">registered in advance</a>. The classic demonstration is the huge ISIS-2 heart-attack trial: split by star sign, aspirin appeared useless, even slightly harmful, for Geminis and Libras. The authors did that deliberately, to show how absurd subgroup fishing is.</p>
+      </div>
+
+      <!-- Evidence tiles -->
+      <h3 style="margin:34px 0 12px" class="reveal">What the research-on-research says</h3>
+      <div class="stat-row" id="evidenceTiles"></div>
+
+      <div class="card reveal" style="margin-top:16px">
+        <span class="kicker">Same data, opposite conclusion</span>
+        <h3>GSK's Study 329: Paxil in teenagers</h3>
+        <div class="versus">
+          <div class="quote">
+            <div class="who">Published 2001 under academic authors’ names; first drafted by a company-paid writer</div>
+            <blockquote>“Paroxetine is generally well tolerated and effective for major depression in adolescents.”</blockquote>
+          </div>
+          <div class="quote">
+            <div class="who">Independent reanalysis of the raw data, <i>BMJ</i> 2015</div>
+            <blockquote>“Neither paroxetine nor high dose imipramine showed efficacy for major depression in adolescents, and there was an increase in harms with both drugs.”</blockquote>
+          </div>
+        </div>
+        <p class="small muted" style="margin-top:12px">The original paper reported outcomes that were not in the trial protocol, mixed up primary and secondary outcomes, and classed suicidal events as "emotional lability". GSK’s $3 billion guilty plea in 2012 included promoting Paxil for under-18s. When the reanalysis appeared in 2015, the journal still declined to retract the 2001 paper. <a href="https://www.bmj.com/content/351/bmj.h4320.abstract" target="_blank" rel="noopener">Le Noury et al., BMJ 2015</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ═══════════════ COMPANIES ═══════════════ -->
+  <section class="block" id="companies">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2><span class="num">03</span>The rap sheets</h2>
+        <p>The twelve biggest drug companies by revenue, plus the worst of the rest. Pick a company to see its record: every tracked penalty, guilty plea and scandal since 1996, with sources, and the medicines it deserves credit for.</p>
+      </div>
+      <div class="co-menu" id="coMenu" role="group" aria-label="Choose a company"></div>
+      <div class="dossier" id="dossier" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ AUSTRALIA ═══════════════ -->
+  <section class="oz" aria-labelledby="ozTitle">
+    <div class="wrap">
+      <span class="kicker">Meanwhile, in Australia</span>
+      <h2 id="ozTitle" style="font-size:clamp(1.5rem,3vw,2rem)">It didn't all happen in America</h2>
+      <div class="oz-grid">
+        <div class="reveal">
+          <h3>A fake journal, and a "hit list", exposed in Melbourne</h3>
+          <p>The Federal Court Vioxx class action (2009) revealed that Merck had paid Elsevier to publish the <i>Australasian Journal of Bone &amp; Joint Medicine</i>. It looked like a peer-reviewed journal but was sponsored marketing. Internal emails read out in court listed doctors to "neutralise" or "discredit".</p>
+        </div>
+        <div class="reveal">
+          <h3>The largest product-liability settlement in Australian history</h3>
+          <p>In 2019 the Federal Court found J&amp;J’s Ethicon negligent over pelvic mesh implants and found it had breached consumer law. After failed appeals, it settled in 2022 for A$300 million, covering more than 11,000 women.</p>
+        </div>
+        <div class="reveal">
+          <h3>Tasmania’s poppies and America’s opioid crisis</h3>
+          <p>J&amp;J’s former subsidiary Tasmanian Alkaloids developed a high-thebaine poppy that became a key raw material for oxycodone. That link featured in the Oklahoma case against J&amp;J. Australia’s PBS, which negotiates prices centrally, is a big reason most medicines here cost a fraction of US prices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ MONEY ═══════════════ -->
+  <section class="block" id="money">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2><span class="num">04</span>Follow the money</h2>
+        <p>Big numbers, but compared with what? These charts total the penalties by company, by year and by type of misconduct. They also translate the record fines into days of sales, which is how a chief financial officer would see them.</p>
+      </div>
+
+      <div class="chart-card reveal">
+        <div class="chart-head">
+          <div>
+            <div class="chart-title">Who paid the most?</div>
+            <div class="chart-sub" id="leaderSub">Penalties paid to governments, 1996–2026, by type of misconduct. US$ billions, nominal.</div>
+          </div>
+          <div class="seg" role="group" aria-label="What to include" id="leaderToggle">
+            <button aria-pressed="true" data-mode="gov">Government penalties</button>
+            <button aria-pressed="false" data-mode="all">+ private lawsuits</button>
+          </div>
+        </div>
+        <div class="legend" id="leaderLegend"></div>
+        <div class="chart" id="leaderChart"></div>
+        <details class="data-view"><summary>View as a table</summary><div class="table-scroll" id="leaderTable"></div></details>
+      </div>
+
+      <div class="chart-card reveal">
+        <div class="chart-head">
+          <div>
+            <div class="chart-title">Thirty years of penalties</div>
+            <div class="chart-sub">Government penalties per year across every company tracked (including Purdue, Teva and the rest), by type of misconduct. US$ billions.</div>
+          </div>
+        </div>
+        <div class="legend" id="yearLegend"></div>
+        <div class="chart" id="yearChart"></div>
+        <details class="data-view"><summary>View as a table</summary><div class="table-scroll" id="yearTable"></div></details>
+      </div>
+
+      <div class="grid-2" style="margin-top:16px">
+        <div class="chart-card reveal" style="margin-top:0">
+          <div class="chart-title">The cost of doing business</div>
+          <div class="chart-sub">Each company's record US penalty, measured in days of that year's global revenue.</div>
+          <div class="chart" id="daysChart"></div>
+          <p class="small muted">Revenue from annual reports (GSK converted from £). Pfizer’s $2.3 billion was about 17 days of sales. The drugs involved earned far more than the fines while the misconduct ran.</p>
+        </div>
+        <div class="chart-card reveal" style="margin-top:0">
+          <div class="chart-title">The 15 biggest single cases</div>
+          <div class="chart-sub">Every kind of payment, including private lawsuits. US$ billions.</div>
+          <div class="chart" id="topChart"></div>
+        </div>
+      </div>
+
+      <div class="chart-card reveal">
+        <div class="chart-head">
+          <div>
+            <div class="chart-title">Everyone, everything</div>
+            <div class="chart-sub" id="heatSub">Which kinds of misconduct each of the top 12 has paid government penalties for (by each case’s main category). Darker means more money; a blank cell means no tracked penalty.</div>
+          </div>
+        </div>
+        <div class="chart" id="heatChart"></div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ═══════════════ VERDICT ═══════════════ -->
+  <section class="block" id="verdict">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2><span class="num">05</span>The verdict</h2>
+        <p>Two questions: are they good or bad? And are they getting any better? Here is the evidence on both sides, followed by a straight answer.</p>
+      </div>
+
+      <div class="ledger">
+        <div class="card reveal">
+          <h3><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--good)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>The case for the defence</h3>
+          <ul>
+            <li><strong>They make the medicines.</strong> Statins, insulin analogues, HIV antiretrovirals (a diagnosis that once meant death now comes with a near-normal life expectancy), hepatitis C cures, cancer immunotherapy, GLP-1 drugs. Almost all were developed or brought to market by these companies.</li>
+            <li><strong>COVID-19 vaccines</strong> are estimated to have prevented around 14.4 million deaths in their first year alone.</li>
+            <li><strong>Real philanthropy exists:</strong> Merck’s ivermectin donations for river blindness since 1987, Novartis’s not-for-profit malaria drug, GSK’s malaria vaccine, J&amp;J’s TB drug.</li>
+            <li><strong>Some transparency is better now.</strong> In the EU, commercial sponsors post trial results far more reliably than universities and hospitals do (68% v 11% in 2018). GSK, J&amp;J and others now share trial data with outside researchers.</li>
+            <li><strong>Most employees are not villains.</strong> Many of the biggest cases were exposed by the companies’ own staff acting as whistleblowers.</li>
+          </ul>
+        </div>
+        <div class="card reveal">
+          <h3><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--critical)" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>The case for the prosecution</h3>
+          <ul>
+            <li><strong>Every one of the twelve</strong> has paid government penalties for misconduct since 1996, and <span id="pleaCount">all twelve</span> have had a company entity plead guilty to a crime or accept a deferred prosecution.</li>
+            <li><strong>Repeat offending is the norm.</strong> Pfizer, J&amp;J, GSK and Novartis each have multiple guilty pleas or kickback cases, some committed while already on "corporate integrity" probation.</li>
+            <li><strong>Crime pays.</strong> Record fines amount to days or weeks of revenue, while the drugs involved earned billions. Settlements usually come without admitting liability.</li>
+            <li><strong>People were harmed.</strong> Vioxx heart attacks, suicidal teenagers on Paxil, nursing-home patients sedated with off-label antipsychotics, and an opioid epidemic that has killed hundreds of thousands of Americans.</li>
+            <li><strong>Almost nobody goes to jail.</strong> The Insys founder and Purdue’s 2007 executives (probation) are rare exceptions. Corporations plead guilty; executives keep their bonuses.</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 style="margin:40px 0 12px" class="reveal">Are they getting better? A scorecard</h3>
+      <div class="score" id="scorecard"></div>
+
+      <div class="bottom-line reveal">
+        <span class="kicker">The bottom line</span>
+        <h3>Not evil. Not good. Rational, in a system where cheating usually pays.</h3>
+        <p>The evidence does not support "a few bad apples". Across all twelve companies, several decades and dozens of countries, the same tactics recur, because they are profitable and the expected penalty is smaller than the expected gain. These companies are neither charities nor cartoon villains. They are profit-maximisers that respond to incentives, and for thirty years the incentives have rewarded bending the rules.</p>
+        <p><strong>Are they getting better?</strong> <strong>Partly, on the science.</strong> Trial registration, results databases, data-sharing and payment disclosure laws have made the crudest ways of burying data much harder, and big pharma now reports trial results more reliably than academia does. <strong>Not on the money.</strong> Kickbacks dressed up as speaker programmes and charity donations kept turning up through 2026. US launch prices hit records, patent thickets got thicker, and lobbying spend hit new highs. The fall in criminal mega-settlements since 2013 partly reflects narrower prosecutions, so it is weak evidence of cleaner behaviour.</p>
+        <p style="margin:0"><strong>What actually changes behaviour</strong> has been forced transparency, whistleblower rewards, and, rarely, personal liability for executives. Where those exist, things improve. Where they don't, they don't.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ═══════════════ EXPLORER ═══════════════ -->
+  <section class="block" id="cases">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2><span class="num">06</span>Every case</h2>
+        <p>The complete database behind every chart on this page. Filter, search and sort it, and follow the source links. This table is also the accessible version of all the charts.</p>
+      </div>
+      <div class="filters">
+        <label class="sr-only" for="fCo">Company</label>
+        <select id="fCo"></select>
+        <label class="sr-only" for="fCat">Type of misconduct</label>
+        <select id="fCat"></select>
+        <label class="sr-only" for="fKind">Kind of payment</label>
+        <select id="fKind"></select>
+        <label class="sr-only" for="fText">Search</label>
+        <input id="fText" type="search" placeholder="Search drugs, words, countries…">
+        <span class="count" id="fCount"></span>
+      </div>
+      <div class="explorer-wrap">
+        <table class="data explorer" id="explorer">
+          <thead>
+            <tr>
+              <th><button data-sort="year">Year ↕</button></th>
+              <th>Company</th>
+              <th>What happened</th>
+              <th>Type</th>
+              <th>Kind</th>
+              <th class="num"><button data-sort="usd">US$ ↕</button></th>
+              <th>Source</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ METHODS ═══════════════ -->
+  <section class="block" id="sources">
+    <div class="wrap">
+      <div class="section-head">
+        <h2><span class="num">07</span>Method &amp; sources</h2>
+      </div>
+      <div class="methods">
+        <p><strong>What is counted.</strong> The headline totals include only money paid to governments (criminal fines, forfeitures and civil settlements or judgments) that is final. Private lawsuits (product liability, class actions, shareholder suits) are tracked separately and shown only where labelled. Tax disputes are never counted as penalties. Rulings that were overturned or are still under appeal are listed but excluded.</p>
+        <p><strong>Settling is not admitting.</strong> Many civil settlements were made without any admission of liability, and the companies denied the allegations. Where a company entity pleaded guilty, was convicted, or accepted a deferred prosecution agreement, the case is marked. Descriptions follow the language of the official announcements and court findings.</p>
+        <p><strong>Money.</strong> Amounts are nominal US dollars as announced, not adjusted for inflation. Non-US fines are converted at approximately the exchange rate of the year of the decision. A case is attributed to today’s parent company if the parent later acquired the business (for example, Allergan’s cases are under AbbVie, and Abbott’s pre-2013 drug cases are also under AbbVie because AbbVie inherited that business). "Revenue" is the 2025 figure for the whole group, converted to US$ where needed.</p>
+        <p><strong>Not exhaustive.</strong> This is a curated set of about 120 of the most significant cases, not every penalty ever paid. Public Citizen counted 482 US government settlements with drug makers totalling $62.3 billion between 1991 and 2021. Smaller cases, most state-level settlements and most private litigation are not included, so the real totals are higher.</p>
+        <p><strong>Corrections welcome.</strong> If you spot an error, please open an issue on the GitHub repository with a source.</p>
+      </div>
+      <h3 style="margin-top:24px">Key sources</h3>
+      <ol class="sources" id="sourceList"></ol>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p>Big Pharma on Trial is an independent evidence summary built from public court records, government announcements and peer-reviewed research. Nothing here is medical advice. Never stop or change a medicine without talking to your doctor.</p>
+    <p>Last updated October 2026.</p>
+  </div>
+</footer>
+
+<div class="tooltip" id="tooltip" role="status" aria-live="polite"></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/playbook.js"></script>
+<script src="assets/js/charts.js"></script>
+<script src="assets/js/lab.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
