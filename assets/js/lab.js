@@ -366,7 +366,12 @@
         txt.textContent = `Wonderzol ${verb} ${OUTCOMES[best.o]}${who} (p = ${best.p < 0.001 ? '<0.001' : best.p.toFixed(3)})`;
         const extra = document.createElement('div');
         extra.className = 'small muted'; extra.style.marginTop = '6px';
-        extra.textContent = `${sig.length} of ${total} tests came up "significant"${r.stoppedEarly ? `, and you stopped the trial early at ${r.n} patients per arm` : ''}. The other ${total - 1} quietly go in the drawer. Remember: the true effect is zero.`;
+        const otherHits = sig.length - 1, misses = total - sig.length;
+        const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`;
+        const hidden = [otherHits ? `the other ${plural(otherHits, '"hit"').replace('"hit"s', '"hits"')}` : '', misses ? `the ${plural(misses, 'test')} that found nothing` : '']
+          .filter(Boolean).join(' and ');
+        extra.textContent = `${sig.length} of ${total} tests came up "significant"${r.stoppedEarly ? `, and you stopped the trial early at ${r.n} patients per arm` : ''}. ` +
+          `Only this one makes the headline${hidden ? `; ${hidden} quietly go${otherHits + misses === 1 ? 'es' : ''} in the drawer` : ''}. Remember: the true effect is zero.`;
         txt.appendChild(extra);
       } else {
         tag.textContent = 'Press release · cancelled';
