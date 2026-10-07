@@ -1,0 +1,2557 @@
+[
+  {
+    "year": 1999,
+    "company": "Roche",
+    "via": "Hoffmann-La Roche",
+    "title": "Global vitamin cartel: record US criminal fine",
+    "category": "Blocking competition & gouging",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 500,
+    "counted_as_government_penalty_usd_millions": 500,
+    "description": "Hoffmann-La Roche pleaded guilty to leading a worldwide conspiracy to fix vitamin prices that affected more than $5 billion of US commerce. The fine was a record at the time.",
+    "sources": [
+      {
+        "label": "US DOJ (1999)",
+        "url": "https://www.justice.gov/archive/opa/pr/1999/May/196at.htm"
+      }
+    ]
+  },
+  {
+    "year": 2001,
+    "company": "Roche",
+    "via": "",
+    "title": "EU vitamin cartel fine (€462m)",
+    "category": "Blocking competition & gouging",
+    "kind": "Non-US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 410,
+    "counted_as_government_penalty_usd_millions": 410,
+    "description": "The European Commission called Roche \"the prime mover and main beneficiary\" of the vitamin cartels and gave it the highest fine.",
+    "sources": [
+      {
+        "label": "Swissinfo",
+        "url": "https://www.swissinfo.ch/eng/eu-slaps-record-fine-on-roche-for-price-fixing/2381992"
+      }
+    ]
+  },
+  {
+    "year": 2001,
+    "company": "Takeda (incl. TAP)",
+    "via": "TAP (Takeda–Abbott JV)",
+    "title": "Lupron: free samples billed and kickbacks",
+    "category": "Overcharging taxpayers",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 875,
+    "counted_as_government_penalty_usd_millions": 875,
+    "description": "TAP pleaded guilty. It gave doctors free samples of the prostate-cancer drug, knowing they would be billed to Medicare, and offered other inducements. Then the largest health-care fraud settlement in US history.",
+    "sources": [
+      {
+        "label": "US DOJ (2001)",
+        "url": "https://www.justice.gov/archive/opa/pr/2001/October/513civ.htm"
+      }
+    ]
+  },
+  {
+    "year": 2003,
+    "company": "AstraZeneca",
+    "via": "",
+    "title": "Zoladex: free samples billed to Medicare",
+    "category": "Overcharging taxpayers",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 355,
+    "counted_as_government_penalty_usd_millions": 355,
+    "description": "AstraZeneca pleaded guilty. It gave doctors free samples of the prostate-cancer drug, knowing they would bill Medicare for them.",
+    "sources": [
+      {
+        "label": "US DOJ (2003)",
+        "url": "https://www.justice.gov/archive/opa/pr/2003/June/03_civ_371.htm"
+      }
+    ]
+  },
+  {
+    "year": 2003,
+    "company": "Bayer",
+    "via": "",
+    "title": "Cipro and Adalat: hiding the Kaiser discount from Medicaid",
+    "category": "Overcharging taxpayers",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 257,
+    "counted_as_government_penalty_usd_millions": 257,
+    "description": "Bayer pleaded guilty and paid $257 million, then the biggest Medicaid fraud recovery in US history. It sold \"private label\" Cipro and Adalat CC to the insurer Kaiser at low prices and did not report them as its best price, short-changing Medicaid rebates.",
+    "sources": [
+      {
+        "label": "Bayer 6-K (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001144145/000115697303001761/f00655e6vk.txt"
+      }
+    ]
+  },
+  {
+    "year": 2004,
+    "company": "Bristol Myers Squibb",
+    "via": "",
+    "title": "SEC: channel-stuffing accounting fraud",
+    "category": "Securities fraud, tax & other",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 150,
+    "counted_as_government_penalty_usd_millions": 150,
+    "description": "BMS inflated sales and earnings by pushing about $1.5 billion of excess inventory onto wholesalers in 2000–01.",
+    "sources": [
+      {
+        "label": "SEC",
+        "url": "https://www.sec.gov/news/press/2004-105.htm"
+      }
+    ]
+  },
+  {
+    "year": 2004,
+    "company": "GSK",
+    "via": "",
+    "title": "New York sues over hidden Paxil child-trial data",
+    "category": "Hiding harm & bad science",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 2.5,
+    "counted_as_government_penalty_usd_millions": 2.5,
+    "description": "New York’s Attorney General sued GSK for fraud, alleging it suppressed studies showing Paxil did not work in children and might raise suicidality. GSK settled for $2.5 million and agreed to post its trial results online.",
+    "sources": [
+      {
+        "label": "BMJ",
+        "url": "https://www.bmj.com/content/329/7466/590.5.full"
+      },
+      {
+        "label": "FDAnews",
+        "url": "https://fdanews.com/articles/65861-gsk-pays-new-york-2-5-million-to-settle-paxil-suit"
+      }
+    ]
+  },
+  {
+    "year": 2004,
+    "company": "Merck & Co. (MSD)",
+    "via": "Schering-Plough",
+    "title": "Claritin: hidden \"best price\" and kickbacks",
+    "category": "Overcharging taxpayers",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 345.5,
+    "counted_as_government_penalty_usd_millions": 345.5,
+    "description": "Schering Sales Corp. pleaded guilty to paying a kickback for favourable formulary treatment; the parent paid $293 million for under-reporting Claritin’s best price to Medicaid.",
+    "sources": [
+      {
+        "label": "NPR",
+        "url": "https://www.npr.org/2004/07/30/3806037/-345-million-settlement-in-claritin-marketing-case"
+      }
+    ]
+  },
+  {
+    "year": 2004,
+    "company": "Pfizer",
+    "via": "Warner-Lambert / Parke-Davis",
+    "title": "Neurontin off-label campaign",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 430,
+    "counted_as_government_penalty_usd_millions": 430,
+    "description": "Warner-Lambert pleaded guilty and paid $430 million. The epilepsy add-on drug Neurontin had been promoted for unapproved uses such as bipolar disorder, pain and migraine, partly through paid \"consultant\" meetings and medical-education events.",
+    "sources": [
+      {
+        "label": "US DOJ (2004)",
+        "url": "https://www.justice.gov/archive/opa/pr/2004/May/04_civ_322.htm"
+      }
+    ]
+  },
+  {
+    "year": 2005,
+    "company": "AstraZeneca",
+    "via": "",
+    "title": "EU: misleading patent offices over Losec",
+    "category": "Blocking competition & gouging",
+    "kind": "Non-US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 65,
+    "counted_as_government_penalty_usd_millions": 65,
+    "description": "The European Commission found AstraZeneca gave \"deliberately misleading\" information to patent offices to extend protection for its ulcer drug, and deregistered products to block generics. Fine of €52.5 million after appeal, upheld by the EU Court of Justice in 2012.",
+    "sources": [
+      {
+        "label": "BioPharm International",
+        "url": "https://www.biopharminternational.com/view/eu-court-dismisses-astrazeneca-appeal"
+      }
+    ]
+  },
+  {
+    "year": 2005,
+    "company": "Bayer",
+    "via": "",
+    "title": "Baycol: cholesterol drug linked to about 100 deaths",
+    "category": "Hiding harm & bad science",
+    "kind": "Private lawsuits",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 1114,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "Bayer withdrew the statin Baycol (Lipobay) in 2001 after deaths from rhabdomyolysis, a breakdown of muscle tissue. By February 2005 it had settled 2,938 cases for about $1.11 billion without admitting liability.",
+    "sources": [
+      {
+        "label": "Bayer 20-F (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001144145/000115697305000310/f00924e20vf.htm"
+      }
+    ]
+  },
+  {
+    "year": 2005,
+    "company": "Bristol Myers Squibb",
+    "via": "",
+    "title": "Deferred prosecution for securities fraud",
+    "category": "Securities fraud, tax & other",
+    "kind": "US government",
+    "criminal": "deferred prosecution",
+    "status": "final",
+    "amount_usd_millions": 300,
+    "counted_as_government_penalty_usd_millions": 300,
+    "description": "BMS paid $300 million into a shareholder compensation fund and accepted a federal monitor.",
+    "sources": [
+      {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/id/wbna8232237"
+      }
+    ]
+  },
+  {
+    "year": 2005,
+    "company": "Eli Lilly",
+    "via": "",
+    "title": "Evista: off-label \"breast cancer prevention\" claims",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 36,
+    "counted_as_government_penalty_usd_millions": 36,
+    "description": "Lilly pleaded guilty to misbranding its osteoporosis drug by promoting it for breast-cancer and heart-disease prevention.",
+    "sources": [
+      {
+        "label": "US DOJ (2005)",
+        "url": "https://www.justice.gov/archive/opa/pr/2005/December/05_civ_685.html"
+      }
+    ]
+  },
+  {
+    "year": 2006,
+    "company": "Bayer",
+    "via": "",
+    "title": "Trasylol: a damaging study kept from FDA advisers",
+    "category": "Hiding harm & bad science",
+    "kind": "No fine (scandal / investigation)",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 0,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "At a September 2006 FDA advisory meeting on the safety of the heart-surgery drug Trasylol (aprotinin), Bayer did not mention its own study of 67,000 patients that pointed to serious risks. The FDA learned of it only after an outside researcher raised the alarm. Bayer later admitted the mistake.",
+    "sources": [
+      {
+        "label": "PharmaTimes",
+        "url": "https://pharmatimes.com/?p=18468"
+      }
+    ]
+  },
+  {
+    "year": 2006,
+    "company": "GSK",
+    "via": "",
+    "title": "Largest tax dispute in IRS history",
+    "category": "Securities fraud, tax & other",
+    "kind": "Tax dispute",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 3400,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "GSK paid about $3.4 billion to settle a transfer-pricing dispute over how much profit it booked in the US. This is a tax settlement, not a penalty, so it is not counted in the totals.",
+    "sources": [
+      {
+        "label": "IRS",
+        "url": "https://www.irs.gov/pub/irs-news/ir-06-142.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2006,
+    "company": "Merck & Co. (MSD)",
+    "via": "Schering-Plough",
+    "title": "Temodar & Intron A off-label; Claritin pricing",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 435,
+    "counted_as_government_penalty_usd_millions": 435,
+    "description": "Schering Sales Corp. pleaded guilty to conspiracy to make false statements. The $435 million also covered illegal promotion of cancer drugs and pricing fraud.",
+    "sources": [
+      {
+        "label": "Phillips & Cohen",
+        "url": "https://www.phillipsandcohen.com/schering-plough-will-pay-435-million-to-settle-civil-and-criminal-charges/"
+      }
+    ]
+  },
+  {
+    "year": 2007,
+    "company": "Bristol Myers Squibb",
+    "via": "",
+    "title": "Kickbacks, off-label Abilify, price inflation",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 515,
+    "counted_as_government_penalty_usd_millions": 515,
+    "description": "Consulting fees and resort trips for doctors; promotion of Abilify for children and dementia-related psychosis; inflated wholesale prices.",
+    "sources": [
+      {
+        "label": "KKC",
+        "url": "https://kkc.com/news/bristol-myers-squibb-to-pay-515-million-for-doctor-kickback-scheme"
+      }
+    ]
+  },
+  {
+    "year": 2007,
+    "company": "Bristol Myers Squibb",
+    "via": "",
+    "title": "Lied to the FTC about a secret Plavix deal",
+    "category": "Blocking competition & gouging",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 1,
+    "counted_as_government_penalty_usd_millions": 1,
+    "description": "BMS pleaded guilty to two counts of false statements. A senior executive had made a secret side-promise to the generic maker Apotex and hid it from the FTC. The CEO was ousted.",
+    "sources": [
+      {
+        "label": "US DOJ (2007)",
+        "url": "https://www.justice.gov/archive/opa/pr/2007/May/07_at_388.html"
+      }
+    ]
+  },
+  {
+    "year": 2007,
+    "company": "Eli Lilly",
+    "via": "",
+    "title": "Zyprexa: weight gain and diabetes lawsuits",
+    "category": "Hiding harm & bad science",
+    "kind": "Private lawsuits",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 1200,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "About 32,000 claims alleged that Lilly played down Zyprexa’s links to obesity and diabetes. Internal documents leaked to the New York Times in 2006 put the issue on the front page.",
+    "sources": [
+      {
+        "label": "Psychiatric News",
+        "url": "https://psychnews.psychiatryonline.org/doi/10.1176/pn.42.3.0001a"
+      }
+    ]
+  },
+  {
+    "year": 2007,
+    "company": "Merck & Co. (MSD)",
+    "via": "",
+    "title": "Vioxx heart-attack lawsuits",
+    "category": "Hiding harm & bad science",
+    "kind": "Private lawsuits",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 4850,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "Merck paid $4.85 billion to settle about 27,000 lawsuits from roughly 47,000 plaintiffs over heart attacks and strokes linked to Vioxx. An FDA scientist estimated 88,000–140,000 excess cases of serious heart disease in the US.",
+    "sources": [
+      {
+        "label": "CNN Money",
+        "url": "https://money.cnn.com/2007/11/09/news/companies/merck_vioxx/"
+      },
+      {
+        "label": "Nature (Graham estimate)",
+        "url": "https://www.nature.com/news/2005/050124/full/news050124-4.html"
+      }
+    ]
+  },
+  {
+    "year": 2007,
+    "company": "Purdue Pharma (Sackler family)",
+    "via": "",
+    "title": "OxyContin: lied about addiction risk",
+    "category": "Opioids",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 634.5,
+    "counted_as_government_penalty_usd_millions": 634.5,
+    "description": "Purdue’s parent and three executives pleaded guilty to misbranding OxyContin as less addictive and less prone to abuse than other opioids. The executives received probation.",
+    "sources": [
+      {
+        "label": "JURIST",
+        "url": "https://www.jurist.org/news/2007/05/oxycontin-maker-pleads-guilty-to/"
+      }
+    ]
+  },
+  {
+    "year": 2007,
+    "company": "Sanofi",
+    "via": "Aventis",
+    "title": "Anzemet: inflated wholesale prices",
+    "category": "Overcharging taxpayers",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 190,
+    "counted_as_government_penalty_usd_millions": 190,
+    "description": "Aventis allegedly inflated the \"average wholesale price\" of its chemotherapy anti-nausea drug (1997–2004), driving up Medicare and Medicaid payments.",
+    "sources": [
+      {
+        "label": "US DOJ (2007)",
+        "url": "https://www.justice.gov/archive/opa/pr/2007/September/07_civ_694.html"
+      }
+    ]
+  },
+  {
+    "year": 2008,
+    "company": "Bayer",
+    "via": "",
+    "title": "Glucose meters: cash for switching patients",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 97.5,
+    "counted_as_government_penalty_usd_millions": 97.5,
+    "description": "Bayer HealthCare allegedly paid 11 diabetic-supply companies to move their Medicare patients onto Bayer meters and test strips.",
+    "sources": [
+      {
+        "label": "Healthcare Finance News",
+        "url": "https://www.healthcarefinancenews.com/news/bayer-healthcare-pay-975m-settle-kickbacks-case"
+      }
+    ]
+  },
+  {
+    "year": 2008,
+    "company": "Eli Lilly",
+    "via": "",
+    "title": "Zyprexa: 32 states + DC",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 62,
+    "counted_as_government_penalty_usd_millions": 62,
+    "description": "Multistate consumer-protection settlement over Zyprexa marketing.",
+    "sources": [
+      {
+        "label": "Delaware DOJ",
+        "url": "https://news.delaware.gov/2008/10/07/department-of-justice-announces-record-settlement-with-eli-lilly-in-drug-marketing-case/"
+      }
+    ]
+  },
+  {
+    "year": 2008,
+    "company": "Merck & Co. (MSD)",
+    "via": "",
+    "title": "Medicaid \"best price\" fraud: Zocor, Vioxx, Pepcid",
+    "category": "Overcharging taxpayers",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 650,
+    "counted_as_government_penalty_usd_millions": 650,
+    "description": "Merck labelled deep hospital discounts as \"nominal\" prices to keep them out of the Medicaid rebate calculation, and allegedly paid doctors disguised as \"training\" fees.",
+    "sources": [
+      {
+        "label": "US DOJ (2008)",
+        "url": "https://www.justice.gov/opa/pr/2008/February/08_civ_094.html"
+      }
+    ]
+  },
+  {
+    "year": 2008,
+    "company": "Teva (incl. Cephalon)",
+    "via": "Cephalon (acquired 2011)",
+    "title": "Actiq (fentanyl lollipop), Gabitril, Provigil off-label",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 425,
+    "counted_as_government_penalty_usd_millions": 425,
+    "description": "Cephalon pleaded guilty to promoting drugs, including a fentanyl lozenge meant for cancer pain, for unapproved uses.",
+    "sources": [
+      {
+        "label": "US DOJ (2008)",
+        "url": "https://www.justice.gov/opa/pr/2008/September/08-civ-860.html"
+      }
+    ]
+  },
+  {
+    "year": 2009,
+    "company": "Eli Lilly",
+    "via": "",
+    "title": "Zyprexa off-label: $1.415 billion",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 1415,
+    "counted_as_government_penalty_usd_millions": 1415,
+    "description": "Lilly pleaded guilty to promoting the antipsychotic for elderly dementia and other unapproved uses. The $515 million criminal fine was then the largest ever against a single company in a US criminal case.",
+    "sources": [
+      {
+        "label": "US DOJ (2009)",
+        "url": "https://www.justice.gov/archive/opa/pr/2009/January/09-civ-038.html"
+      }
+    ]
+  },
+  {
+    "year": 2009,
+    "company": "Merck & Co. (MSD)",
+    "via": "",
+    "title": "Australia: fake journal and a doctor \"hit list\"",
+    "category": "Hiding harm & bad science",
+    "kind": "No fine (scandal / investigation)",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 0,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "Evidence in an Australian Federal Court Vioxx class action showed Merck had paid Elsevier to publish the \"Australasian Journal of Bone & Joint Medicine\", which looked peer-reviewed but was not. Internal emails listed critical doctors to \"neutralise\" or \"discredit\"; one said \"we may need to seek them out and destroy them where they live\".",
+    "sources": [
+      {
+        "label": "ABC News",
+        "url": "https://abcnews.go.com/Health/Drugs/story?id=7577646"
+      },
+      {
+        "label": "BMJ",
+        "url": "https://doi.org/10.1136/bmj.b1432"
+      }
+    ]
+  },
+  {
+    "year": 2009,
+    "company": "Novo Nordisk",
+    "via": "",
+    "title": "Kickbacks to Saddam’s government (Oil-for-Food)",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "deferred prosecution",
+    "status": "final",
+    "amount_usd_millions": 18,
+    "counted_as_government_penalty_usd_millions": 18,
+    "description": "About $1.4 million in kickbacks paid, and more agreed, to win Iraqi insulin contracts in 2000–03.",
+    "sources": [
+      {
+        "label": "SEC",
+        "url": "https://www.sec.gov/litigation/litreleases/2009/lr21033.htm"
+      }
+    ]
+  },
+  {
+    "year": 2009,
+    "company": "Pfizer",
+    "via": "Pharmacia & Upjohn",
+    "title": "Bextra + 12 other drugs: record $2.3 billion",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 2300,
+    "counted_as_government_penalty_usd_millions": 2300,
+    "description": "Then the largest health-care fraud settlement in US history. Pfizer’s Pharmacia & Upjohn unit pleaded guilty over promotion of the painkiller Bextra and paid a $1.195 billion criminal fine, then the largest ever imposed in the US. Civil claims covered Geodon, Zyvox, Lyrica and kickbacks involving nine more drugs.",
+    "sources": [
+      {
+        "label": "Pfizer 8-K (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000078003/000007800309000189/pf8k0909.htm"
+      },
+      {
+        "label": "ABC News",
+        "url": "https://abcnews.com/Business/pfizer-fined-23-billion-illegal-marketing-off-label/story?id=8477617"
+      }
+    ]
+  },
+  {
+    "year": 2009,
+    "company": "Pfizer",
+    "via": "",
+    "title": "Trovan trial on children in Kano, Nigeria",
+    "category": "Hiding harm & bad science",
+    "kind": "Non-US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 75,
+    "counted_as_government_penalty_usd_millions": 75,
+    "description": "During a 1996 meningitis epidemic, Pfizer tested the experimental antibiotic Trovan on about 200 children. Eleven died and others were reportedly left disabled. Pfizer settled with Kano State for $75 million without admitting liability.",
+    "sources": [
+      {
+        "label": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2009/12/21/nigerians-await-pfizer-settlement"
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "company": "AbbVie",
+    "via": "Allergan (acquired 2020)",
+    "title": "Botox off-label promotion",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 600,
+    "counted_as_government_penalty_usd_millions": 600,
+    "description": "Allergan pleaded guilty. It had promoted Botox for headache, pain and other unapproved uses, paid doctors to sit on \"advisory boards\", and created a supposedly independent \"education\" group.",
+    "sources": [
+      {
+        "label": "US DOJ (2010)",
+        "url": "https://www.justice.gov/opa/pr/2010/September/10-civ-988.html"
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "company": "AstraZeneca",
+    "via": "",
+    "title": "Seroquel: off-label for sleep, anger, dementia",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 520,
+    "counted_as_government_penalty_usd_millions": 520,
+    "description": "The largest civil-only off-label settlement at the time. It covered promotion of the antipsychotic for aggression, Alzheimer’s, anger management, anxiety, ADHD, dementia and sleeplessness.",
+    "sources": [
+      {
+        "label": "US Attorney ED Pa",
+        "url": "https://www.justice.gov/archive/usao/pae/News/2010/apr/astrazeneca_release2.pdf"
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "company": "GSK",
+    "via": "",
+    "title": "Contaminated and mis-dosed drugs from Cidra, Puerto Rico",
+    "category": "Faked data & dirty factories",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 750,
+    "counted_as_government_penalty_usd_millions": 750,
+    "description": "A GSK subsidiary pleaded guilty to a felony. The factory shipped non-sterile products, Paxil CR tablets that could lack active ingredient, and Avandamet tablets that were super- or sub-potent. The whistleblower, a quality manager, received $96 million.",
+    "sources": [
+      {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/health/health-news/drug-maker-pay-750-million-defective-meds-flna1c9473316"
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "company": "Johnson & Johnson",
+    "via": "Ortho-McNeil",
+    "title": "Topamax \"Doctor-for-a-Day\" off-label scheme",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 81,
+    "counted_as_government_penalty_usd_millions": 81,
+    "description": "Outside doctors were paid to ride along with sales reps and promote the epilepsy drug Topamax for psychiatric uses.",
+    "sources": [
+      {
+        "label": "FBI Boston",
+        "url": "https://www.fbi.gov/boston/press-releases/2010/bs042910.htm"
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "company": "Novartis",
+    "via": "",
+    "title": "Trileptal off-label + kickbacks on six drugs",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 422.5,
+    "counted_as_government_penalty_usd_millions": 422.5,
+    "description": "Novartis pleaded guilty to misbranding the epilepsy drug Trileptal and resolved kickback claims involving five other drugs.",
+    "sources": [
+      {
+        "label": "Tampa Bay Times",
+        "url": "https://www.tampabay.com/archive/2010/10/01/whistle-blower-cost-422-5m/"
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "company": "Pfizer",
+    "via": "",
+    "title": "Neurontin racketeering (RICO) verdict",
+    "category": "Illegal & misleading marketing",
+    "kind": "Private lawsuits",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 142,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "A federal jury found Pfizer had run a racketeering enterprise to market Neurontin fraudulently. The damages were trebled to $142 million for the health insurer Kaiser, and the US Supreme Court declined Pfizer’s appeal.",
+    "sources": [
+      {
+        "label": "Community Catalyst",
+        "url": "https://communitycatalyst.org/posts/jury-finds-pfizer-committed-fraud-and-racketeering-through-off-label-neurontin-promotions-awards-142-million-pal/"
+      }
+    ]
+  },
+  {
+    "year": 2011,
+    "company": "AstraZeneca",
+    "via": "",
+    "title": "Seroquel: 38 US states",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 68.5,
+    "counted_as_government_penalty_usd_millions": 68.5,
+    "description": "Multistate settlement over deceptive Seroquel marketing.",
+    "sources": [
+      {
+        "label": "Fierce Pharma",
+        "url": "https://www.fiercepharma.com/pharma/az-resolves-state-seroquel-cases-68-5m-deal"
+      }
+    ]
+  },
+  {
+    "year": 2011,
+    "company": "Johnson & Johnson",
+    "via": "",
+    "title": "Bribing doctors in Greece, Poland, Romania; Iraq kickbacks",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "deferred prosecution",
+    "status": "final",
+    "amount_usd_millions": 70,
+    "counted_as_government_penalty_usd_millions": 70,
+    "description": "$21.4 million criminal penalty (deferred prosecution) plus $48.6 million to the SEC.",
+    "sources": [
+      {
+        "label": "SEC",
+        "url": "https://www.sec.gov/news/press/2011/2011-87.htm"
+      }
+    ]
+  },
+  {
+    "year": 2011,
+    "company": "Merck & Co. (MSD)",
+    "via": "",
+    "title": "Vioxx illegal promotion: guilty plea",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 950,
+    "counted_as_government_penalty_usd_millions": 950,
+    "description": "Merck pleaded guilty to promoting Vioxx for rheumatoid arthritis before approval and paid $321.6 million in criminal fines plus $628.4 million civil. The civil part included allegations of false statements about Vioxx’s cardiovascular safety.",
+    "sources": [
+      {
+        "label": "US DOJ",
+        "url": "https://www.justice.gov/archives/opa/pr/us-pharmaceutical-company-merck-sharp-dohme-pay-nearly-one-billion-dollars-over-promotion"
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "company": "AbbVie",
+    "via": "Abbott Laboratories",
+    "title": "Depakote for dementia patients: $1.5 billion",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 1500,
+    "counted_as_government_penalty_usd_millions": 1500,
+    "description": "Abbott pleaded guilty. It had a sales force dedicated to marketing the anti-seizure drug Depakote to nursing homes to control agitated elderly dementia patients, an unapproved use. $700 million criminal fine and forfeiture, $800 million civil.",
+    "sources": [
+      {
+        "label": "US Attorney WD Va",
+        "url": "https://www.justice.gov/archive/usao/vaw/news/abbott_07may2012.html"
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "company": "Amgen",
+    "via": "",
+    "title": "Aranesp: off-label doses",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 762,
+    "counted_as_government_penalty_usd_millions": 762,
+    "description": "Amgen pleaded guilty. It had promoted higher doses than the label allowed, and use in cancer patients not on chemotherapy, which later proved dangerous.",
+    "sources": [
+      {
+        "label": "BioPharm International",
+        "url": "https://www.biopharminternational.com/view/amgen-pay-762-million-settlement"
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "company": "Bayer",
+    "via": "",
+    "title": "Yaz and Yasmin: blood-clot lawsuits",
+    "category": "Hiding harm & bad science",
+    "kind": "Private lawsuits",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 402.6,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "By mid-2012 Bayer had paid about $403 million to settle roughly 1,900 lawsuits claiming its birth-control pills caused blood clots. Thousands more cases followed.",
+    "sources": [
+      {
+        "label": "Fierce Pharma",
+        "url": "https://www.fiercepharma.com/regulatory/bayer-settles-yasmin-suits-for-212k-each-402m-total"
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "company": "Eli Lilly",
+    "via": "",
+    "title": "SEC foreign bribery charges: Brazil, China, Poland, Russia",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 29.4,
+    "counted_as_government_penalty_usd_millions": 29.4,
+    "description": "Improper payments by four overseas subsidiaries between 1994 and 2009.",
+    "sources": [
+      {
+        "label": "SEC",
+        "url": "https://www.sec.gov/news/press/2012/2012-273.htm"
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "company": "GSK",
+    "via": "",
+    "title": "Paxil, Wellbutrin, Avandia: $3 billion",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 3000,
+    "counted_as_government_penalty_usd_millions": 3000,
+    "description": "GSK pleaded guilty to promoting Paxil for under-18s, promoting Wellbutrin for unapproved uses, and failing to report Avandia safety data to the FDA. The civil part also covered kickbacks and false \"best price\" reports. Then the largest health-care fraud settlement in US history.",
+    "sources": [
+      {
+        "label": "Bricker Graydon",
+        "url": "https://www.brickergraydon.com/insights/publications/GlaxoSmithKline-LLC-to-Pay-the-Largest-Health-Care-Fraud-Settlement-in-U-S-History"
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "company": "Johnson & Johnson",
+    "via": "",
+    "title": "Texas Medicaid: Risperdal",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 158,
+    "counted_as_government_penalty_usd_millions": 158,
+    "description": "Settled mid-trial after Texas alleged J&J illegally marketed the antipsychotic Risperdal, including for children.",
+    "sources": [
+      {
+        "label": "Texas Tribune",
+        "url": "https://www.texastribune.org/2012/01/19/state-settles-largest-ever-medicaid-fraud-suit/"
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "company": "Pfizer",
+    "via": "",
+    "title": "Foreign bribery (FCPA): Bulgaria, Croatia, Kazakhstan, Russia",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "deferred prosecution",
+    "status": "final",
+    "amount_usd_millions": 60,
+    "counted_as_government_penalty_usd_millions": 60,
+    "description": "Payments to doctors at state hospitals and to officials. $15 million criminal penalty (deferred prosecution) plus $45 million to the SEC.",
+    "sources": [
+      {
+        "label": "CHEManager",
+        "url": "https://www.chemanager-online.com/en/news/pfizer-settles-foreign-bribery-case-with-us-government"
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "company": "Roche",
+    "via": "",
+    "title": "EMA: 80,000 unassessed side-effect reports",
+    "category": "Hiding harm & bad science",
+    "kind": "No fine (scandal / investigation)",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 0,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "Inspectors found that about 80,000 reports from a US patient-support programme, including 15,161 patient deaths, had not been assessed to see whether they were adverse drug reactions. The EMA opened a formal infringement procedure.",
+    "sources": [
+      {
+        "label": "PharmaFile",
+        "url": "https://pharmafile.com/news/roche-failed-investigate-80000-safety-incidents"
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "company": "Sanofi",
+    "via": "",
+    "title": "Hyalgan: free product as kickbacks",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 109,
+    "counted_as_government_penalty_usd_millions": 109,
+    "description": "Free units of a knee injection allegedly given to doctors to induce purchases, plus false average-sales-price reports.",
+    "sources": [
+      {
+        "label": "US Attorney Mass.",
+        "url": "https://www.justice.gov/archive/usao/ma/news/2012/December/SanofiPR.html"
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "company": "Johnson & Johnson",
+    "via": "Janssen / Scios",
+    "title": "Risperdal, Invega, Natrecor: $2.2 billion",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 2200,
+    "counted_as_government_penalty_usd_millions": 2200,
+    "description": "Janssen pleaded guilty to misbranding Risperdal. It had been promoted for elderly dementia patients and children, and the company paid kickbacks to doctors and to Omnicare, the largest US nursing-home pharmacy. Then the third-largest health-care fraud settlement in US history.",
+    "sources": [
+      {
+        "label": "Mintz",
+        "url": "https://www.mintz.com/insights-center/viewpoints/2013-11-06-jj-will-pay-22-billion-and-enter-5-year-cia-settle-label-and"
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "company": "Merck & Co. (MSD)",
+    "via": "with Schering-Plough",
+    "title": "Vytorin ENHANCE: delayed bad trial results",
+    "category": "Hiding harm & bad science",
+    "kind": "Private lawsuits",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 688,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "Investors sued after Merck and Schering-Plough sat on the ENHANCE trial for about two years. The trial showed Vytorin did no better than cheap simvastatin at reducing artery plaque.",
+    "sources": [
+      {
+        "label": "BLB&G",
+        "url": "https://www.blbglaw.com/news/updates/2013-02-14-blbg-recovers-688-million-from-merck-and-schering-plough-in-securities-fraud-litigation"
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "company": "Novartis",
+    "via": "",
+    "title": "Japan: manipulated Diovan research",
+    "category": "Faked data & dirty factories",
+    "kind": "No fine (scandal / investigation)",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 0,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "University studies of the blood-pressure drug Diovan were found to rest on manipulated data, and a Novartis employee had secretly helped with the statistics. A Japanese court accepted that the data were manipulated but acquitted, ruling that a research paper is not \"advertising\" under the law.",
+    "sources": [
+      {
+        "label": "Fierce Pharma",
+        "url": "https://www.fiercepharma.com/pharma/judge-japan-lets-novartis-off-hook-advertising-scandal"
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "company": "Pfizer",
+    "via": "Wyeth",
+    "title": "Rapamune off-label promotion",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 491,
+    "counted_as_government_penalty_usd_millions": 491,
+    "description": "Wyeth pleaded guilty to misbranding. Sales reps had been trained to push the kidney-transplant drug Rapamune for other, unapproved transplant uses.",
+    "sources": [
+      {
+        "label": "RAPS",
+        "url": "https://www.raps.org/resource/wyeth-agrees-to-pay-491-million-to-resolve-federa.html"
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "company": "Ranbaxy (now Sun Pharma)",
+    "via": "",
+    "title": "Faked data and adulterated generics",
+    "category": "Faked data & dirty factories",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 500,
+    "counted_as_government_penalty_usd_millions": 500,
+    "description": "Ranbaxy USA pleaded guilty to seven felonies, including making false statements to the FDA, for making and selling adulterated drugs from two Indian factories.",
+    "sources": [
+      {
+        "label": "GaBI",
+        "url": "https://gabionline.net/generics/news/Ranbaxy-pays-US-500-million-to-resolve-US-litigation"
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "company": "Sanofi",
+    "via": "Genzyme",
+    "title": "Seprafilm \"slurry\": civil",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 22.3,
+    "counted_as_government_penalty_usd_millions": 22.3,
+    "description": "Sales reps taught surgeons to turn an anti-adhesion film into an unapproved liquid \"slurry\".",
+    "sources": [
+      {
+        "label": "HHS-OIG",
+        "url": "https://oig.hhs.gov/fraud/enforcement/genzyme-corp-to-pay-2228-million-to-resolve-false-claims-allegations-related-to-slurry-used-in-patients"
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "company": "Endo",
+    "via": "",
+    "title": "Lidoderm patch off-label",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "deferred prosecution",
+    "status": "final",
+    "amount_usd_millions": 192.7,
+    "counted_as_government_penalty_usd_millions": 192.7,
+    "description": "Endo promoted a patch approved only for shingles pain for other kinds of pain. Deferred prosecution agreement plus civil settlements.",
+    "sources": [
+      {
+        "label": "HHS-OIG",
+        "url": "https://oig.hhs.gov/fraud/enforcement/endo-pharmaceuticals-and-endo-health-solutions-to-pay-1927-million-to-resolve-criminal-and-civil-liability-relating-to-marketing-of-prescription-drug-lidoderm-for-unapproved-uses"
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "company": "GSK",
+    "via": "",
+    "title": "China: \"massive bribery network\" (¥3 billion)",
+    "category": "Kickbacks & bribery",
+    "kind": "Non-US government",
+    "criminal": "conviction",
+    "status": "final",
+    "amount_usd_millions": 489,
+    "counted_as_government_penalty_usd_millions": 489,
+    "description": "A Chinese court convicted GSK China of bribing doctors and hospitals and imposed the largest fine in Chinese corporate history. Its British head, Mark Reilly, received a suspended three-year sentence and was deported.",
+    "sources": [
+      {
+        "label": "BioSpectrum Asia",
+        "url": "https://www.biospectrumasia.com/news/48/5666/gsk-fined-490m-in-chinese-bribery-scandal.html"
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "company": "Novartis",
+    "via": "",
+    "title": "Italy: Avastin/Lucentis collusion (€92m)",
+    "category": "Blocking competition & gouging",
+    "kind": "Non-US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 127,
+    "counted_as_government_penalty_usd_millions": 127,
+    "description": "Novartis’s share of the Italian fine for colluding with Roche to favour the far more expensive Lucentis.",
+    "sources": [
+      {
+        "label": "Healio",
+        "url": "https://www.healio.com/news/ophthalmology/20140305/italian-agency-fines-novartis-roche-180-million-euros-for-manipulation-of-pharmaceutical-market"
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "company": "Roche",
+    "via": "",
+    "title": "Tamiflu: the data finally comes out",
+    "category": "Hiding harm & bad science",
+    "kind": "No fine (scandal / investigation)",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 0,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "After a campaign of more than four years by Cochrane and the BMJ, Roche released all 77 clinical study reports. The review then found no good evidence that Tamiflu reduces hospital admissions or complications. The UK alone had spent about £424 million on stockpiles.",
+    "sources": [
+      {
+        "label": "Scientific American",
+        "url": "https://www.scientificamerican.com/article/flu-drug-stockpiling-reported-to-be-a-waste-of-money/"
+      },
+      {
+        "label": "Goldacre / CEBM",
+        "url": "https://www.cebm.net/announcement/ben-goldacre-tamiflu-saga-tells-us-drug-trials-big-pharma/"
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "company": "Roche",
+    "via": "",
+    "title": "Italy: Avastin/Lucentis collusion (€90.5m)",
+    "category": "Blocking competition & gouging",
+    "kind": "Non-US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 125,
+    "counted_as_government_penalty_usd_millions": 125,
+    "description": "Italy’s competition authority found that Roche and Novartis colluded to steer eye doctors from cheap Avastin to Lucentis, which costs up to about 30 times more per injection. Upheld after the EU Court of Justice ruled in 2018.",
+    "sources": [
+      {
+        "label": "Healio",
+        "url": "https://www.healio.com/news/ophthalmology/20140305/italian-agency-fines-novartis-roche-180-million-euros-for-manipulation-of-pharmaceutical-market"
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "company": "Bristol Myers Squibb",
+    "via": "",
+    "title": "SEC foreign bribery charges (China)",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 14.7,
+    "counted_as_government_penalty_usd_millions": 14.7,
+    "description": "Cash and gifts to doctors at state hospitals in exchange for prescriptions.",
+    "sources": [
+      {
+        "label": "SEC",
+        "url": "https://www.sec.gov/news/press-release/2015-229"
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "company": "Gilead Sciences",
+    "via": "",
+    "title": "Sovaldi: $1,000 a pill, priced to \"maximise revenue\"",
+    "category": "Blocking competition & gouging",
+    "kind": "No fine (scandal / investigation)",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 0,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "An 18-month Senate Finance Committee investigation found Gilead set the hepatitis C cure at $84,000 a course to maximise revenue, and that broad, affordable access was not a key consideration. Medicare spent $8.2 billion on Sovaldi and Harvoni in 18 months.",
+    "sources": [
+      {
+        "label": "US Senate Finance Committee",
+        "url": "https://www.finance.senate.gov/ranking-members-news/wyden-grassley-sovaldi-investigation-finds-revenue-driven-pricing-strategy-behind-84-000-hepatitis-drug"
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "company": "Johnson & Johnson",
+    "via": "McNeil Consumer",
+    "title": "Children’s Tylenol with metal particles",
+    "category": "Faked data & dirty factories",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 25,
+    "counted_as_government_penalty_usd_millions": 25,
+    "description": "McNeil pleaded guilty after shipping infants’ and children’s liquid medicines contaminated with nickel and chromium particles. Prosecutors said it knew of the problem for about a year.",
+    "sources": [
+      {
+        "label": "PharmTech",
+        "url": "https://www.pharmtech.com/view/mcneil-hit-25-million-fine-adulterated-medications"
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "company": "Novartis",
+    "via": "",
+    "title": "Kickbacks to specialty pharmacies",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 390,
+    "counted_as_government_penalty_usd_millions": 390,
+    "description": "Novartis gave pharmacies rebates and patient referrals in return for pushing refills of Exjade and Myfortic.",
+    "sources": [
+      {
+        "label": "IndustryWeek",
+        "url": "https://www.industryweek.com/regulations/novartis-fined-390-million-over-pharmacy-kickbacks"
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "company": "Sanofi",
+    "via": "Genzyme",
+    "title": "Seprafilm \"slurry\": criminal",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "deferred prosecution",
+    "status": "final",
+    "amount_usd_millions": 32.6,
+    "counted_as_government_penalty_usd_millions": 32.6,
+    "description": "Deferred prosecution agreement over the same unapproved use. The conduct ended before Sanofi bought Genzyme.",
+    "sources": [
+      {
+        "label": "US DOJ",
+        "url": "https://www.justice.gov/opa/pr/genzyme-corporation-pay-325-million-resolve-criminal-liability-relating-seprafilm"
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "company": "Takeda (incl. TAP)",
+    "via": "",
+    "title": "Actos bladder-cancer lawsuits",
+    "category": "Hiding harm & bad science",
+    "kind": "Private lawsuits",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 2370,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "In 2014 a jury found Takeda had hidden cancer risks and awarded $9 billion in punitive damages against Takeda and Lilly, later cut to $36.8 million. Takeda then settled about 9,000 cases.",
+    "sources": [
+      {
+        "label": "Takeda",
+        "url": "https://www.takeda.com/en-us/newsroom/news-releases/2015/takeda-agrees-to-settle-actos-product-liability-lawsuits-and-claims-takeda-stresses-continued-commitment-to-actos/"
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "company": "Teva (incl. Cephalon)",
+    "via": "Cephalon",
+    "title": "Provigil pay-for-delay: FTC record",
+    "category": "Blocking competition & gouging",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 1200,
+    "counted_as_government_penalty_usd_millions": 1200,
+    "description": "Cephalon paid four generic makers about $300 million to delay cheaper versions of its sleep drug. The settlement was the FTC’s largest ever.",
+    "sources": [
+      {
+        "label": "FTC",
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2015/05/ftc-settlement-cephalon-pay-delay-case-ensures-12-billion-ill-gotten-gains-relinquished-refunds-will"
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "company": "Valeant (now Bausch Health)",
+    "via": "",
+    "title": "Bought two heart drugs, raised prices 525% and 212% the same day",
+    "category": "Blocking competition & gouging",
+    "kind": "No fine (scandal / investigation)",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 0,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "Valeant bought Isuprel and Nitropress from Marathon in February 2015 and raised their prices the same day. A US Senate committee later investigated the strategy.",
+    "sources": [
+      {
+        "label": "STAT",
+        "url": "https://www.statnews.com/pharmalot/2016/05/02/valeant-nitropress-isuprel-heart-drugs/"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "company": "AstraZeneca",
+    "via": "",
+    "title": "SEC foreign bribery charges: China and Russia",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 5.5,
+    "counted_as_government_penalty_usd_millions": 5.5,
+    "description": "Sales staff gave cash, gifts and other incentives to doctors at state hospitals.",
+    "sources": [
+      {
+        "label": "STAT",
+        "url": "https://www.statnews.com/pharmalot/2016/08/31/astrazeneca-bribes-china-russia/"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "company": "GSK",
+    "via": "",
+    "title": "UK pay-for-delay: paroxetine (£37.6m)",
+    "category": "Blocking competition & gouging",
+    "kind": "Non-US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 54,
+    "counted_as_government_penalty_usd_millions": 54,
+    "description": "Between 2001 and 2004 GSK paid more than £50 million to would-be generic rivals to stay out of the market. When generics finally arrived, prices fell 70%. The fine was upheld on appeal.",
+    "sources": [
+      {
+        "label": "Pharmaceutical Journal",
+        "url": "https://pharmaceutical-journal.com/article/news/gsk-fined-37-6m-for-pay-for-delay-paroxetine-deals"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "company": "GSK",
+    "via": "",
+    "title": "SEC foreign bribery charges (China)",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 20,
+    "counted_as_government_penalty_usd_millions": 20,
+    "description": "The SEC’s related case over payments to Chinese doctors through travel agencies and \"speaker\" events.",
+    "sources": [
+      {
+        "label": "Fierce Pharma",
+        "url": "https://www.fiercepharma.com/pharma/gsk-hands-sec-20m-to-put-china-bribery-charges-to-rest"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "company": "Merck & Co. (MSD)",
+    "via": "",
+    "title": "Vioxx shareholder class action",
+    "category": "Hiding harm & bad science",
+    "kind": "Private lawsuits",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 830,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "Merck settled investor claims that it misled the market about Vioxx’s cardiovascular risks.",
+    "sources": [
+      {
+        "label": "Merck",
+        "url": "https://www.merck.com/news/merck-resolves-previously-disclosed-securities-class-action-lawsuit-related-to-vioxx/"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "company": "Novartis",
+    "via": "",
+    "title": "SEC foreign bribery charges (China)",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 25,
+    "counted_as_government_penalty_usd_millions": 25,
+    "description": "Chinese subsidiaries were accused of giving doctors cash, gifts and trips to boost sales.",
+    "sources": [
+      {
+        "label": "The Pharma Letter",
+        "url": "https://www.thepharmaletter.com/pharmaceutical/novartis-agrees-to-pay-25-million-in-sec-settlement-of-bribery-charges-in-china"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "company": "Pfizer",
+    "via": "Wyeth",
+    "title": "Protonix Medicaid rebate fraud",
+    "category": "Overcharging taxpayers",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 784.6,
+    "counted_as_government_penalty_usd_millions": 784.6,
+    "description": "Wyeth was alleged to have hidden deep hospital discounts on its heartburn drug Protonix from Medicaid’s \"best price\" calculation (2001–06), underpaying rebates.",
+    "sources": [
+      {
+        "label": "HHS-OIG",
+        "url": "https://oig.hhs.gov/fraud/enforcement/wyeth-and-pfizer-agree-to-pay-7846-million-to-resolve-lawsuit-alleging-that-wyeth-underpaid-drug-rebates-to-medicaid"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "company": "Pfizer",
+    "via": "",
+    "title": "Celebrex/Bextra shareholder suit",
+    "category": "Hiding harm & bad science",
+    "kind": "Private lawsuits",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 486,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "Pfizer settled a class action brought by investors who said it had concealed the cardiovascular risks of its COX-2 painkillers.",
+    "sources": [
+      {
+        "label": "Fierce Pharma",
+        "url": "https://www.fiercepharma.com/pharma/pfizer-s-bextra-settlement-tagged-at-486m"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "company": "Roche",
+    "via": "Genentech (with OSI)",
+    "title": "Tarceva: misleading efficacy claims",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 67,
+    "counted_as_government_penalty_usd_millions": 67,
+    "description": "Genentech and OSI allegedly told doctors the lung-cancer drug Tarceva worked in patients for whom there was little evidence: those who had smoked and did not have an EGFR mutation.",
+    "sources": [
+      {
+        "label": "US DOJ",
+        "url": "https://www.justice.gov/opa/pr/pharmaceutical-companies-pay-67-million-resolve-false-claims-act-allegations-relating-tarceva"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "company": "Teva (incl. Cephalon)",
+    "via": "",
+    "title": "Bribery in Russia, Ukraine and Mexico",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "deferred prosecution",
+    "status": "final",
+    "amount_usd_millions": 519,
+    "counted_as_government_penalty_usd_millions": 519,
+    "description": "Then the largest foreign-bribery penalty ever paid by a drug company.",
+    "sources": [
+      {
+        "label": "SEC",
+        "url": "https://www.sec.gov/news/press-release/2016-277"
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "company": "Bristol Myers Squibb",
+    "via": "Celgene (acquired 2019)",
+    "title": "Thalomid/Revlimid off-label promotion",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 280,
+    "counted_as_government_penalty_usd_millions": 280,
+    "description": "Whistleblower case alleging off-label cancer promotion and payments to doctors. Celgene denied wrongdoing.",
+    "sources": [
+      {
+        "label": "Pharma Manufacturing",
+        "url": "https://www.pharmamanufacturing.com/industrynews/2017/celgene-settles-cancer-med-fraud-suit-for-280-million/"
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "company": "Mallinckrodt",
+    "via": "Questcor",
+    "title": "Acthar: buying up the only rival",
+    "category": "Blocking competition & gouging",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 100,
+    "counted_as_government_penalty_usd_millions": 100,
+    "description": "The FTC said Questcor bought the US rights to Synacthen, the one drug that threatened its monopoly on Acthar Gel, whose price it had raised from $40 to more than $34,000 a vial.",
+    "sources": [
+      {
+        "label": "Pharmaphorum",
+        "url": "https://pharmaphorum.com/news/mallincrodt-pays-us-authorities-100m-pricing-case"
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "company": "Mylan / Viatris",
+    "via": "",
+    "title": "EpiPen misclassified to dodge Medicaid rebates",
+    "category": "Overcharging taxpayers",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 465,
+    "counted_as_government_penalty_usd_millions": 465,
+    "description": "Mylan classified EpiPen as a generic to pay smaller rebates, while raising the price of a two-pack from about $100 in 2007 to about $600 in 2016.",
+    "sources": [
+      {
+        "label": "BioSpace",
+        "url": "https://www.biospace.com/mylan-finalizes-465-million-epipen-settlement"
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "company": "Novo Nordisk",
+    "via": "",
+    "title": "Victoza: thyroid-cancer warning downplayed",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 58.65,
+    "counted_as_government_penalty_usd_millions": 58.65,
+    "description": "Sales reps allegedly gave doctors misleading information about the FDA-required warning on the risk of a rare thyroid cancer.",
+    "sources": [
+      {
+        "label": "US DOJ",
+        "url": "https://www.justice.gov/opa/pr/novo-nordisk-agrees-pay-58-million-failure-comply-fda-mandated-risk-program"
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "company": "Sanofi",
+    "via": "",
+    "title": "Philippines: Dengvaxia",
+    "category": "Hiding harm & bad science",
+    "kind": "No fine (scandal / investigation)",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 0,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "About 830,000 Filipino children were vaccinated in 2016. In 2017 Sanofi disclosed the vaccine could cause more severe dengue in people never previously infected. Philippine prosecutors filed charges against Sanofi officials and former health officials. Sanofi denies wrongdoing; vaccine confidence in the country collapsed.",
+    "sources": [
+      {
+        "label": "Becker’s",
+        "url": "https://www.beckershospitalreview.com/pharmacy/sanofi-faces-new-charges-in-dengue-vaccine-case"
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "company": "AbbVie",
+    "via": "",
+    "title": "AndroGel \"sham litigation\" (money overturned)",
+    "category": "Blocking competition & gouging",
+    "kind": "US government",
+    "criminal": "",
+    "status": "overturned",
+    "amount_usd_millions": 448,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "A court found AbbVie filed baseless patent suits to keep generic testosterone gel off the market and ordered $448 million in relief. The appeals court upheld the finding of wrongdoing in 2020 but struck the money, ruling the FTC lacked power to seek it. Not counted.",
+    "sources": [
+      {
+        "label": "PolicyMed",
+        "url": "https://policymed.com/2020/10/court-of-appeals-overturns-448-million-disgorgement-against-abbvie-revives-ftc-reverse-payment-claim.html"
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "company": "AstraZeneca",
+    "via": "",
+    "title": "Texas Medicaid: Seroquel and Crestor",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 110,
+    "counted_as_government_penalty_usd_millions": 110,
+    "description": "$90 million over off-label Seroquel promotion and $20 million over allegedly misrepresenting the benefits of Crestor. Texas had sought $5 billion. AstraZeneca denied wrongdoing.",
+    "sources": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2018/08/08/astrazeneca-settles-texas-drug-lawsuits-for-110-million.html"
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "company": "Pfizer",
+    "via": "",
+    "title": "Kickbacks via \"independent\" copay charities",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 23.85,
+    "counted_as_government_penalty_usd_millions": 23.85,
+    "description": "Pfizer allegedly used a charity foundation as a conduit to pay Medicare patients’ copays for its own drugs, which shields patients from high prices while Medicare pays the bill.",
+    "sources": [
+      {
+        "label": "US DOJ",
+        "url": "https://www.justice.gov/archives/opa/pr/drug-maker-pfizer-agrees-pay-2385-million-resolve-false-claims-act-liability-paying-kickbacks"
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "company": "Sanofi",
+    "via": "",
+    "title": "SEC foreign bribery charges: Kazakhstan, Middle East",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 25.2,
+    "counted_as_government_penalty_usd_millions": 25.2,
+    "description": "Payments to government and private officials to win tenders and prescriptions.",
+    "sources": [
+      {
+        "label": "GIR",
+        "url": "https://globalinvestigationsreview.com/just-anti-corruption/article/sec-penalises-sanofi-payments-government-and-private-sector-officials"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "company": "Amgen",
+    "via": "",
+    "title": "Copay charity kickbacks",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 24.75,
+    "counted_as_government_penalty_usd_millions": 24.75,
+    "description": "Amgen allegedly used charities as conduits to pay Medicare copays for its own drugs.",
+    "sources": [
+      {
+        "label": "Pharma Manufacturing",
+        "url": "https://www.pharmamanufacturing.com/industrynews/2019/amgen-astellas-to-pay-125m-in-charity-kickback-probe"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "company": "Bayer",
+    "via": "",
+    "title": "Xarelto bleeding lawsuits (Bayer’s half of $775m)",
+    "category": "Hiding harm & bad science",
+    "kind": "Private lawsuits",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 387.5,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "About 25,000 lawsuits over bleeding risks of the anticoagulant, settled with J&J. No admission of liability.",
+    "sources": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2019/03/25/bayer-jj-settle-blood-thinner-xarelto-litigation-for-775-million.html"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "company": "Insys Therapeutics",
+    "via": "",
+    "title": "Fentanyl spray bribery: founder jailed",
+    "category": "Opioids",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 225,
+    "counted_as_government_penalty_usd_millions": 225,
+    "description": "Insys paid doctors through sham \"speaker programmes\" to prescribe Subsys, a fentanyl spray. Founder John Kapoor was convicted of racketeering conspiracy and sentenced in 2020 to 66 months, one of the very few pharma executives jailed.",
+    "sources": [
+      {
+        "label": "WBUR",
+        "url": "https://www.wbur.org/news/2020/01/23/insys-john-kapoor-bribery-trial-sentencing"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "company": "Johnson & Johnson",
+    "via": "",
+    "title": "Xarelto bleeding lawsuits (J&J’s half of $775m)",
+    "category": "Hiding harm & bad science",
+    "kind": "Private lawsuits",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 387.5,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "About 25,000 lawsuits over bleeding risks of the anticoagulant were settled for $775 million, split with Bayer. No admission of liability.",
+    "sources": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2019/03/25/bayer-jj-settle-blood-thinner-xarelto-litigation-for-775-million.html"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "company": "Johnson & Johnson",
+    "via": "",
+    "title": "Oklahoma opioid \"public nuisance\" judgment (overturned)",
+    "category": "Opioids",
+    "kind": "US government",
+    "criminal": "",
+    "status": "overturned",
+    "amount_usd_millions": 465,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "A judge ordered J&J to pay for fuelling Oklahoma’s opioid crisis (initially $572 million, then reduced). The Oklahoma Supreme Court reversed the judgment in 2021, so it is not counted.",
+    "sources": [
+      {
+        "label": "OPB",
+        "url": "https://www.opb.org/article/2021/11/09/oklahoma-court-overturns-465m-opioid-ruling-against-j-j"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "company": "Novartis",
+    "via": "",
+    "title": "Zolgensma: manipulated data not disclosed before approval",
+    "category": "Faked data & dirty factories",
+    "kind": "No fine (scandal / investigation)",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 0,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "AveXis knew of manipulated animal-testing data by March 2019 but told the FDA only after the $2.1 million gene therapy was approved in May. The FDA later took no enforcement action.",
+    "sources": [
+      {
+        "label": "BioSpace",
+        "url": "https://www.biospace.com/fda-ends-zolgensma-data-manipulation-investigation-places-no-penalties-on-novartis"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "company": "AbbVie",
+    "via": "",
+    "title": "Humira \"nurse ambassadors\" (California)",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 24,
+    "counted_as_government_penalty_usd_millions": 24,
+    "description": "A whistleblower case claimed AbbVie gave doctors free nurse services and other perks to drive Humira prescriptions. Settled with California’s Insurance Commissioner without admitting wrongdoing.",
+    "sources": [
+      {
+        "label": "California Dept of Insurance",
+        "url": "https://www.insurance.ca.gov/0400-news/0100-press-releases/2020/release071-2020.cfm"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "company": "Bayer",
+    "via": "",
+    "title": "Essure contraceptive implant (device)",
+    "category": "Hiding harm & bad science",
+    "kind": "Private lawsuits",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 1600,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "Bayer agreed to pay $1.6 billion to resolve about 90% of 39,000 US claims from women who said the metal coil implant caused pain, bleeding and failed to prevent pregnancy. Bayer stopped selling it in 2018.",
+    "sources": [
+      {
+        "label": "Al Jazeera",
+        "url": "https://www.aljazeera.com/amp/economy/2020/8/20/bayer-agrees-to-pay-1-6bn-to-settle-us-essure-claims"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "company": "Novartis",
+    "via": "Sandoz",
+    "title": "Generic price-fixing (Sandoz)",
+    "category": "Blocking competition & gouging",
+    "kind": "US government",
+    "criminal": "deferred prosecution",
+    "status": "final",
+    "amount_usd_millions": 195,
+    "counted_as_government_penalty_usd_millions": 195,
+    "description": "Sandoz admitted conspiring with rivals in 2013–15 to fix prices and rig bids on generic drugs, under a deferred prosecution agreement.",
+    "sources": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2020/03/02/novartis-subsidiary-sandoz-to-pay-195-million-over-antitrust-allegations.html"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "company": "Novartis",
+    "via": "Novartis Hellas, Alcon",
+    "title": "Bribery in Greece, Vietnam and South Korea",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "deferred prosecution",
+    "status": "final",
+    "amount_usd_millions": 347,
+    "counted_as_government_penalty_usd_millions": 347,
+    "description": "Novartis Hellas paid a $225 million criminal penalty, Novartis AG paid $112.8 million to the SEC, and Alcon paid $8.9 million.",
+    "sources": [
+      {
+        "label": "Fierce Pharma",
+        "url": "https://www.fiercepharma.com/pharma/novartis-inks-settlements-worth-347m-doj-sec-over-foreign-doctor-payments-records-keeping"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "company": "Novartis",
+    "via": "",
+    "title": "Tens of thousands of sham \"speaker programmes\"",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 678,
+    "counted_as_government_penalty_usd_millions": 678,
+    "description": "Prosecutors said Novartis spent more than $100 million on meals, fishing trips, golf and wine tastings dressed up as educational events between 2002 and 2011.",
+    "sources": [
+      {
+        "label": "US Attorney SDNY",
+        "url": "https://www.justice.gov/usao-sdny/pr/acting-manhattan-us-attorney-announces-678-million-settlement-fraud-lawsuit-against"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "company": "Novartis",
+    "via": "",
+    "title": "Copay charities as kickback conduits",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 51.25,
+    "counted_as_government_penalty_usd_millions": 51.25,
+    "description": "Novartis allegedly used three foundations to funnel money to Medicare patients taking its own drugs, including Gilenya.",
+    "sources": [
+      {
+        "label": "US Attorney Mass.",
+        "url": "https://www.justice.gov/usao-ma/pr/novartis-agrees-pay-over-51-million-resolve-allegations-it-paid-kickbacks-through-co-pay"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "company": "Novartis",
+    "via": "",
+    "title": "France: Avastin/Lucentis (overturned)",
+    "category": "Blocking competition & gouging",
+    "kind": "Non-US government",
+    "criminal": "",
+    "status": "overturned",
+    "amount_usd_millions": 455,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "Novartis’s share of the €444 million French fine, annulled by the Paris Court of Appeal in 2023. Not counted.",
+    "sources": [
+      {
+        "label": "French Competition Authority",
+        "url": "https://www.autoritedelaconcurrence.fr/en/press-release/treatment-amd-autorite-fines-3-laboratories-abusive-practices"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "company": "Purdue Pharma (Sackler family)",
+    "via": "",
+    "title": "Second guilty plea: three federal felonies",
+    "category": "Opioids",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 8300,
+    "counted_as_government_penalty_usd_millions": 225,
+    "description": "Purdue pleaded guilty to defrauding the US and violating anti-kickback laws. Most of the $8.3 billion was a claim in bankruptcy, not cash; about $225 million was paid directly, and only that is counted here.",
+    "sources": [
+      {
+        "label": "Al Jazeera",
+        "url": "https://www.aljazeera.com/economy/2020/10/21/purdue-pharma-to-pay-8-3bn-to-settle-doj-opiod-crisis-probes"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "company": "Roche",
+    "via": "",
+    "title": "France: Avastin/Lucentis (overturned)",
+    "category": "Blocking competition & gouging",
+    "kind": "Non-US government",
+    "criminal": "",
+    "status": "overturned",
+    "amount_usd_millions": 70,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "Part of a €444 million French fine on Novartis, Roche and Genentech. The Paris Court of Appeal annulled it in 2023, so it is not counted.",
+    "sources": [
+      {
+        "label": "Pharmaphorum",
+        "url": "https://pharmaphorum.com/news/french-court-overturns-eu444m-fine-novartis-roche"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "company": "Sanofi",
+    "via": "",
+    "title": "France: Depakine manslaughter investigation",
+    "category": "Hiding harm & bad science",
+    "kind": "No fine (scandal / investigation)",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 0,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "Sanofi was formally placed under investigation over claims it did not adequately warn of the risk to unborn children from valproate (Depakine) taken in pregnancy. Sanofi contests the case.",
+    "sources": [
+      {
+        "label": "Sanofi 20-F (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1121404/000119312519068926/d614161d20f.htm"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "company": "Teva (incl. Cephalon)",
+    "via": "",
+    "title": "EU pay-for-delay: modafinil (€60.5m)",
+    "category": "Blocking competition & gouging",
+    "kind": "Non-US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 72,
+    "counted_as_government_penalty_usd_millions": 72,
+    "description": "The European Commission fined Teva and Cephalon for a deal that delayed a generic version of the sleep drug.",
+    "sources": [
+      {
+        "label": "Herbert Smith Freehills",
+        "url": "https://www.hsfkramer.com/notes/crt/2020-11/the-european-commission-fines-cephalon-and-teva-e60-5-million-in-its-fourth-pay-for-delay-decision"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "company": "Valeant (now Bausch Health)",
+    "via": "",
+    "title": "SEC: hidden Philidor pharmacy and inflated revenue",
+    "category": "Securities fraud, tax & other",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 45,
+    "counted_as_government_penalty_usd_millions": 45,
+    "description": "Valeant improperly booked revenue through Philidor, a mail-order pharmacy it secretly controlled, and did not disclose the relationship to investors.",
+    "sources": [
+      {
+        "label": "SEC",
+        "url": "https://sec.gov/news/press-release/2020-169"
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "company": "AbbVie",
+    "via": "",
+    "title": "Humira: 132 patents, a 470% price rise, and a 1% tax trick",
+    "category": "Blocking competition & gouging",
+    "kind": "No fine (scandal / investigation)",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 0,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "Congressional investigators found Humira’s list price rose about 470% and that executive bonuses were tied to Humira revenue. AbbVie’s 132-patent \"thicket\" kept US biosimilars out until 2023, five years after Europe; courts found this legal. The Senate Finance Committee said AbbVie booked about 1% of its taxable income in the US in 2020 despite making most of its sales there.",
+    "sources": [
+      {
+        "label": "Endpoints",
+        "url": "https://endpts.com/house-committee-uncovers-how-humiras-price-spiked-by-470-as-abbvie-execs-cashed-bonuses-tied-to-the-hikes"
+      },
+      {
+        "label": "Petrie-Flom",
+        "url": "https://petrieflom.law.harvard.edu/2021/01/06/abbvie-humira-antitrust-patent-thicket/"
+      },
+      {
+        "label": "Fierce Pharma (tax)",
+        "url": "https://www.fiercepharma.com/pharma/senate-democrats-zero-abbvies-tax-strategy-attempt-roll-back-company-friendly-measures-trump"
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "company": "Johnson & Johnson",
+    "via": "",
+    "title": "National opioid settlement",
+    "category": "Opioids",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 5000,
+    "counted_as_government_penalty_usd_millions": 5000,
+    "description": "J&J agreed to pay up to $5 billion to US states and localities over its opioid business, as part of a $26 billion deal with the three big drug distributors. It admitted no wrongdoing.",
+    "sources": [
+      {
+        "label": "J&J statement",
+        "url": "https://www.jnj.com/johnson-johnson-statement-on-nationwide-opioid-settlement-agreement"
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "company": "Johnson & Johnson",
+    "via": "",
+    "title": "Talc: Ingham verdict paid",
+    "category": "Hiding harm & bad science",
+    "kind": "Private lawsuits",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 2100,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "A St. Louis jury awarded $4.69 billion to 22 women who said asbestos in J&J talc caused their ovarian cancer. On appeal it was cut to about $2.1 billion; the US Supreme Court declined to hear J&J’s appeal in 2021 and the company paid.",
+    "sources": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2021/06/01/supreme-court-rejects-johnson-johnsons-appeal-of-2-billion-baby-powder-penalty.html"
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "company": "Valeant (now Bausch Health)",
+    "via": "",
+    "title": "Shareholder class action over Philidor",
+    "category": "Securities fraud, tax & other",
+    "kind": "Private lawsuits",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 1210,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "The largest securities class-action settlement against a drug company at the time.",
+    "sources": [
+      {
+        "label": "Robbins Geller",
+        "url": "https://www.rgrdlaw.com/news-item-Valeant-Investors-Achieve-Record-1-21-Billion-Recovery.html"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "company": "AbbVie",
+    "via": "Allergan",
+    "title": "Allergan opioid settlement",
+    "category": "Opioids",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 2370,
+    "counted_as_government_penalty_usd_millions": 2370,
+    "description": "Allergan, the former maker of Kadian and Norco, agreed to pay up to $2.37 billion to states and localities.",
+    "sources": [
+      {
+        "label": "California AG",
+        "url": "https://oag.ca.gov/node/555738"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "company": "Johnson & Johnson",
+    "via": "Ethicon (devices)",
+    "title": "Australia: pelvic mesh class action (A$300m)",
+    "category": "Hiding harm & bad science",
+    "kind": "Private lawsuits",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 205,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "Australia’s Federal Court found J&J/Ethicon negligent over vaginal mesh implants and found it had breached consumer law, a ruling upheld on appeal. The A$300 million settlement for more than 11,000 women is the largest product-liability class action settlement in Australian history.",
+    "sources": [
+      {
+        "label": "Lawyers Weekly",
+        "url": "https://www.lawyersweekly.com.au/biglaw/35484-300m-settlement-reached-in-mesh-class-actions"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "company": "Mallinckrodt",
+    "via": "",
+    "title": "Acthar: underpaid Medicaid rebates",
+    "category": "Overcharging taxpayers",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 233.7,
+    "counted_as_government_penalty_usd_millions": 233.7,
+    "description": "Mallinckrodt allegedly underpaid Medicaid rebates on Acthar Gel from 2013 to 2020. The settlement was joined by every US state and paid over seven years.",
+    "sources": [
+      {
+        "label": "US Attorney Mass.",
+        "url": "https://www.justice.gov/usao-ma/pr/mallinckrodt-agrees-pay-nearly-234-million-resolve-allegations-related-price-increases"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "company": "Teva (incl. Cephalon)",
+    "via": "",
+    "title": "Opioid settlement",
+    "category": "Opioids",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 4250,
+    "counted_as_government_penalty_usd_millions": 4250,
+    "description": "Up to $4.25 billion over 13 years, including about $1.2 billion worth of the overdose-reversal drug naloxone.",
+    "sources": [
+      {
+        "label": "Tennessee AG",
+        "url": "https://www.tn.gov/attorneygeneral/news/2022/7/26/pr22-26.html"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "company": "Vyera / Martin Shkreli",
+    "via": "",
+    "title": "Daraprim: price hiked from $17.50 to $750 a pill",
+    "category": "Blocking competition & gouging",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 64.6,
+    "counted_as_government_penalty_usd_millions": 64.6,
+    "description": "A court banned Martin Shkreli from the drug industry for life and ordered him to repay $64.6 million for illegally blocking generic competition to the toxoplasmosis drug. An appeals court upheld the ban in 2024.",
+    "sources": [
+      {
+        "label": "California AG",
+        "url": "https://www.oag.ca.gov/news/press-releases/attorney-general-bonta-announces-lifetime-ban-against-%E2%80%98pharma-bro-martin-shkreli"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "company": "Mallinckrodt",
+    "via": "",
+    "title": "Opioids: $1.7 billion promised, $700 million paid",
+    "category": "Opioids",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 1700,
+    "counted_as_government_penalty_usd_millions": 700,
+    "description": "Mallinckrodt promised about $1.7 billion in its first bankruptcy (2020–22). In a second bankruptcy in 2023 it paid a final $250 million instead, leaving victims about $1 billion short. Only the $700 million actually paid is counted.",
+    "sources": [
+      {
+        "label": "Fierce Pharma",
+        "url": "https://www.fiercepharma.com/pharma/after-opioid-settlement-mallinckrodt-says-it-cant-make-payments-and-files-2nd-bankruptcy"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "company": "Novo Nordisk",
+    "via": "",
+    "title": "Suspended by the UK industry body for two years",
+    "category": "Illegal & misleading marketing",
+    "kind": "No fine (scandal / investigation)",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 0,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "The ABPI suspended Novo Nordisk UK after it sponsored weight-loss courses \"clearly linked\" to promoting Saxenda, among other serious code breaches. The suspension was later lifted.",
+    "sources": [
+      {
+        "label": "ABPI",
+        "url": "https://www.abpi.org.uk/media/news/2023/march/novo-nordisk-is-suspended-from-abpi-membership"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "company": "Teva (incl. Cephalon)",
+    "via": "",
+    "title": "Generic price-fixing: criminal",
+    "category": "Blocking competition & gouging",
+    "kind": "US government",
+    "criminal": "deferred prosecution",
+    "status": "final",
+    "amount_usd_millions": 225,
+    "counted_as_government_penalty_usd_millions": 225,
+    "description": "Deferred prosecution agreement and forced sale of a generic drug business. The fine was among the largest ever for a domestic US antitrust cartel.",
+    "sources": [
+      {
+        "label": "CNBC",
+        "url": "https://www.cnbc.com/2023/08/21/teva-glenmark-enter-deferred-prosecution-deal-with-doj-over-price-fixing.html"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "company": "AstraZeneca",
+    "via": "",
+    "title": "China: country president detained",
+    "category": "Kickbacks & bribery",
+    "kind": "No fine (scandal / investigation)",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 0,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "Chinese authorities detained AstraZeneca’s China president. The company also disclosed investigations into staff over medical-insurance fraud, data collection and drug imports. Investigations were ongoing at the time of reporting.",
+    "sources": [
+      {
+        "label": "Fierce Pharma",
+        "url": "https://www.fiercepharma.com/pharma/astrazenecas-china-president-faces-ongoing-investigation-authorities-country"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "company": "Endo",
+    "via": "",
+    "title": "Opana ER: guilty plea, paid out of bankruptcy",
+    "category": "Opioids",
+    "kind": "US government",
+    "criminal": "guilty plea",
+    "status": "final",
+    "amount_usd_millions": 2000,
+    "counted_as_government_penalty_usd_millions": 464.9,
+    "description": "Endo pleaded guilty to misbranding the opioid Opana ER and agreed to more than $2 billion in criminal and civil penalties. Because Endo was bankrupt, the government will receive up to $464.9 million over 10 years, and only that is counted.",
+    "sources": [
+      {
+        "label": "US DOJ",
+        "url": "https://www.justice.gov/opa/pr/opioid-manufacturer-endo-health-solutions-inc-agrees-global-resolution-criminal-and-civil"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "company": "GSK",
+    "via": "",
+    "title": "Zantac cancer lawsuits (~80,000 cases)",
+    "category": "Hiding harm & bad science",
+    "kind": "Private lawsuits",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 2200,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "GSK agreed to pay up to $2.2 billion to settle about 93% of US state-court claims that the heartburn drug Zantac (ranitidine) could degrade into the probable carcinogen NDMA. GSK admits no liability, and the science on cancer risk remains disputed.",
+    "sources": [
+      {
+        "label": "Fierce Pharma",
+        "url": "https://www.fiercepharma.com/pharma/resolve-80000-zantac-cases-gsk-will-pony-22b"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "company": "Pfizer",
+    "via": "",
+    "title": "UK phenytoin price gouging (£63m)",
+    "category": "Blocking competition & gouging",
+    "kind": "Non-US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 80,
+    "counted_as_government_penalty_usd_millions": 80,
+    "description": "The UK competition regulator found that Pfizer raised the NHS price of an old epilepsy drug by 780–1,600% after a \"de-branding\" deal with Flynn Pharma. The original 2016 fine was quashed on appeal; the regulator re-imposed it in 2022, and the Competition Appeal Tribunal upheld liability in 2024.",
+    "sources": [
+      {
+        "label": "UK Government",
+        "url": "https://gov.uk/government/news/tribunal-fines-drug-firms-69m-for-excessive-pricing-after-cma-investigation"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "company": "Sanofi",
+    "via": "",
+    "title": "Zantac lawsuits (~4,000)",
+    "category": "Hiding harm & bad science",
+    "kind": "Private lawsuits",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 100,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "Settled without admitting liability. The science on cancer risk remains disputed.",
+    "sources": [
+      {
+        "label": "Fierce Pharma",
+        "url": "https://www.fiercepharma.com/pharma/sanofis-zantac-settlement-was-100m-or-25k-claimant-bloomberg-report"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "company": "Teva (incl. Cephalon)",
+    "via": "",
+    "title": "Copaxone copay kickbacks + price-fixing",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 450,
+    "counted_as_government_penalty_usd_millions": 450,
+    "description": "Teva allegedly funnelled money through charities to cover Medicare patients’ copays for Copaxone while repeatedly raising its price.",
+    "sources": [
+      {
+        "label": "HHS-OIG",
+        "url": "https://oig.hhs.gov/fraud/enforcement/drug-maker-teva-pharmaceuticals-agrees-to-pay-450m-in-false-claims-act-settlement-to-resolve-kickback-allegations-relating-to-copayments-and-price-fixing"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "company": "Teva (incl. Cephalon)",
+    "via": "",
+    "title": "EU: patent misuse and disparaging a rival (€462.6m)",
+    "category": "Blocking competition & gouging",
+    "kind": "Non-US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 502,
+    "counted_as_government_penalty_usd_millions": 502,
+    "description": "The European Commission found Teva artificially extended Copaxone’s patent protection and spread misleading claims about a competing product.",
+    "sources": [
+      {
+        "label": "Slaughter and May",
+        "url": "https://www.slaughterandmay.com/insights/new-insights/competition-and-regulatory-newsletter-european-commission-fines-teva-462-6-million-over-patent-system-misuse-and-competitor-disparagement/"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "company": "Bristol Myers Squibb",
+    "via": "",
+    "title": "Hawaii: Plavix and Asian/Pacific Islander patients",
+    "category": "Hiding harm & bad science",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 350,
+    "counted_as_government_penalty_usd_millions": 350,
+    "description": "Hawaii won $834 million and then $916 million in court, arguing that BMS and Sanofi knew Plavix worked less well in many East Asian and Pacific Islander patients but did not update the label. The companies settled for $700 million while appealing; this is BMS’s half.",
+    "sources": [
+      {
+        "label": "Insurance Journal",
+        "url": "https://amp.insurancejournal.com/news/west/2025/05/12/823332.htm"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "company": "Gilead Sciences",
+    "via": "",
+    "title": "HIV drugs: speaker-programme kickbacks",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 202,
+    "counted_as_government_penalty_usd_millions": 202,
+    "description": "Gilead resolved whistleblower allegations that it used speaker programmes to pay doctors to prescribe its HIV medicines.",
+    "sources": [
+      {
+        "label": "A&O Shearman",
+        "url": "https://www.aoshearman.com/en/insights/ao-shearman-on-investigations/record-breaking-us-doj-year"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "company": "Johnson & Johnson",
+    "via": "Janssen",
+    "title": "HIV drugs Prezista & Intelence: $1.64 billion judgment",
+    "category": "Illegal & misleading marketing",
+    "kind": "US government",
+    "criminal": "",
+    "status": "appeal",
+    "amount_usd_millions": 1640,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "After a whistleblower trial, a federal judge found a \"deliberate and calculated scheme\" of off-label promotion, including calling Prezista \"lipid-neutral\". The judgment covers 159,574 false claims. Janssen has appealed, so it is not counted yet.",
+    "sources": [
+      {
+        "label": "Fierce Pharma",
+        "url": "https://www.fiercepharma.com/marketing/judge-levies-164b-penalty-johnson-johnson-hiv-drug-marketing-case"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "company": "Johnson & Johnson",
+    "via": "",
+    "title": "Talc: $966 million Los Angeles verdict",
+    "category": "Hiding harm & bad science",
+    "kind": "Private lawsuits",
+    "criminal": "",
+    "status": "appeal",
+    "amount_usd_millions": 966,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "A jury found J&J liable for the mesothelioma death of a woman who had used its baby powder for decades, including $950 million in punitive damages. J&J says the product is asbestos-free and is appealing.",
+    "sources": [
+      {
+        "label": "California Courts Newsroom",
+        "url": "https://newsroom.courts.ca.gov/news/la-jury-awards-966m-talc-verdict-against-jj"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "company": "Johnson & Johnson",
+    "via": "",
+    "title": "Third talc bankruptcy (\"Texas two-step\") rejected",
+    "category": "Hiding harm & bad science",
+    "kind": "No fine (scandal / investigation)",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 0,
+    "counted_as_government_penalty_usd_millions": 0,
+    "description": "A Houston bankruptcy judge dismissed the Red River Talc case, J&J’s third attempt to resolve talc claims for about $9 billion through a subsidiary’s bankruptcy. J&J says it will fight the cases in court instead.",
+    "sources": [
+      {
+        "label": "Bailey Glasser",
+        "url": "https://www.baileyglasser.com/news-bg-wins-dismissal-of-Johnson-and-Johnson-third-bankruptcy"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "company": "Pfizer",
+    "via": "Biohaven",
+    "title": "Nurtec speaker-programme kickbacks",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 59.7,
+    "counted_as_government_penalty_usd_millions": 59.7,
+    "description": "Before Pfizer bought it, Biohaven allegedly paid doctors speaker fees and bought them lavish meals to induce prescriptions of its migraine drug.",
+    "sources": [
+      {
+        "label": "Mayer Brown FCA review",
+        "url": "https://www.mayerbrown.com/en/insights/publications/2025/10/a-false-claims-act-fy-2025-year-in-review"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "company": "Purdue Pharma (Sackler family)",
+    "via": "",
+    "title": "Bankruptcy plan: Sacklers pay up to $6.5 billion",
+    "category": "Opioids",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 7400,
+    "counted_as_government_penalty_usd_millions": 7400,
+    "description": "Confirmed in November 2025 after the US Supreme Court rejected an earlier plan in 2024. The Sackler family pays up to $6.5 billion and Purdue $900 million. Purdue is restructured into a new company devoted to opioid abatement, and the Sacklers give up ownership.",
+    "sources": [
+      {
+        "label": "NY Attorney General",
+        "url": "https://ag.ny.gov/press-release/2025/attorney-general-james-secures-approval-purdue-bankruptcy-plan"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "company": "Sanofi",
+    "via": "",
+    "title": "Hawaii: Plavix (Sanofi’s half)",
+    "category": "Hiding harm & bad science",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 350,
+    "counted_as_government_penalty_usd_millions": 350,
+    "description": "Sanofi’s share of the $700 million settlement over Plavix’s reduced effect in many Asian and Pacific Islander patients.",
+    "sources": [
+      {
+        "label": "Insurance Journal",
+        "url": "https://amp.insurancejournal.com/news/west/2025/05/12/823332.htm"
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "company": "Eli Lilly",
+    "via": "",
+    "title": "Medicaid rebate fraud judgment (Streck) now final",
+    "category": "Overcharging taxpayers",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 183.7,
+    "counted_as_government_penalty_usd_millions": 183.7,
+    "description": "A jury found Lilly knowingly left retroactive price increases out of its Medicaid rebate calculations; damages were trebled to $183.7 million (about $220 million with interest). The US Supreme Court declined review in 2026.",
+    "sources": [
+      {
+        "label": "Goodwin",
+        "url": "https://www.goodwinlaw.com/en/insights/publications/2026/06/alerts-lifesciences-hltc-supreme-court-declines-review-220-judgment-eli-lilly"
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "company": "Takeda (incl. TAP)",
+    "via": "",
+    "title": "Trintellix kickbacks to doctors",
+    "category": "Kickbacks & bribery",
+    "kind": "US government",
+    "criminal": "",
+    "status": "final",
+    "amount_usd_millions": 13.67,
+    "counted_as_government_penalty_usd_millions": 13.67,
+    "description": "Takeda allegedly paid kickbacks to health-care providers to induce prescriptions of its antidepressant.",
+    "sources": [
+      {
+        "label": "US DOJ",
+        "url": "https://www.justice.gov/opa/pr/takeda-agrees-pay-136m-resolve-false-claims-allegations-relating-improper-payments"
+      }
+    ]
+  }
+]

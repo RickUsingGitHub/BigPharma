@@ -105,6 +105,7 @@ window.PLAYBOOK = [
         <li><strong>Actos (Takeda):</strong> a jury found Takeda hid bladder-cancer risks. Takeda paid $2.37 billion to settle about 9,000 cases.</li>
         <li><strong>Plavix (BMS & Sanofi):</strong> Hawaii argued they knew the drug worked less well in many Pacific Islander and East Asian patients. Settled for $700 million in 2025.</li>
         <li><strong>Roche:</strong> about 80,000 unassessed side-effect reports were discovered in 2012, including reports of 15,161 deaths.</li>
+        <li><strong>Trasylol (Bayer):</strong> at a 2006 FDA safety meeting, Bayer did not mention its own 67,000-patient study pointing to serious risks.</li>
       </ul>
       <h4>Has it been fixed?</h4>
       <div class="fix"><strong>Somewhat.</strong> Pharmacovigilance rules, FDA safety-communication powers (since 2007) and the EU’s risk-management plans are much stronger. But harms are still under-reported in trial publications compared with benefits.</div>`
@@ -201,7 +202,7 @@ window.PLAYBOOK = [
       <ul>
         <li><strong>Purdue Pharma:</strong> marketed OxyContin from 1996 with claims that addiction was rare, leaning on a five-sentence 1980 letter to a journal that had nothing to do with long-term pain treatment. It pleaded guilty in 2007 (executives got probation) and again in 2020 to three federal felonies. The Sackler family will pay up to $6.5 billion under a plan confirmed in November 2025.</li>
         <li><strong>Insys:</strong> bribed doctors to prescribe a fentanyl spray intended for cancer pain. Its founder was sentenced to 66 months in prison.</li>
-        <li><strong>The settlements:</strong> J&amp;J ($5 billion, 2021), Teva ($4.25 billion, 2022) and Allergan, now AbbVie ($2.37 billion, 2022). The consultants McKinsey paid about $600 million for advising Purdue on how to "turbocharge" sales.</li>
+        <li><strong>The settlements:</strong> J&amp;J ($5 billion, 2021), Teva ($4.25 billion, 2022) and Allergan, now AbbVie ($2.37 billion, 2022). Mallinckrodt and Endo went bankrupt; Endo pleaded guilty in 2024. The consultants McKinsey paid about $600 million for advising Purdue on how to "turbocharge" sales.</li>
         <li><strong>Australia’s role:</strong> J&amp;J’s then-subsidiary Tasmanian Alkaloids grew the high-thebaine poppies that became a key raw material for oxycodone.</li>
       </ul>
       <h4>Has it been fixed?</h4>
@@ -247,7 +248,9 @@ window.PLAYBOOK = [
     body: `
       <h4>Examples</h4>
       <ul>
-        <li><strong>Daraprim (Vyera/Shkreli):</strong> $13.50 to $750 a pill overnight in 2015. Martin Shkreli was later banned from the industry for life.</li>
+        <li><strong>Daraprim (Vyera/Shkreli):</strong> $17.50 to $750 a pill overnight in 2015. Martin Shkreli was later banned from the industry for life.</li>
+        <li><strong>Sovaldi (Gilead):</strong> $1,000 a pill, $84,000 a course. A Senate investigation found the price was set to maximise revenue, and broad access was not a key consideration.</li>
+        <li><strong>Isuprel and Nitropress (Valeant):</strong> bought in 2015 and repriced the same day, up 525% and 212%.</li>
         <li><strong>Phenytoin (Pfizer, UK):</strong> the NHS price of an old epilepsy drug rose 780–1,600% after a "de-branding" deal.</li>
         <li><strong>Humira (AbbVie):</strong> the US list price rose about 470%, to about $77,000 a year, and executive bonuses were tied to Humira revenue.</li>
         <li><strong>Insulin (Lilly, Novo, Sanofi):</strong> a century-old drug whose US list prices climbed for decades. All three cut prices 70–78% in 2023, under political and legal pressure.</li>

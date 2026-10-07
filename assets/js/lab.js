@@ -409,6 +409,123 @@
     });
   }
 
+  // ═══════════════ Funnel plot (publication bias in a meta-analysis) ═══════════════
+  // Standard normal CDF via the Abramowitz–Stegun erf approximation (error < 1.5e-7).
+  function normCdf(x) {
+    const t = 1 / (1 + 0.3275911 * Math.abs(x) / Math.SQRT2);
+    const y = 1 - (((((1.061405429 * t - 1.453152027) * t) + 1.421413741) * t - 0.284496736) * t + 0.254829592) * t * Math.exp(-x * x / 2);
+    return x >= 0 ? (1 + y) / 2 : (1 - y) / 2;
+  }
+  function pool(list) {
+    let w = 0, wd = 0;
+    list.forEach(t => { const wi = 1 / (t.se * t.se); w += wi; wd += wi * t.d; });
+    const est = wd / w, se = 1 / Math.sqrt(w);
+    return { est, se, p: 2 * (1 - normCdf(Math.abs(est / se))) };
+  }
+  const fmtP = (p) => p < 0.001 ? 'p < 0.001' : 'p = ' + p.toFixed(3);
+
+  function initFunnel() {
+    const host = document.getElementById('funnelChart');
+    const card = document.getElementById('funnelCard');
+    if (!host) return;
+    let view = 'all', trials = [];
+    const N = 300, SE_MAX = Math.sqrt(2 / 10), X_MAX = 1.0;
+
+    const leg = document.getElementById('funnelLegend');
+    C.legend(leg, [{ label: 'Published trial', color: 'var(--c1)' }], 'dot');
+    const ghost = document.createElement('span');
+    ghost.innerHTML = '<i class="ring" style="background:transparent;border:1.5px dashed var(--axis-ink)"></i>Never published';
+    const pooledKey = document.createElement('span');
+    pooledKey.innerHTML = '<i style="height:3px;border-radius:2px;background:var(--c2)"></i>Pooled result';
+    leg.append(ghost, pooledKey);
+
+    function simulate() {
+      trials = [];
+      for (let i = 0; i < N; i++) {
+        const n = Math.round(10 + Math.random() * 190);   // patients per arm
+        const se = Math.sqrt(2 / n);                       // approximate SE of a standardised mean difference
+        const d = gaussian() * se;                         // the true effect is zero
+        const p = 2 * (1 - normCdf(Math.abs(d / se)));
+        const pPublish = d > 0 ? (p < 0.05 ? 1 : 0.5) : 0.1;
+        trials.push({ n, se, d, p, published: Math.random() < pPublish, jit: Math.random() });
+      }
+    }
+
+    function draw(W) {
+      host.replaceChildren();
+      const narrow = W < 520;
+      const H = narrow ? 300 : 340, left = 44, right = 10, top = 22, bottom = 40;
+      const pw = W - left - right, ph = H - top - bottom;
+      const x = (d) => left + ((Math.max(-X_MAX, Math.min(X_MAX, d)) + X_MAX) / (2 * X_MAX)) * pw;
+      const y = (se) => top + (se / SE_MAX) * ph;
+      const svg = el('svg', { viewBox: `0 0 ${W} ${H}`, width: W, height: H, role: 'img',
+        'aria-label': 'Funnel plot of simulated trials: effect size against standard error' });
+      // the funnel: 95% of trials should land inside if nothing is missing
+      el('path', { d: `M${x(0)},${y(0)} L${x(-1.96 * SE_MAX)},${y(SE_MAX)} L${x(1.96 * SE_MAX)},${y(SE_MAX)} Z`, style: 'fill:var(--surface-2);stroke:var(--grid);stroke-width:1' }, svg);
+      [-1, -0.5, 0, 0.5, 1].forEach(t => {
+        el('line', { x1: x(t), x2: x(t), y1: top, y2: top + ph, class: 'grid-line' }, svg);
+        el('text', { x: x(t), y: top + ph + 14, 'text-anchor': 'middle', class: 'axis-text', text: t === 0 ? '0' : (t > 0 ? '+' : '−') + Math.abs(t) }, svg);
+      });
+      [0, 0.1, 0.2, 0.3, 0.4].forEach(t => {
+        el('text', { x: left - 6, y: y(t) + 4, 'text-anchor': 'end', class: 'axis-text', text: t.toFixed(1) }, svg);
+      });
+      el('text', { x: left, y: H - 4, class: 'label-text', style: 'font-size:11px', text: '← drug looks worse' }, svg);
+      el('text', { x: W - right, y: H - 4, 'text-anchor': 'end', class: 'label-text', style: 'font-size:11px', text: 'drug looks better →' }, svg);
+      el('text', { x: 0, y: 12, class: 'label-text', style: 'font-size:11px', text: narrow ? 'Std error (big trials at top)' : 'Standard error (bigger trials at the top)' }, svg);
+      // true effect
+      el('line', { x1: x(0), x2: x(0), y1: top, y2: top + ph, class: 'base-line', style: 'stroke:var(--ink);stroke-width:1' }, svg);
+      // trials
+      const shown = view === 'published' ? trials.filter(t => t.published) : trials;
+      trials.forEach((t, i) => {
+        const hidden = view === 'published' && !t.published;
+        const c = el('circle', { cx: x(t.d), cy: y(t.se), r: narrow ? 3 : 3.5,
+          style: hidden
+            ? 'fill:transparent;stroke:var(--axis-ink);stroke-width:1;opacity:.55;transition:opacity .5s ease'
+            : 'fill:var(--c1);stroke:var(--surface);stroke-width:1.5;opacity:.9;transition:opacity .5s ease' }, svg);
+        if (hidden) c.setAttribute('stroke-dasharray', '2 2');
+        C.bindTip(c, host, () => ({
+          value: `effect ${t.d >= 0 ? '+' : '−'}${Math.abs(t.d).toFixed(2)}, ${fmtP(t.p)}`,
+          title: `Trial with ${t.n} patients per arm`,
+          note: t.published ? 'Published' : 'Never published'
+        }));
+      });
+      // pooled estimate for what is shown
+      const pr = pool(shown);
+      el('line', { x1: x(pr.est), x2: x(pr.est), y1: top, y2: top + ph, style: 'stroke:var(--c2);stroke-width:2' }, svg);
+      const lx = x(pr.est), anchor = lx > W - 120 ? 'end' : 'start';
+      el('text', { x: lx + (anchor === 'start' ? 6 : -6), y: top + 12, 'text-anchor': anchor, class: 'label-strong', text: `pooled ${pr.est >= 0 ? '+' : '−'}${Math.abs(pr.est).toFixed(2)}` }, svg);
+      el('text', { x: x(0) - 6, y: top + ph - 6, 'text-anchor': 'end', class: 'label-text', style: 'font-size:11px', text: 'true effect: 0' }, svg);
+      host.appendChild(svg);
+
+      const cap = document.getElementById('funnelCaption');
+      const nPub = trials.filter(t => t.published).length;
+      cap.textContent = view === 'all'
+        ? `All ${N} trials pooled: effect ${pr.est >= 0 ? '+' : '−'}${Math.abs(pr.est).toFixed(2)} (${fmtP(pr.p)}). Close to zero, which is the right answer.`
+        : `${nPub} of ${N} trials got published. Pooling only those gives an effect of +${pr.est.toFixed(2)} (${fmtP(pr.p)}): a "proven" benefit from a drug that does nothing. The empty lower-left corner of the funnel is the giveaway.`;
+    }
+
+    let lastW = 0;
+    const redraw = () => draw(lastW || Math.round(host.clientWidth));
+    simulate();   // data first: responsive() draws immediately
+    C.responsive(host, (W) => { lastW = W; draw(W); });
+
+    const setView = (v) => {
+      view = v;
+      card.querySelectorAll('.seg button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.funnel === view)));
+      redraw();
+    };
+    card.querySelectorAll('.seg button').forEach(b => b.addEventListener('click', () => { autoplay = false; setView(b.dataset.funnel); }));
+    document.getElementById('funnelRerun').addEventListener('click', () => { autoplay = false; simulate(); redraw(); });
+
+    let autoplay = true;
+    if ('IntersectionObserver' in window && !C.reduceMotion) {
+      const o = new IntersectionObserver((es) => {
+        es.forEach(e => { if (e.isIntersecting) { o.disconnect(); setTimeout(() => { if (autoplay) setView('published'); }, 2000); } });
+      }, { threshold: 0.5 });
+      o.observe(host);
+    }
+  }
+
   // ═══════════════ Evidence tiles ═══════════════
   function initEvidence() {
     const E = window.PHARMA.EVIDENCE;
@@ -433,5 +550,5 @@
     });
   }
 
-  window.Lab = { init() { initPubBias(); initPhack(); initEvidence(); } };
+  window.Lab = { init() { initPubBias(); initPhack(); initFunnel(); initEvidence(); } };
 })();
