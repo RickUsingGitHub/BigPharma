@@ -550,5 +550,6 @@
     });
   }
 
+  window.LabStats = { gaussian, normCdf };
   window.Lab = { init() { initPubBias(); initPhack(); initFunnel(); initEvidence(); } };
 })();

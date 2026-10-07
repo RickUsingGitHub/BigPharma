@@ -196,6 +196,152 @@
       </div>
 
       <!-- Evidence tiles -->
+      <!-- Lab bench: five more experiments -->
+      <div class="card reveal bench" id="bench" style="margin-top:16px">
+        <span class="kicker">More experiments</span>
+        <h3>The lab bench</h3>
+        <p class="muted small">Five more ways evidence gets bent. Pick one.</p>
+        <div class="chips bench-tabs" role="tablist" id="benchTabs" aria-label="Experiments">
+          <button class="chip" role="tab" id="tab-risk" aria-selected="true" aria-controls="panel-risk">Headline translator</button>
+          <button class="chip" role="tab" id="tab-stop" aria-selected="false" aria-controls="panel-stop" tabindex="-1">Stopped early</button>
+          <button class="chip" role="tab" id="tab-rtm" aria-selected="false" aria-controls="panel-rtm" tabindex="-1">The miracle cure</button>
+          <button class="chip" role="tab" id="tab-surr" aria-selected="false" aria-controls="panel-surr" tabindex="-1">The surrogate trap</button>
+          <button class="chip" role="tab" id="tab-switch" aria-selected="false" aria-controls="panel-switch" tabindex="-1">Spot the switch</button>
+        </div>
+
+        <!-- 1. Relative v absolute risk -->
+        <div role="tabpanel" id="panel-risk" aria-labelledby="tab-risk" class="bench-panel">
+          <div class="bench-grid">
+            <div>
+              <h4 class="bench-h">What does "50% lower risk" mean for you?</h4>
+              <p class="small muted">Drug adverts quote the <strong>relative</strong> risk reduction because it is the biggest number. What matters to you is the <strong>absolute</strong> change, and that depends on your risk to begin with.</p>
+              <div class="controls">
+                <div class="control">
+                  <label for="rBase">Your risk of a heart attack over 5 years, without the drug</label><output id="rBaseOut">4%</output>
+                  <input type="range" id="rBase" min="0.5" max="30" step="0.5" value="4">
+                </div>
+                <div class="control">
+                  <label for="rRrr">Relative risk reduction claimed</label><output id="rRrrOut">50%</output>
+                  <input type="range" id="rRrr" min="5" max="80" step="5" value="50">
+                </div>
+              </div>
+              <div class="btn-row">
+                <button class="btn" data-preset="2,30">Low-risk person</button>
+                <button class="btn" data-preset="20,30">High-risk person</button>
+              </div>
+              <div class="says" aria-live="polite">
+                <div class="say"><span class="who">The advert says</span><strong id="rRel"></strong></div>
+                <div class="say"><span class="who">What changes for you</span><strong id="rAbs"></strong></div>
+                <div class="say"><span class="who">Number needed to treat</span><strong id="rNnt"></strong></div>
+              </div>
+            </div>
+            <div>
+              <div class="legend" id="rLegend"></div>
+              <div class="chart" id="rArray"></div>
+              <p class="small muted" id="rCaption"></p>
+            </div>
+          </div>
+          <p class="small muted">The chart assumes the drug cuts risk by the same proportion for everyone, and leaves out side effects, which affect people who were never going to benefit too.</p>
+        </div>
+
+        <!-- 2. Stopped early for benefit -->
+        <div role="tabpanel" id="panel-stop" aria-labelledby="tab-stop" class="bench-panel" hidden>
+          <div class="bench-grid">
+            <div>
+              <h4 class="bench-h">Stopped early for "benefit"</h4>
+              <p class="small muted">This drug really works, but only modestly. Each trial plans 1,000 patients per arm and peeks at the results after 250, 500 and 750. If the drug looks dramatically better at a peek, the trial stops and announces a win. Trials that stop early tend to stop on a lucky streak, so they overstate the effect.</p>
+              <div class="controls">
+                <div class="control">
+                  <label for="sTrue">True effect: fewer heart attacks than placebo</label><output id="sTrueOut">20%</output>
+                  <input type="range" id="sTrue" min="0" max="40" step="5" value="20">
+                </div>
+                <div class="chips" role="group" aria-label="Stopping rule" id="sRule" style="margin:0">
+                  <button class="chip" aria-pressed="true" data-alpha="0.001">Strict rule (p &lt; 0.001)</button>
+                  <button class="chip" aria-pressed="false" data-alpha="0.01">Lenient rule (p &lt; 0.01)</button>
+                </div>
+              </div>
+              <div class="btn-row"><button class="btn primary" id="sRun">Run 400 trials</button></div>
+              <p class="small" id="sSummary" aria-live="polite" style="margin-top:12px"></p>
+            </div>
+            <div>
+              <div class="legend" id="sLegend"></div>
+              <div class="chart" id="sChart"></div>
+            </div>
+          </div>
+          <p class="small muted">A 2010 review of 91 trials stopped early for benefit found their effects were systematically larger than in comparable trials that ran to the end. <a href="https://www.jameslindlibrary.org/bassler-d-briel-m-montori-vm-lane-m-glasziou-p-zhou-q-heels-ansdell-d-walter-sd-guyatt-gh-stopit-2-study-group-2010/" target="_blank" rel="noopener">Bassler et al., JAMA 2010</a>. In this simulation 10% of placebo patients have a heart attack during the trial.</p>
+        </div>
+
+        <!-- 3. Regression to the mean -->
+        <div role="tabpanel" id="panel-rtm" aria-labelledby="tab-rtm" class="bench-panel" hidden>
+          <div class="bench-grid">
+            <div>
+              <h4 class="bench-h">The miracle cure</h4>
+              <p class="small muted">Blood pressure bounces around from day to day. A clinic recruits people on a day their reading is high, gives them Wonderzol (which does nothing), and measures again four weeks later. Watch what happens.</p>
+              <div class="controls">
+                <div class="control">
+                  <label for="mCut">Only enrol people whose reading is at least</label><output id="mCutOut">160 mmHg</output>
+                  <input type="range" id="mCut" min="140" max="175" step="5" value="160">
+                </div>
+                <label class="check"><input type="checkbox" id="mPlacebo"> <span><strong>Add a placebo group.</strong> Randomly split the recruits, and give half a dummy pill.</span></label>
+              </div>
+              <div class="btn-row"><button class="btn" id="mRun">Run the study again</button></div>
+              <p class="small" id="mSummary" aria-live="polite" style="margin-top:12px"></p>
+            </div>
+            <div>
+              <div class="legend" id="mLegend"></div>
+              <div class="chart" id="mChart"></div>
+            </div>
+          </div>
+          <p class="small muted">This is regression to the mean. People picked because of an extreme reading will, on average, read closer to their normal next time, with or without treatment. It is why testimonials and before-and-after studies mislead, and why trials need a control group. Simulated people: usual systolic pressure averages 140 mmHg, with readings varying about ±10 mmHg from day to day.</p>
+        </div>
+
+        <!-- 4. Surrogate endpoints -->
+        <div role="tabpanel" id="panel-surr" aria-labelledby="tab-surr" class="bench-panel" hidden>
+          <h4 class="bench-h">The surrogate trap</h4>
+          <p class="small muted">A surrogate is a blood test or measurement that is supposed to stand in for what patients care about: living longer, avoiding a heart attack or stroke. Improving the number is quicker and cheaper to prove. Sometimes the number improves while patients do worse. Pick a real case.</p>
+          <div class="chips" role="group" aria-label="Choose a case" id="surrPick"></div>
+          <div class="surr" id="surrCase" aria-live="polite"></div>
+        </div>
+
+        <!-- 5. Spot the switch -->
+        <div role="tabpanel" id="panel-switch" aria-labelledby="tab-switch" class="bench-panel" hidden>
+          <h4 class="bench-h">Spot the switch</h4>
+          <p class="small muted">A made-up trial, but every trick is real. On the left is what the researchers promised before they started. On the right is the abstract they published. Click the five things in the published version that do not match the plan.</p>
+          <div class="versus switch-game">
+            <div class="quote">
+              <div class="who">Registered protocol, 2019</div>
+              <ul class="small protocol">
+                <li><strong>Design:</strong> randomised 1:1, double-blind, placebo-controlled.</li>
+                <li><strong>Treatment:</strong> Wonderzol 20 mg daily for 8 weeks.</li>
+                <li><strong>Participants:</strong> 400 adults with major depression, all analysed in the group they were randomised to ("intention to treat").</li>
+                <li><strong>Primary outcome:</strong> change in depression score (HAM-D) at week 8.</li>
+                <li><strong>Key safety outcome:</strong> suicidal thoughts and behaviour, measured with the C-SSRS scale.</li>
+                <li><strong>Subgroups:</strong> none planned.</li>
+              </ul>
+            </div>
+            <div class="quote">
+              <div class="who">Published abstract, 2023</div>
+              <p class="paper" id="switchPaper">
+                In this <span class="clue" role="button" tabindex="0" data-decoy="design">randomised, double-blind, placebo-controlled trial</span> of
+                <span class="clue" role="button" tabindex="0" data-decoy="dose">Wonderzol 20 mg daily</span>,
+                <span class="clue" role="button" tabindex="0" data-key="population">the 312 patients who completed the study were analysed</span>.
+                The primary outcome was <span class="clue" role="button" tabindex="0" data-key="outcome">response, defined as a 50% improvement</span>
+                <span class="clue" role="button" tabindex="0" data-key="timepoint">at week 6</span>.
+                Wonderzol improved response compared with placebo (p = 0.03).
+                <span class="clue" role="button" tabindex="0" data-key="subgroup">The benefit was greatest in patients under 40</span> (p = 0.004).
+                <span class="clue" role="button" tabindex="0" data-key="harms">Wonderzol was generally well tolerated.</span>
+                Conclusion: Wonderzol is an effective treatment for depression.
+              </p>
+            </div>
+          </div>
+          <div class="btn-row" style="margin-top:12px">
+            <span class="small" id="switchScore" aria-live="polite">Found 0 of 5</span>
+            <button class="btn" id="switchReveal">Show me</button>
+          </div>
+          <ol class="small switch-notes" id="switchNotes"></ol>
+        </div>
+      </div>
+
       <h3 style="margin:34px 0 12px" class="reveal">What the research-on-research says</h3>
       <div class="stat-row" id="evidenceTiles"></div>
 
@@ -458,6 +604,7 @@
 <script src="assets/js/playbook.js"></script>
 <script src="assets/js/charts.js"></script>
 <script src="assets/js/lab.js"></script>
+<script src="assets/js/bench.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>
