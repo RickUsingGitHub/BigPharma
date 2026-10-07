@@ -554,6 +554,7 @@
     initHero(true);
     initPlaybook();
     window.Lab.init();
+    if (window.Bench) window.Bench.init();
     initCompanies();
     initMoney();
     renderOz();

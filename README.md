@@ -7,7 +7,7 @@ An interactive, evidence-based website covering 30 years (1996–2026) of miscon
 | Section | What it does |
 |---|---|
 | **The playbook** | 16 recurring tactics (bury trials, outcome switching, p-hacking, ghostwriting, hiding harms, off-label sales, kickbacks, bribery, silencing critics, opioids, overcharging, blocking competition, price gouging, tax games). Each card opens real cases, numbers and "has it been fixed?" |
-| **The science lab** | An animation of Turner et al. (NEJM 2008) showing 74 antidepressant trials shrinking from 51% positive (FDA) to 94% positive (journals). A **p-hacking simulator**: run real simulated trials of a sugar pill and watch the false-positive rate climb from 5% to over 60%. A **funnel plot** showing how hiding small negative trials shifts a meta-analysis away from zero. Plus research-on-research stats and the Study 329 "same data, opposite conclusion". |
+| **The science lab** | An animation of Turner et al. (NEJM 2008) showing 74 antidepressant trials shrinking from 51% positive (FDA) to 94% positive (journals). A **p-hacking simulator**: run real simulated trials of a sugar pill and watch the false-positive rate climb from 5% to over 60%. A **funnel plot** showing how hiding small negative trials shifts a meta-analysis away from zero. A **lab bench** with five more experiments: a headline translator (relative v absolute risk, with a 1,000-person icon array and number needed to treat), trials stopped early for benefit, the regression-to-the-mean "miracle cure", the surrogate-endpoint trap (CAST, torcetrapib, Avandia, anaemia drugs) and a spot-the-outcome-switch game. Plus research-on-research stats and the Study 329 "same data, opposite conclusion". |
 | **The rap sheets** | Dossiers for the 12 biggest companies by revenue (J&J, Roche, Lilly, Merck, Pfizer, AbbVie, AstraZeneca, Novartis, Sanofi, BMS, Novo Nordisk, GSK) plus Purdue, Teva, Bayer, Takeda, Mallinckrodt, Endo, Valeant, Amgen, Mylan, Insys, Ranbaxy, Gilead and Vyera. Each has a timeline, every case with sources, and "credit where it's due". |
 | **Meanwhile, in Australia** | Merck's fake journal and doctor "hit list", the A$300m pelvic-mesh settlement, Tasmanian poppies, and what one month of Ozempic costs here compared with the US and other countries. |
 | **Follow the money** | Penalties by company, by year and by type; fines measured in days of revenue; the 15 biggest cases; a company-by-misconduct heatmap. A switch restates every amount in 2025 dollars. Every chart has hover tooltips and a table view. |
@@ -29,7 +29,8 @@ assets/css/style.css  design tokens (light and dark), layout, components
 assets/js/data.js     the case database (~120 cases), company profiles, research stats
 assets/js/playbook.js the 16 tactics
 assets/js/charts.js   small SVG chart kit (stacked bars, columns, heatmap, timeline, tooltips)
-assets/js/lab.js      publication-bias animation + p-hacking simulator (Welch t-tests)
+assets/js/lab.js      publication-bias animation, p-hacking simulator (Welch t-tests), funnel plot
+assets/js/bench.js    the lab bench: five more experiments in tabs
 assets/js/app.js      wires everything together
 assets/og-card.png    link-preview image for social media and messages
 data/cases.csv|json   the case database as downloadable files (generated)
