@@ -18,8 +18,13 @@
 
   // ---------- what counts ----------
   const isFinal = (c) => !c.status || c.status === 'final';
-  const govAmt = (c) => (c.kind === 'gov' || c.kind === 'foreign') && isFinal(c) ? (c.count != null ? c.count : c.usd) : 0;
-  const privAmt = (c) => c.kind === 'private' && isFinal(c) ? c.usd : 0;
+  // Dollars: as paid, or restated in 2025 dollars with the US consumer price index.
+  let realDollars = false;
+  try { realDollars = localStorage.getItem('bp-dollars') === 'real'; } catch (e) {}
+  const adj = (c, v) => realDollars ? v * P.CPI[2025] / (P.CPI[c.year] || P.CPI[2025]) : v;
+  const dollarsNote = () => realDollars ? 'in 2025 dollars' : 'as paid';
+  const govAmt = (c) => (c.kind === 'gov' || c.kind === 'foreign') && isFinal(c) ? adj(c, c.count != null ? c.count : c.usd) : 0;
+  const privAmt = (c) => c.kind === 'private' && isFinal(c) ? adj(c, c.usd) : 0;
   const counted = (c, mode) => govAmt(c) + (mode === 'all' ? privAmt(c) : 0);
   const isCrim = (c) => c.crim === 'plea' || c.crim === 'conviction';
   const sum = (arr, f) => arr.reduce((a, x) => a + f(x), 0);
@@ -81,7 +86,7 @@
   }
 
   // ---------- hero ----------
-  function initHero() {
+  function initHero(animate) {
     const total = sum(CASES, govAmt);
     const priv = sum(CASES, privAmt);
     const pleas = CASES.filter(isCrim).length;
@@ -89,7 +94,7 @@
     const value = $('#heroTotal');
     const target = total / 1000;
     const draw = (v) => { value.textContent = '$' + v.toFixed(1) + ' billion'; };
-    if (C.reduceMotion) draw(target);
+    if (!animate || C.reduceMotion) draw(target);
     else {
       const t0 = performance.now(), dur = 1800;
       const tick = (t) => {
@@ -108,7 +113,9 @@
       { label: 'Paid in private lawsuits', value: '$' + (priv / 1000).toFixed(1) + 'bn', sub: 'patients, insurers, shareholders' },
       { label: 'Top-12 firms with a criminal case', value: `${top12WithCrime} of 12`, sub: 'guilty plea or deferred prosecution' }
     ];
+    $('#heroNote').textContent = `US$, ${realDollars ? 'restated in 2025 dollars' : 'as paid'}. Excludes private lawsuits, tax disputes, overturned rulings and cases still under appeal.`;
     const host = $('#heroTiles');
+    host.replaceChildren();
     tiles.forEach(t => {
       const d = document.createElement('div'); d.className = 'tile';
       d.innerHTML = '<div class="label"></div><div class="value"></div><div class="sub"></div>';
@@ -161,6 +168,7 @@
   let currentCo = null;
   function initCompanies() {
     const host = $('#coMenu');
+    host.replaceChildren();
     const mk = (co, isOther) => {
       const st = coStats(co.id);
       const b = document.createElement('button');
@@ -252,7 +260,7 @@
     if (c.status === 'appeal') t('warn', 'Under appeal · not counted');
     if (c.status === 'overturned') t('warn', 'Overturned · not counted');
     if (c.kind === 'tax') t('warn', 'Tax · not a penalty');
-    if (c.count != null) t('warn', `Counted as ${fmt(c.count)} actually paid`);
+    if (c.count != null) t('warn', `Counted as ${fmt(adj(c, c.count))} actually paid`);
     if (c.via) t('', 'via ' + c.via);
     return out;
   }
@@ -261,7 +269,7 @@
     const d = document.createElement('article'); d.className = 'case';
     const yr = document.createElement('div'); yr.className = 'yr'; yr.textContent = c.year;
     const ttl = document.createElement('div'); ttl.className = 'ttl'; ttl.textContent = c.title;
-    const amt = document.createElement('div'); amt.className = 'amt'; amt.textContent = c.usd > 0 ? fmt(c.usd) : 'No fine';
+    const amt = document.createElement('div'); amt.className = 'amt'; amt.textContent = c.usd > 0 ? fmt(adj(c, c.usd)) : 'No fine';
     if (c.status === 'overturned') amt.classList.add('struck');
     const body = document.createElement('div'); body.className = 'body'; body.textContent = c.desc;
     const tags = document.createElement('div'); tags.className = 'tags'; tagEls(c).forEach(x => tags.appendChild(x));
@@ -291,8 +299,8 @@
       }
     });
     $('#leaderSub').textContent = leaderMode === 'gov'
-      ? 'Penalties paid to governments, 1996–2026, by type of misconduct. US$ billions, nominal.'
-      : 'Government penalties plus private lawsuits paid (product liability, class actions, shareholder suits). US$ billions, nominal.';
+      ? `Penalties paid to governments, 1996–2026, by type of misconduct. US$ billions, ${dollarsNote()}.`
+      : `Government penalties plus private lawsuits paid (product liability, class actions, shareholder suits). US$ billions, ${dollarsNote()}.`;
     C.table($('#leaderTable'), [{ label: 'Company' }].concat(CATEGORIES.map(k => ({ label: k.short, num: true }))).concat([{ label: 'Total', num: true }]),
       rows.map(r => [r.label].concat(r.segs.map(s => s.value ? fmt(s.value) : '–')).concat([fmt(r.total)])));
   }
@@ -305,6 +313,7 @@
       return { label: String(y), segs, total: sum(segs, s => s.value), cases: cs };
     });
     C.legend($('#yearLegend'), CATEGORIES.map(k => ({ label: k.name, color: k.color })));
+    $('#yearSub').textContent = `Government penalties per year across every company tracked (including Purdue, Teva and the rest), by type of misconduct. US$ billions, ${dollarsNote()}.`;
     C.stackedColumns($('#yearChart'), cols, {
       aria: 'Penalties per year by type of misconduct',
       noteFn: (c, s) => {
@@ -337,7 +346,8 @@
 
   function renderTop() {
     const list = CASES.filter(c => (c.kind === 'gov' || c.kind === 'foreign' || c.kind === 'private') && isFinal(c))
-      .map(c => ({ c, v: c.count != null ? c.count : c.usd })).sort((a, b) => b.v - a.v).slice(0, 15);
+      .map(c => ({ c, v: adj(c, c.count != null ? c.count : c.usd) })).sort((a, b) => b.v - a.v).slice(0, 15);
+    $('#topSub').textContent = `Every kind of payment, including private lawsuits. US$ billions, ${dollarsNote()}.`;
     const items = list.map(({ c, v }) => ({
       label: `${SHORT[c.co]} ${c.year}` + (c.tag ? ` · ${c.tag}` : ''),
       shortLabel: `${SHORT[c.co]} ${c.year}`,
@@ -378,6 +388,45 @@
     renderDays();
     renderTop();
     renderHeat();
+  }
+
+  // ---------- Australia: one month of Ozempic ----------
+  function renderOz() {
+    const host = $('#ozChart'); if (!host) return;
+    const colorFor = (n) => n === 'Australia' ? 'var(--c1)' : n === 'United States' ? 'var(--c2)' : 'var(--axis-ink)';
+    C.legend($('#ozLegend'), [{ label: 'Australia', color: 'var(--c1)' }, { label: 'United States', color: 'var(--c2)' }, { label: 'Other rich countries', color: 'var(--axis-ink)' }]);
+    const us = P.OZEMPIC.prices.find(p => p[0] === 'United States')[1];
+    const items = P.OZEMPIC.prices.map(([n, v]) => ({
+      label: n, shortLabel: n.replace('United States', 'US').replace('United Kingdom', 'UK').replace('Netherlands', 'Neth.').replace('Switzerland', 'Switz.'),
+      value: v, color: colorFor(n), valueLabel: '$' + v,
+      tip: { value: `US$${v} a month`, title: n, note: n === 'United States' ? '' : `The US list price is ${(us / v).toFixed(1)} times this` }
+    }));
+    C.simpleHBar(host, items, { aria: 'Monthly list price of Ozempic by country, US dollars', tickFmt: (t) => '$' + t, valueW: 52,
+      labelW: (W) => W < 440 ? 64 : 116 });
+  }
+
+  // ---------- dollars switch ----------
+  let renderExplorer = () => {};
+  function freshHost(sel) { const h = $(sel); const c = h.cloneNode(false); h.parentNode.replaceChild(c, h); return c; }
+  function setDollars(real) {
+    if (real === realDollars) return;
+    realDollars = real;
+    try { localStorage.setItem('bp-dollars', real ? 'real' : 'nominal'); } catch (e) {}
+    $$('.dollars-toggle button').forEach(b => b.setAttribute('aria-pressed', String((b.dataset.dollars === 'real') === real)));
+    initHero(false);
+    initCompanies();
+    if (currentCo) selectCo(currentCo, false);
+    freshHost('#leaderChart'); renderLeader();
+    freshHost('#yearChart'); renderYears();
+    freshHost('#topChart'); renderTop();
+    renderHeat();
+    renderExplorer();
+  }
+  function initDollars() {
+    $$('.dollars-toggle button').forEach(b => {
+      b.setAttribute('aria-pressed', String((b.dataset.dollars === 'real') === realDollars));
+      b.addEventListener('click', () => setDollars(b.dataset.dollars === 'real'));
+    });
   }
 
   // ---------- verdict scorecard ----------
@@ -439,13 +488,14 @@
         const w = td('c-what'); const t = document.createElement('div'); t.className = 't'; t.textContent = c.title; const dd = document.createElement('div'); dd.className = 'd'; dd.textContent = c.desc; w.append(t, dd);
         const cat = td('c-cat'); const tg = tagEls(c); cat.appendChild(tg[0]);
         const k = td('c-kind'); tg.slice(1).filter(x => !x.textContent.startsWith('via ')).forEach(x => { k.appendChild(x); k.appendChild(document.createTextNode(' ')); });
-        const a = td('num c-amt'); a.textContent = c.usd > 0 ? fmt(c.usd) : '–'; if (c.status === 'overturned' || c.status === 'appeal' || c.kind === 'tax') a.style.color = 'var(--muted)';
+        const a = td('num c-amt'); a.textContent = c.usd > 0 ? fmt(adj(c, c.usd)) : '–'; if (c.status === 'overturned' || c.status === 'appeal' || c.kind === 'tax') a.style.color = 'var(--muted)';
         const s = td('c-src'); (c.src || []).forEach(([l, u]) => { const x = document.createElement('a'); x.href = u; x.target = '_blank'; x.rel = 'noopener'; x.textContent = l + ' ↗'; x.style.display = 'block'; x.style.fontSize = '.8rem'; s.appendChild(x); });
         tbody.appendChild(tr);
       });
       const tot = sum(rows, govAmt);
-      $('#fCount').textContent = `${rows.length} case${rows.length === 1 ? '' : 's'} · ${fmt(tot)} counted`;
+      $('#fCount').textContent = `${rows.length} case${rows.length === 1 ? '' : 's'} · ${fmt(tot)} counted${realDollars ? ' (2025 dollars)' : ''}`;
     }
+    renderExplorer = render;
     [fCo, fCat, fKind].forEach(x => x.addEventListener('change', render));
     fText.addEventListener('input', render);
     $$('#explorer th button').forEach(b => b.addEventListener('click', () => {
@@ -500,11 +550,13 @@
 
   document.addEventListener('DOMContentLoaded', () => {
     initChrome();
-    initHero();
+    initDollars();
+    initHero(true);
     initPlaybook();
     window.Lab.init();
     initCompanies();
     initMoney();
+    renderOz();
     initScore();
     initExplorer();
     initSources();

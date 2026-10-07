@@ -1,0 +1,57 @@
+<!doctype html>
+<!-- Social preview card (1200x630). Regenerate assets/og-card.png with:  node tools/render-og-card.js -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Big Pharma on Trial – social card</title>
+<style>
+  :root { --page: #f9f9f7; --ink: #0b0b0b; --ink-2: #52514e; --accent: #b42318; --c1: #2a78d6; --c2: #eb6834; --c3: #1baf7a; --c4: #eda100; --c5: #e87ba4; --c6: #008300; --c7: #4a3aa7; --c8: #e34948; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+  body { background: var(--page); color: var(--ink); font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    padding: 64px 72px; display: grid; grid-template-rows: auto 1fr auto; position: relative; }
+  body::before { content: ""; position: absolute; inset: 0; background: radial-gradient(700px 360px at 92% 0%, rgba(180,35,24,.10), transparent 70%); }
+  .brand { display: flex; align-items: center; gap: 14px; font-weight: 800; font-size: 26px; position: relative; }
+  h1 { font-size: 104px; line-height: .98; letter-spacing: -0.04em; margin: 34px 0 0; font-weight: 900; position: relative; }
+  h1 em { font-style: normal; color: var(--accent); }
+  .foot { display: flex; align-items: flex-end; justify-content: space-between; gap: 40px; position: relative; }
+  .big { font-size: 64px; font-weight: 800; letter-spacing: -0.03em; line-height: 1; }
+  .lab { font-size: 22px; color: var(--ink-2); margin-top: 8px; max-width: 30ch; }
+  .bar { display: flex; height: 18px; width: 420px; border-radius: 4px; overflow: hidden; gap: 2px; }
+  .bar span { display: block; height: 100%; }
+  .meta { font-size: 20px; color: var(--ink-2); margin-top: 12px; text-align: right; }
+</style>
+</head>
+<body>
+  <div class="brand">
+    <svg width="40" height="40" viewBox="0 0 32 32" aria-hidden="true"><g transform="rotate(-35 16 16)"><rect x="3" y="11" width="26" height="10" rx="5" fill="#b42318"/><rect x="16" y="11" width="13" height="10" rx="5" fill="#0b0b0b"/><rect x="16" y="11" width="5" height="10" fill="#0b0b0b"/></g></svg>
+    An evidence file · 1996–2026
+  </div>
+  <h1>Big Pharma<br><em>on trial</em></h1>
+  <div class="foot">
+    <div>
+      <div class="big" id="total">$0bn</div>
+      <div class="lab">paid to governments in fines and settlements, every case sourced</div>
+    </div>
+    <div>
+      <div class="bar" id="bar"></div>
+      <div class="meta" id="meta"></div>
+    </div>
+  </div>
+<script src="../assets/js/data.js"></script>
+<script>
+  const P = window.PHARMA;
+  const final = (c) => !c.status || c.status === 'final';
+  const gov = (c) => (c.kind === 'gov' || c.kind === 'foreign') && final(c) ? (c.count != null ? c.count : c.usd) : 0;
+  const total = P.CASES.reduce((a, c) => a + gov(c), 0);
+  document.getElementById('total').textContent = '$' + (total / 1000).toFixed(1) + ' billion';
+  const nCos = P.COMPANIES.length + P.OTHERS.length;
+  document.getElementById('meta').textContent = `${P.CASES.length} cases · ${nCos} companies · p-hacking lab`;
+  const bar = document.getElementById('bar');
+  P.CATEGORIES.forEach((k, i) => {
+    const v = P.CASES.filter(c => c.cat === k.id).reduce((a, c) => a + gov(c), 0);
+    if (v > 0) { const s = document.createElement('span'); s.style.flex = String(v); s.style.background = `var(--c${i + 1})`; bar.appendChild(s); }
+  });
+</script>
+</body>
+</html>

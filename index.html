@@ -6,6 +6,15 @@
   <title>Big Pharma on Trial</title>
   <meta name="description" content="Thirty years of fines, fraud, buried trials and p-hacking by the world's biggest drug companies. Interactive charts, company rap sheets, a p-hacking lab, and a verdict: are they good or bad, and are they getting better?">
   <meta name="theme-color" content="#b42318">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Big Pharma on Trial">
+  <meta property="og:description" content="Thirty years of fines, guilty pleas, buried trials and p-hacking by the world's biggest drug companies, with every case sourced.">
+  <meta property="og:url" content="https://rickusinggithub.github.io/BigPharma/">
+  <meta property="og:image" content="https://rickusinggithub.github.io/BigPharma/assets/og-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Big Pharma on Trial: penalties paid by the world's biggest drug companies, 1996 to 2026">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='11' width='26' height='10' rx='5' fill='%23b42318' transform='rotate(-35 16 16)'/%3E%3Cpath d='M16 16 L21.6 8 A5 5 0 0 1 28.9 13.1 L23.3 21.1Z' fill='%23fff' opacity='.9' transform='rotate(0)'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="assets/css/style.css">
   <script>
@@ -52,7 +61,11 @@
       <div class="hero-figure" aria-live="polite">
         <div class="label">Penalties paid to governments by the companies tracked here</div>
         <div class="value" id="heroTotal">$0bn</div>
-        <div class="note" id="heroNote">US$, nominal. Excludes private lawsuits, tax disputes, overturned rulings and cases still under appeal.</div>
+        <div class="note" id="heroNote">US$, as paid. Excludes private lawsuits, tax disputes, overturned rulings and cases still under appeal.</div>
+        <div class="seg dollars-toggle" role="group" aria-label="Show amounts" style="margin-top:12px">
+          <button aria-pressed="true" data-dollars="nominal">As paid</button>
+          <button aria-pressed="false" data-dollars="real">In 2025 dollars</button>
+        </div>
       </div>
 
       <div class="tiles" id="heroTiles"></div>
@@ -163,6 +176,25 @@
         <p class="muted">With one pre-specified test, a useless drug "wins" 5% of the time. Test 20 independent outcomes and the chance of at least one false positive is 1 − 0.95<sup>20</sup> ≈ <strong>64%</strong>. Add subgroups and an optional stopping rule and it climbs further. Then publish only the winner, call it the "primary outcome", and leave out the 19 losers. Nobody can tell, unless the trial was <a href="#t-switch">registered in advance</a>. The classic demonstration is the huge ISIS-2 heart-attack trial: split by star sign, aspirin appeared useless, even slightly harmful, for Geminis and Libras. The authors did that deliberately, to show how absurd subgroup fishing is.</p>
       </div>
 
+      <!-- Funnel plot -->
+      <div class="chart-card reveal" id="funnelCard" style="margin-top:16px">
+        <div class="chart-head">
+          <div>
+            <div class="chart-title">The lopsided funnel: how meta-analysts catch missing trials</div>
+            <div class="chart-sub">Each dot is a simulated trial of a drug whose true effect is zero. Big trials (top) land close to zero; small trials (bottom) scatter widely. With every trial published the plot is a symmetric funnel. Hide the disappointing small trials and one side of the funnel empties, and the pooled result shifts away from zero.</div>
+          </div>
+          <div class="seg" role="group" aria-label="Choose view">
+            <button aria-pressed="true" data-funnel="all">Every trial run</button>
+            <button aria-pressed="false" data-funnel="published">Only what got published</button>
+          </div>
+        </div>
+        <div class="legend" id="funnelLegend"></div>
+        <div class="chart" id="funnelChart"></div>
+        <p class="small muted" id="funnelCaption" aria-live="polite"></p>
+        <div class="btn-row"><button class="btn" id="funnelRerun">Simulate 300 new trials</button></div>
+        <p class="small muted" style="margin-top:10px">How the simulation works: trials with 10 to 200 patients per arm, effect measured as a standardised mean difference. Positive "significant" trials are always published, other positive trials half the time, and trials pointing the wrong way 1 time in 10. The funnel plot test comes from <a href="https://doi.org/10.1136/bmj.315.7109.629" target="_blank" rel="noopener">Egger et al., BMJ 1997</a>.</p>
+      </div>
+
       <!-- Evidence tiles -->
       <h3 style="margin:34px 0 12px" class="reveal">What the research-on-research says</h3>
       <div class="stat-row" id="evidenceTiles"></div>
@@ -218,6 +250,25 @@
           <p>J&amp;J’s former subsidiary Tasmanian Alkaloids developed a high-thebaine poppy that became a key raw material for oxycodone. That link featured in the Oklahoma case against J&amp;J. Australia’s PBS, which negotiates prices centrally, is a big reason most medicines here cost a fraction of US prices.</p>
         </div>
       </div>
+      <div class="grid-2" style="margin-top:20px">
+        <div class="chart-card reveal" style="margin-top:0">
+          <div class="chart-title">One month of Ozempic, by country</div>
+          <div class="chart-sub">List price in US dollars, 2023. The same drug costs about ten times more in the United States than in Australia.</div>
+          <div class="legend" id="ozLegend"></div>
+          <div class="chart" id="ozChart"></div>
+          <p class="small muted">Source: <a href="https://www.healthsystemtracker.org/brief/prices-of-drugs-for-weight-loss-in-the-us-and-peer-nations/" target="_blank" rel="noopener">Peterson-KFF Health System Tracker</a>, list prices before discounts and rebates.</p>
+        </div>
+        <div class="card reveal" style="margin-top:0">
+          <h3>What Australians actually pay</h3>
+          <ul class="good-list">
+            <li>Since 1 January 2026 the most a Medicare card holder pays for a PBS prescription is <strong>A$25</strong> (it was A$31.60). Concession card holders pay <strong>A$7.70</strong>, frozen until 2030.</li>
+            <li>A drug is listed on the PBS only after the Pharmaceutical Benefits Advisory Committee judges it good value compared with existing treatments, and the government then negotiates the price. Companies cannot simply name their price.</li>
+            <li>Across all medicines, US prices are about <strong>2.8 times</strong> those in 33 other rich countries, including Australia. For brand-name drugs it is about 4.2 times before rebates.</li>
+            <li>For insulin, US list prices are about <strong>9.7 times</strong> the average of other rich countries, and about 2.3 times after discounts.</li>
+          </ul>
+          <p class="small muted" style="margin-top:12px">Sources: <a href="https://www.health.gov.au/news/pbs-prescription-medicines-more-affordable-for-australians" target="_blank" rel="noopener">Department of Health</a>, <a href="https://www.rand.org/pubs/research_reports/RRA788-3.html" target="_blank" rel="noopener">RAND 2024</a>, <a href="https://www.rand.org/pubs/periodicals/health-quarterly/issues/v11/n3/03.html" target="_blank" rel="noopener">RAND insulin 2024</a>.</p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -227,6 +278,13 @@
       <div class="section-head reveal">
         <h2><span class="num">04</span>Follow the money</h2>
         <p>Big numbers, but compared with what? These charts total the penalties by company, by year and by type of misconduct. They also translate the record fines into days of sales, which is how a chief financial officer would see them.</p>
+      </div>
+      <div class="filters reveal" style="margin-bottom:16px">
+        <span class="small muted">Show amounts</span>
+        <div class="seg dollars-toggle" role="group" aria-label="Show amounts">
+          <button aria-pressed="true" data-dollars="nominal">As paid</button>
+          <button aria-pressed="false" data-dollars="real">In 2025 dollars</button>
+        </div>
       </div>
 
       <div class="chart-card reveal">
@@ -249,7 +307,7 @@
         <div class="chart-head">
           <div>
             <div class="chart-title">Thirty years of penalties</div>
-            <div class="chart-sub">Government penalties per year across every company tracked (including Purdue, Teva and the rest), by type of misconduct. US$ billions.</div>
+            <div class="chart-sub" id="yearSub">Government penalties per year across every company tracked (including Purdue, Teva and the rest), by type of misconduct. US$ billions, as paid.</div>
           </div>
         </div>
         <div class="legend" id="yearLegend"></div>
@@ -266,7 +324,7 @@
         </div>
         <div class="chart-card reveal" style="margin-top:0">
           <div class="chart-title">The 15 biggest single cases</div>
-          <div class="chart-sub">Every kind of payment, including private lawsuits. US$ billions.</div>
+          <div class="chart-sub" id="topSub">Every kind of payment, including private lawsuits. US$ billions, as paid.</div>
           <div class="chart" id="topChart"></div>
         </div>
       </div>
@@ -336,7 +394,7 @@
     <div class="wrap">
       <div class="section-head reveal">
         <h2><span class="num">06</span>Every case</h2>
-        <p>The complete database behind every chart on this page. Filter, search and sort it, and follow the source links. This table is also the accessible version of all the charts.</p>
+        <p>The complete database behind every chart on this page. Filter, search and sort it, and follow the source links. This table is also the accessible version of all the charts. You can also download the whole database as <a href="https://github.com/RickUsingGitHub/BigPharma/blob/main/data/cases.csv" target="_blank" rel="noopener">a spreadsheet (CSV)</a> or <a href="https://github.com/RickUsingGitHub/BigPharma/blob/main/data/cases.json" target="_blank" rel="noopener">JSON</a>.</p>
       </div>
       <div class="filters">
         <label class="sr-only" for="fCo">Company</label>
@@ -377,8 +435,8 @@
       <div class="methods">
         <p><strong>What is counted.</strong> The headline totals include only money paid to governments (criminal fines, forfeitures and civil settlements or judgments) that is final. Private lawsuits (product liability, class actions, shareholder suits) are tracked separately and shown only where labelled. Tax disputes are never counted as penalties. Rulings that were overturned or are still under appeal are listed but excluded.</p>
         <p><strong>Settling is not admitting.</strong> Many civil settlements were made without any admission of liability, and the companies denied the allegations. Where a company entity pleaded guilty, was convicted, or accepted a deferred prosecution agreement, the case is marked. Descriptions follow the language of the official announcements and court findings.</p>
-        <p><strong>Money.</strong> Amounts are nominal US dollars as announced, not adjusted for inflation. Non-US fines are converted at approximately the exchange rate of the year of the decision. A case is attributed to today’s parent company if the parent later acquired the business (for example, Allergan’s cases are under AbbVie, and Abbott’s pre-2013 drug cases are also under AbbVie because AbbVie inherited that business). "Revenue" is the 2025 figure for the whole group, converted to US$ where needed.</p>
-        <p><strong>Not exhaustive.</strong> This is a curated set of about 120 of the most significant cases, not every penalty ever paid. Public Citizen counted 482 US government settlements with drug makers totalling $62.3 billion between 1991 and 2021. Smaller cases, most state-level settlements and most private litigation are not included, so the real totals are higher.</p>
+        <p><strong>Money.</strong> Amounts are shown in US dollars as announced. The "In 2025 dollars" switch restates each amount using the US consumer price index (CPI-U annual averages); 2026 amounts are left as they are. Non-US fines are converted at approximately the exchange rate of the year of the decision. A case is attributed to today’s parent company if the parent later acquired the business (for example, Allergan’s cases are under AbbVie, and Abbott’s pre-2013 drug cases are also under AbbVie because AbbVie inherited that business). "Revenue" is the 2025 figure for the whole group, converted to US$ where needed.</p>
+        <p><strong>Not exhaustive.</strong> This is a curated set of about 130 of the most significant cases, not every penalty ever paid. Public Citizen counted 482 US government settlements with drug makers totalling $62.3 billion between 1991 and 2021. Smaller cases, most state-level settlements and most private litigation are not included, so the real totals are higher.</p>
         <p><strong>Corrections welcome.</strong> If you spot an error, please open an issue on the GitHub repository with a source.</p>
       </div>
       <h3 style="margin-top:24px">Key sources</h3>
