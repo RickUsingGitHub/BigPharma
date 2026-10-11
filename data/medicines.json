@@ -1,11 +1,14 @@
 {
-  "source_of_sample": {
+  "pilot_sample_source": {
     "label": "Australian Prescriber: Top 10 drugs 2024–25",
     "url": "https://australianprescriber.tg.org.au/articles/top-10-drugs-2024%E2%80%9325.html"
   },
+  "note": "The 15 pilot medicines were chosen by rule (PBS top 10 by prescriptions and top 5 by cost, 2024-25). The others were chosen because they have a documented record, so they are not a random sample.",
   "medicines": [
     {
+      "list": "PBS top 15 (pilot)",
       "medicine": "Rosuvastatin",
+      "area": "Heart, blood & cholesterol",
       "brands": "Crestor",
       "used_for": "Cholesterol (statin)",
       "maker": "AstraZeneca",
@@ -113,7 +116,9 @@
       ]
     },
     {
+      "list": "PBS top 15 (pilot)",
       "medicine": "Atorvastatin",
+      "area": "Heart, blood & cholesterol",
       "brands": "Lipitor",
       "used_for": "Cholesterol (statin)",
       "maker": "Pfizer",
@@ -211,7 +216,9 @@
       ]
     },
     {
+      "list": "PBS top 15 (pilot)",
       "medicine": "Pantoprazole",
+      "area": "Stomach & gut",
       "brands": "Somac",
       "used_for": "Reflux and ulcers (proton pump inhibitor)",
       "maker": "Byk Gulden (now Takeda); sold in the US by Wyeth, now Pfizer",
@@ -265,7 +272,9 @@
       ]
     },
     {
+      "list": "PBS top 15 (pilot)",
       "medicine": "Esomeprazole",
+      "area": "Stomach & gut",
       "brands": "Nexium",
       "used_for": "Reflux and ulcers (proton pump inhibitor)",
       "maker": "AstraZeneca",
@@ -377,7 +386,9 @@
       ]
     },
     {
+      "list": "PBS top 15 (pilot)",
       "medicine": "Escitalopram",
+      "area": "Mental health & brain",
       "brands": "Lexapro",
       "used_for": "Depression and anxiety (SSRI)",
       "maker": "Lundbeck; sold in the US by Forest Laboratories, now AbbVie",
@@ -457,7 +468,9 @@
       ]
     },
     {
+      "list": "PBS top 15 (pilot)",
       "medicine": "Perindopril",
+      "area": "Heart, blood & cholesterol",
       "brands": "Coversyl",
       "used_for": "Blood pressure and heart failure (ACE inhibitor)",
       "maker": "Servier",
@@ -549,7 +562,9 @@
       ]
     },
     {
+      "list": "PBS top 15 (pilot)",
       "medicine": "Sertraline",
+      "area": "Mental health & brain",
       "brands": "Zoloft",
       "used_for": "Depression and anxiety (SSRI)",
       "maker": "Pfizer (the brand is now Viatris)",
@@ -607,7 +622,9 @@
       ]
     },
     {
+      "list": "PBS top 15 (pilot)",
       "medicine": "Metformin",
+      "area": "Diabetes, weight & hormones",
       "brands": "Diabex, Diaformin",
       "used_for": "Type 2 diabetes",
       "maker": "Many generic makers",
@@ -661,7 +678,9 @@
       ]
     },
     {
+      "list": "PBS top 15 (pilot)",
       "medicine": "Cefalexin",
+      "area": "Infections",
       "brands": "Keflex",
       "used_for": "Bacterial infections (antibiotic)",
       "maker": "Eli Lilly originally; now many generic makers",
@@ -678,7 +697,9 @@
       "events": []
     },
     {
+      "list": "PBS top 15 (pilot)",
       "medicine": "Amoxicillin",
+      "area": "Infections",
       "brands": "Amoxil",
       "used_for": "Bacterial infections (antibiotic)",
       "maker": "Beecham (now GSK) originally; now many generic makers",
@@ -695,7 +716,9 @@
       "events": []
     },
     {
+      "list": "PBS top 15 (pilot)",
       "medicine": "Pembrolizumab",
+      "area": "Cancer, blood & eyes",
       "brands": "Keytruda",
       "used_for": "Cancer immunotherapy",
       "maker": "Merck & Co. (MSD)",
@@ -785,7 +808,9 @@
       ]
     },
     {
+      "list": "PBS top 15 (pilot)",
       "medicine": "Elexacaftor, tezacaftor and ivacaftor",
+      "area": "Breathing",
       "brands": "Trikafta",
       "used_for": "Cystic fibrosis",
       "maker": "Vertex",
@@ -843,7 +868,9 @@
       ]
     },
     {
+      "list": "PBS top 15 (pilot)",
       "medicine": "Ustekinumab",
+      "area": "Immune system",
       "brands": "Stelara",
       "used_for": "Psoriasis, Crohn’s disease and colitis",
       "maker": "Janssen (Johnson & Johnson)",
@@ -883,7 +910,9 @@
       ]
     },
     {
+      "list": "PBS top 15 (pilot)",
       "medicine": "Dupilumab",
+      "area": "Immune system",
       "brands": "Dupixent",
       "used_for": "Eczema and asthma",
       "maker": "Sanofi and Regeneron",
@@ -949,7 +978,9 @@
       ]
     },
     {
+      "list": "PBS top 15 (pilot)",
       "medicine": "Aflibercept",
+      "area": "Cancer, blood & eyes",
       "brands": "Eylea",
       "used_for": "Macular degeneration (eye injections)",
       "maker": "Regeneron (US); Bayer elsewhere, including Australia",
@@ -1009,6 +1040,4708 @@
             {
               "label": "Court order via Endpoints (2025)",
               "url": "https://endpoints.news/wp-content/uploads/2025/04/regeneronfalseclaimsorder.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Oxycodone",
+      "area": "Pain",
+      "brands": "OxyContin, Endone, Targin",
+      "used_for": "Strong pain relief (opioid)",
+      "maker": "Purdue Pharma; Mundipharma outside the US",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "The drug at the centre of the US opioid crisis. Two guilty pleas and a multibillion-dollar bankruptcy deal, now settled.",
+      "medicine_itself": "An effective painkiller, but addictive, which is exactly the risk Purdue played down.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2007,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$634.5m",
+          "about_parent_drug": "",
+          "title": "Lied about addiction risk",
+          "description": "Purdue’s parent company and three executives pleaded guilty to misbranding OxyContin as less addictive and less prone to abuse than other opioids.",
+          "sources": [
+            {
+              "label": "JURIST (2007)",
+              "url": "https://www.jurist.org/news/2007/05/oxycontin-maker-pleads-guilty-to/"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Guilty plea",
+          "by": "US government",
+          "amount": "$8.3bn agreed",
+          "about_parent_drug": "",
+          "title": "Second guilty plea: three felonies",
+          "description": "Purdue pleaded guilty to three federal felonies, including conspiring to defraud the US and paying kickbacks. Most of the $8.3 billion was an unsecured claim in bankruptcy and was never paid in full.",
+          "sources": [
+            {
+              "label": "Al Jazeera (2020)",
+              "url": "https://www.aljazeera.com/economy/2020/10/21/purdue-pharma-to-pay-8-3bn-to-settle-doj-opiod-crisis-probes"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Paid",
+          "by": "Non-US government",
+          "amount": "A$302,400",
+          "about_parent_drug": "",
+          "title": "Australia: misleading Targin ads",
+          "description": "After an addiction specialist complained, the TGA found Mundipharma’s Targin advertising to GPs \"misleading, imbalanced and otherwise inaccurate\" and issued 24 infringement notices.",
+          "sources": [
+            {
+              "label": "Quartz (2020)",
+              "url": "https://qz.com/1774941/mundipharma-fined-for-misleading-opioid-marketing-in-australia"
+            },
+            {
+              "label": "newsGP (2019)",
+              "url": "https://www1.racgp.org.au/newsgp/racgp/opioid-marketing-scrutinised-by-tga-and-questioned"
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$7.4bn",
+          "about_parent_drug": "",
+          "title": "Bankruptcy plan approved",
+          "description": "A US court approved Purdue’s bankruptcy plan, under which the Sackler family pays up to $6.5 billion over 15 years.",
+          "sources": [
+            {
+              "label": "NY Attorney General (2025)",
+              "url": "https://ag.ny.gov/press-release/2025/attorney-general-james-secures-approval-purdue-bankruptcy-plan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Hydrocodone with paracetamol",
+      "area": "Pain",
+      "brands": "Norco, Vicodin",
+      "used_for": "Pain relief (opioid; US)",
+      "maker": "Many makers; Allergan (now AbbVie) sold Norco",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "For years the most-prescribed medicine in the US. Its makers paid into the national opioid settlements.",
+      "medicine_itself": "Works for short-term pain, but carries the addiction risk of every opioid.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2022,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$2.37bn",
+          "about_parent_drug": "",
+          "title": "Allergan opioid settlement",
+          "description": "Allergan, former maker of Norco and Kadian, agreed to pay up to $2.37 billion to US states and localities over its opioid marketing.",
+          "sources": [
+            {
+              "label": "California AG (2022)",
+              "url": "https://oag.ca.gov/node/555738"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Fentanyl",
+      "area": "Pain",
+      "brands": "Durogesic, Actiq, Subsys",
+      "used_for": "Strong pain relief (opioid patches, lozenges, sprays)",
+      "maker": "Janssen (J&J), Cephalon (now Teva), Insys",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "A bribery scheme that put a company founder in prison, an off-label guilty plea, and J&J’s share of the opioid settlements.",
+      "medicine_itself": "Essential for some cancer pain, but extremely potent and addictive.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2008,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$425m",
+          "about_parent_drug": "",
+          "title": "Fentanyl \"lollipop\" promoted off-label",
+          "description": "Cephalon pleaded guilty to promoting Actiq, a fentanyl lozenge meant only for cancer pain, and two other drugs for unapproved uses.",
+          "sources": [
+            {
+              "label": "US DOJ (2008)",
+              "url": "https://www.justice.gov/opa/pr/2008/September/08-civ-860.html"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$225m",
+          "about_parent_drug": "",
+          "title": "Bribes for fentanyl spray",
+          "description": "Insys paid doctors through sham \"speaker programmes\" to prescribe Subsys. Founder John Kapoor was convicted of racketeering conspiracy and jailed.",
+          "sources": [
+            {
+              "label": "WBUR (2020)",
+              "url": "https://www.wbur.org/news/2020/01/23/insys-john-kapoor-bribery-trial-sentencing"
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$5bn",
+          "about_parent_drug": "",
+          "title": "J&J’s national opioid settlement",
+          "description": "J&J, maker of Durogesic patches, agreed to pay up to $5 billion over its opioid business, admitting no wrongdoing.",
+          "sources": [
+            {
+              "label": "J&J statement (2021)",
+              "url": "https://www.jnj.com/johnson-johnson-statement-on-nationwide-opioid-settlement-agreement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Buprenorphine with naloxone",
+      "area": "Pain",
+      "brands": "Suboxone",
+      "used_for": "Opioid addiction treatment",
+      "maker": "Reckitt Benckiser, then Indivior",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "More than $2 billion over false safety claims for the film version. Tooth-decay lawsuits are heading to trial.",
+      "medicine_itself": "A valuable addiction treatment. The lawsuits claim the dissolving film damages teeth; that is not proven.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2019,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$1.4bn",
+          "about_parent_drug": "",
+          "title": "Reckitt’s record opioid settlement",
+          "description": "Reckitt Benckiser paid $1.4 billion, then the largest opioid-related settlement, over the marketing of Suboxone.",
+          "sources": [
+            {
+              "label": "US DOJ (2020)",
+              "url": "https://www.justice.gov/archives/opa/pr/indivior-solutions-pleads-guilty-felony-charge-and-indivior-entities-agree-pay-600-million"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$600m",
+          "about_parent_drug": "",
+          "title": "False child-safety data",
+          "description": "Indivior pleaded guilty to a felony. It admitted sending Massachusetts Medicaid false data claiming its Suboxone film had the lowest rate of accidental child exposure.",
+          "sources": [
+            {
+              "label": "US DOJ (2020)",
+              "url": "https://www.justice.gov/archives/opa/pr/indivior-solutions-pleads-guilty-felony-charge-and-indivior-entities-agree-pay-600-million"
+            },
+            {
+              "label": "Fierce Pharma (2020)",
+              "url": "https://www.fiercepharma.com/pharma/indivior-inks-600m-settlement-to-escape-criminal-civil-claims-over-its-suboxone-film"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "In court now",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Tooth-decay lawsuits",
+          "description": "Thousands of US lawsuits claiming the film dissolved under the tongue caused severe tooth decay were grouped in an Ohio federal court. The first trial is reportedly set for 2028.",
+          "sources": [
+            {
+              "label": "Open Class Actions (2026)",
+              "url": "https://openclassactions.com/news/suboxone-tooth-decay-lawsuit-mdl-update-2026.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Celecoxib",
+      "area": "Pain",
+      "brands": "Celebrex",
+      "used_for": "Arthritis pain (anti-inflammatory)",
+      "maker": "Pharmacia, now Pfizer",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Its landmark safety trial was published using only the flattering first six months of data.",
+      "medicine_itself": "Not in question. The issue was how its advantages were reported.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2002,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Criticised",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "The truncated CLASS trial",
+          "description": "The 2000 JAMA paper claimed fewer stomach ulcers than older painkillers, using six months of data from two longer trials. Critics in the BMJ showed the full data, which the FDA had, did not support the advantage. The authors defended their choice.",
+          "sources": [
+            {
+              "label": "Jüni et al., BMJ (2002)",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1123260"
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Paid",
+          "by": "Private lawsuit",
+          "amount": "$486m",
+          "about_parent_drug": "",
+          "title": "Investors: heart risks concealed",
+          "description": "Pfizer settled a class action by investors who said it concealed the cardiovascular risks of its COX-2 painkillers, Celebrex and Bextra.",
+          "sources": [
+            {
+              "label": "Fierce Pharma (2016)",
+              "url": "https://www.fiercepharma.com/pharma/pfizer-s-bextra-settlement-tagged-at-486m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Pregabalin",
+      "area": "Pain",
+      "brands": "Lyrica",
+      "used_for": "Nerve pain and epilepsy",
+      "maker": "Pfizer (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Part of Pfizer’s record $2.3 billion settlement over illegal marketing.",
+      "medicine_itself": "Useful for nerve pain, though misuse and dependence are recognised risks.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2009,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "part of $2.3bn",
+          "about_parent_drug": "",
+          "title": "Off-label promotion",
+          "description": "Pfizer’s record settlement included civil claims that it promoted Lyrica, along with Geodon and Zyvox, for unapproved uses.",
+          "sources": [
+            {
+              "label": "ABC News (2009)",
+              "url": "https://abcnews.com/Business/pfizer-fined-23-billion-illegal-marketing-off-label/story?id=8477617"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Gabapentin",
+      "area": "Pain",
+      "brands": "Neurontin",
+      "used_for": "Nerve pain and epilepsy",
+      "maker": "Parke-Davis/Warner-Lambert, now Pfizer (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "The classic off-label marketing case, plus trials whose outcomes were switched to look better.",
+      "medicine_itself": "Not in question for its approved uses. The evidence for some off-label uses was distorted.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2004,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$430m",
+          "about_parent_drug": "",
+          "title": "Off-label campaign",
+          "description": "Warner-Lambert pleaded guilty. Neurontin had been promoted for bipolar disorder, pain and migraine, partly through paid \"consultant\" meetings.",
+          "sources": [
+            {
+              "label": "US DOJ (2004)",
+              "url": "https://www.justice.gov/archive/opa/pr/2004/May/04_civ_322.htm"
+            }
+          ]
+        },
+        {
+          "year": 2009,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Documented",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Switched trial outcomes",
+          "description": "Comparing internal documents with publications, researchers found that 8 of 12 published trials reported a different primary outcome from the protocol, and unfavourable results were reported with a changed outcome or not in full. Pfizer disputed the findings.",
+          "sources": [
+            {
+              "label": "Johns Hopkins (2009)",
+              "url": "https://publichealth.jhu.edu/2009/dickersin-gabapentin"
+            },
+            {
+              "label": "PharmaTimes (2009)",
+              "url": "https://pharmatimes.com/news/pfizer_critical_of_selective_outcome_reporting_study_984282"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "Private lawsuit",
+          "amount": "$142m",
+          "about_parent_drug": "",
+          "title": "Racketeering verdict",
+          "description": "A federal jury found Pfizer ran a racketeering enterprise to market Neurontin. Damages for the insurer Kaiser were trebled to $142 million.",
+          "sources": [
+            {
+              "label": "Community Catalyst (2010)",
+              "url": "https://communitycatalyst.org/posts/jury-finds-pfizer-committed-fraud-and-racketeering-through-off-label-neurontin-promotions-awards-142-million-pal/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Paracetamol",
+      "area": "Pain",
+      "brands": "Panadol, Tylenol",
+      "used_for": "Pain and fever",
+      "maker": "Many makers; Tylenol by McNeil (J&J), now Kenvue",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "Contaminated children’s medicine led to a guilty plea. US autism lawsuits were revived in July 2026, although the evidence for a link is weak.",
+      "medicine_itself": "Disputed. In 2025 the US FDA began adding a caution about use in pregnancy while saying a causal link had not been established; large sibling studies found no link, and medical societies still regard it as safe when used appropriately.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2015,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Factory quality",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$25m",
+          "about_parent_drug": "",
+          "title": "Metal particles in children’s Tylenol",
+          "description": "McNeil pleaded guilty after shipping infants’ and children’s liquid medicines contaminated with metal particles. Prosecutors said it knew of the problem for about a year.",
+          "sources": [
+            {
+              "label": "PharmTech (2015)",
+              "url": "https://www.pharmtech.com/view/mcneil-hit-25-million-fine-adulterated-medications"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "In court now",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Autism lawsuits revived",
+          "description": "A judge threw out hundreds of US cases claiming paracetamol in pregnancy caused autism or ADHD after excluding the plaintiffs’ experts. In July 2026 an appeals court revived them, without finding that paracetamol causes autism. The defendants sought a rehearing.",
+          "sources": [
+            {
+              "label": "Kenvue statement (2026)",
+              "url": "https://www.kenvue.com/media/second-circuit-court-of-appeals-ruling"
+            },
+            {
+              "label": "Open Class Actions (2026)",
+              "url": "https://openclassactions.com/news/tylenol-autism-lawsuits-revived-rehearing-sought.php"
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Disputed signal",
+          "by": "Regulator",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "FDA caution in pregnancy",
+          "description": "The FDA said it would update the label about a possible association with autism, while acknowledging that a causal relationship had not been established. Sibling studies that control for family factors found no increased risk.",
+          "sources": [
+            {
+              "label": "Healio (2026)",
+              "url": "https://www.healio.com/news/primary-care/20260312/acetaminophen-use-during-pregnancy-decreased-after-white-houses-autism-briefing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Paroxetine",
+      "area": "Mental health & brain",
+      "brands": "Aropax, Paxil",
+      "used_for": "Depression and anxiety (SSRI)",
+      "maker": "GlaxoSmithKline (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Study 329: a trial that showed no benefit and more suicidal behaviour in teenagers was published as a success.",
+      "medicine_itself": "Not in question for adults. It is not recommended for depression in under-18s.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2004,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$2.5m",
+          "about_parent_drug": "",
+          "title": "New York sues over hidden child trials",
+          "description": "New York’s Attorney General accused GSK of suppressing studies showing Paxil did not work in children and might raise suicidality. GSK settled and agreed to post its trial results online.",
+          "sources": [
+            {
+              "label": "BMJ (2004)",
+              "url": "https://www.bmj.com/content/329/7466/590.5.full"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "part of $3bn",
+          "about_parent_drug": "",
+          "title": "Guilty plea: promoting Paxil to under-18s",
+          "description": "GSK pleaded guilty to misbranding Paxil, including promoting it for under-18s, as part of a $3 billion settlement.",
+          "sources": [
+            {
+              "label": "US DOJ (2012)",
+              "url": "https://www.justice.gov/opa/pr/2012/July/12-civ-842.html"
+            }
+          ]
+        },
+        {
+          "year": 2015,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Reanalysed",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Study 329 reanalysed",
+          "description": "An independent reanalysis of the 2001 trial found paroxetine no better than placebo for adolescent depression, with clinically significant increases in harms including suicidal thoughts and behaviour. The original paper had claimed the opposite.",
+          "sources": [
+            {
+              "label": "Le Noury et al., BMJ (2015)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/26376805/"
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Paid",
+          "by": "Non-US government",
+          "amount": "£37.6m",
+          "about_parent_drug": "",
+          "title": "UK: paying generics to stay out",
+          "description": "The UK regulator found GSK paid would-be generic rivals more than £50 million in 2001–04 to stay out of the market. When generics arrived, prices fell 70%.",
+          "sources": [
+            {
+              "label": "Pharmaceutical Journal (2016)",
+              "url": "https://pharmaceutical-journal.com/article/news/gsk-fined-37-6m-for-pay-for-delay-paroxetine-deals"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Quetiapine",
+      "area": "Mental health & brain",
+      "brands": "Seroquel",
+      "used_for": "Schizophrenia and bipolar disorder (antipsychotic)",
+      "maker": "AstraZeneca (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Sold for sleep, anger and dementia; internal emails talked of \"cherry-picking\" data and a buried weight-gain study.",
+      "medicine_itself": "Effective for psychosis, but weight gain and diabetes risks are real, and off-label use for sleep is discouraged.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2009,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Documented",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "A buried weight-gain study",
+          "description": "Court-released emails showed an AstraZeneca manager complaining about \"cherry-picking\" data and listing buried trials, including Study 15, in which patients gained weight. AstraZeneca said the FDA had reviewed the safety data.",
+          "sources": [
+            {
+              "label": "Fierce Pharma",
+              "url": "https://www.fiercepharma.com/pharma/post-resurrects-buried-seroquel-study"
+            },
+            {
+              "label": "The Pharma Letter",
+              "url": "https://www.thepharmaletter.com/az-e-mail-reveals-buried-seroquel-data"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$520m",
+          "about_parent_drug": "",
+          "title": "Off-label for sleep, anger and dementia",
+          "description": "Then the largest civil-only off-label settlement, covering promotion for aggression, Alzheimer’s, anger management, anxiety, ADHD, dementia and sleeplessness.",
+          "sources": [
+            {
+              "label": "US Attorney ED Pa (2010)",
+              "url": "https://www.justice.gov/archive/usao/pae/News/2010/apr/astrazeneca_release2.pdf"
+            }
+          ]
+        },
+        {
+          "year": 2018,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$90m",
+          "about_parent_drug": "",
+          "title": "Texas Medicaid settlement",
+          "description": "$90 million of a $110 million Texas settlement was over off-label Seroquel promotion. AstraZeneca denied wrongdoing.",
+          "sources": [
+            {
+              "label": "CNBC (2018)",
+              "url": "https://www.cnbc.com/2018/08/08/astrazeneca-settles-texas-drug-lawsuits-for-110-million.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Olanzapine",
+      "area": "Mental health & brain",
+      "brands": "Zyprexa",
+      "used_for": "Schizophrenia and bipolar disorder (antipsychotic)",
+      "maker": "Eli Lilly (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "A guilty plea for marketing to dementia patients, and lawsuits saying Lilly played down diabetes risks.",
+      "medicine_itself": "Effective, but weight gain and diabetes are well-known risks.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2007,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Paid",
+          "by": "Private lawsuit",
+          "amount": "$1.2bn",
+          "about_parent_drug": "",
+          "title": "Weight-gain and diabetes lawsuits",
+          "description": "About 32,000 claims said Lilly played down Zyprexa’s links to obesity and diabetes, after internal documents were leaked to the New York Times.",
+          "sources": [
+            {
+              "label": "Psychiatric News (2007)",
+              "url": "https://psychnews.psychiatryonline.org/doi/10.1176/pn.42.3.0001a"
+            }
+          ]
+        },
+        {
+          "year": 2009,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$1.415bn",
+          "about_parent_drug": "",
+          "title": "Guilty plea: off-label for dementia",
+          "description": "Lilly pleaded guilty to promoting Zyprexa for elderly dementia and other unapproved uses.",
+          "sources": [
+            {
+              "label": "US DOJ (2009)",
+              "url": "https://www.justice.gov/archive/opa/pr/2009/January/09-civ-038.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Risperidone",
+      "area": "Mental health & brain",
+      "brands": "Risperdal",
+      "used_for": "Schizophrenia, bipolar disorder and behaviour (antipsychotic)",
+      "maker": "Janssen (J&J) (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Marketed for children and elderly dementia patients with kickbacks; thousands of breast-growth lawsuits from boys.",
+      "medicine_itself": "Useful, but hormonal side effects, including breast growth in boys, are a recognised risk.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2013,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$2.2bn",
+          "about_parent_drug": "",
+          "title": "Guilty plea and kickbacks",
+          "description": "Janssen pleaded guilty to misbranding Risperdal, which had been promoted for elderly dementia patients and children, and paid kickbacks to doctors and a nursing-home pharmacy.",
+          "sources": [
+            {
+              "label": "Mintz (2013)",
+              "url": "https://www.mintz.com/insights-center/viewpoints/2013-11-06-jj-will-pay-22-billion-and-enter-5-year-cia-settle-label-and"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Settled",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Breast-growth lawsuits",
+          "description": "About 9,000 lawsuits said boys developed breasts on Risperdal. A Philadelphia jury awarded $8 billion in punitive damages in one case, cut by a judge to $6.8 million; J&J then settled substantially all the cases, setting aside $800 million.",
+          "sources": [
+            {
+              "label": "Business Insurance",
+              "url": "https://www.businessinsurance.com/judge-slashes-8-billion-risperdal-award-against-jj-to-68-million/"
+            },
+            {
+              "label": "Business Insurance",
+              "url": "https://www.businessinsurance.com/johnson-johnson-settles-most-risperdal-lawsuits/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Aripiprazole",
+      "area": "Mental health & brain",
+      "brands": "Abilify",
+      "used_for": "Schizophrenia, bipolar disorder and depression (antipsychotic)",
+      "maker": "Otsuka and Bristol Myers Squibb (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Promoted for children and dementia; lawsuits over compulsive gambling were settled.",
+      "medicine_itself": "Effective. Compulsive behaviours such as gambling are now a labelled risk.",
+      "watch": "Certified class actions in Quebec and Ontario were still pending in 2023.",
+      "events": [
+        {
+          "year": 2007,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$515m",
+          "about_parent_drug": "",
+          "title": "Off-label promotion and kickbacks",
+          "description": "BMS settled claims including promotion of Abilify for children and dementia-related psychosis, consulting fees and resort trips for doctors, and inflated wholesale prices.",
+          "sources": [
+            {
+              "label": "KKC (2007)",
+              "url": "https://kkc.com/news/bristol-myers-squibb-to-pay-515-million-for-doctor-kickback-scheme"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Settled",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Compulsive gambling lawsuits",
+          "description": "BMS and Otsuka reached a confidential master settlement of US claims that Abilify caused compulsive gambling and other behaviours, disclaiming liability.",
+          "sources": [
+            {
+              "label": "BMS quarterly report (2020)",
+              "url": "https://www.sec.gov/Archives/edgar/data/14272/000001427220000168/bmy-20200331x10q.htm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Citalopram",
+      "area": "Mental health & brain",
+      "brands": "Cipramil, Celexa",
+      "used_for": "Depression (SSRI)",
+      "maker": "Lundbeck; sold in the US by Forest (now AbbVie)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Promoted for children with kickbacks, a ghostwritten paediatric trial, and an EU fine for paying generics to stay away.",
+      "medicine_itself": "Not in question for adults.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2010,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$313m",
+          "about_parent_drug": "",
+          "title": "Guilty plea: promoting Celexa for children",
+          "description": "Forest pleaded guilty, including to promoting Celexa for children, and settled claims it paid kickbacks to boost Celexa and Lexapro.",
+          "sources": [
+            {
+              "label": "US DOJ (2010)",
+              "url": "https://www.justice.gov/opa/pr/2010/September/10-civ-1028.html"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "conduct_from": 2002,
+          "conduct_to": 2002,
+          "issue": "Blocking cheaper copies",
+          "status": "Paid",
+          "by": "Non-US government",
+          "amount": "€94m",
+          "about_parent_drug": "",
+          "title": "EU fine: paying generics to stay out",
+          "description": "The European Commission fined Lundbeck for paying generic makers in 2002 to stay out of the citalopram market. The EU’s top court upheld it in 2021.",
+          "sources": [
+            {
+              "label": "CMS (2013)",
+              "url": "https://cms.law/en/bel/legal-updates/european-commission-fines-pharmaceutical-companies-in-first-pay-for-delay-case"
+            },
+            {
+              "label": "Cuatrecasas (2021)",
+              "url": "https://www.cuatrecasas.com/en/latam/article/pay-for-delay-the-cjeu-confirms-e146-million-in-fines-against-four-pharmaceutical-companies-for-delaying-the-market-entry-of-a-g"
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Criticised",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "A ghostwritten child trial",
+          "description": "An analysis of court documents called the published report of the paediatric trial MD-18 ghostwritten and said it mischaracterised the data.",
+          "sources": [
+            {
+              "label": "Int. J. Risk & Safety in Medicine (2016)",
+              "url": "https://journals.sagepub.com/doi/10.3233/JRS-160671"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Venlafaxine",
+      "area": "Mental health & brain",
+      "brands": "Efexor-XR, Effexor",
+      "used_for": "Depression and anxiety (SNRI)",
+      "maker": "Wyeth, now Pfizer (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "In Australia, Wyeth kept generics out with injunctions on a patent that was later found invalid, and had to pay for it.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2018,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Damages upheld",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Australia: injunctions on an invalid patent",
+          "description": "Wyeth won court orders in 2009 blocking three generic suppliers; the patent was later overturned. The generic companies sued on Wyeth’s undertaking to pay for any harm, and the Federal Court upheld their claims in 2018. The Commonwealth, which had overpaid through the PBS, settled its own claim.",
+          "sources": [
+            {
+              "label": "Clayton Utz (2018)",
+              "url": "https://www.claytonutz.com/insights/2018/december/commonwealth-claims-on-undertakings-continue-to-be-a-risk-for-pharmaceutical-patent-owners"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Bupropion",
+      "area": "Mental health & brain",
+      "brands": "Zyban, Wellbutrin",
+      "used_for": "Quitting smoking; depression",
+      "maker": "GlaxoSmithKline (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "A guilty plea for off-label promotion, and a generic version the FDA found did not work like the original.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2012,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "part of $3bn",
+          "about_parent_drug": "",
+          "title": "Guilty plea: off-label Wellbutrin",
+          "description": "GSK pleaded guilty to promoting Wellbutrin for unapproved uses such as weight loss, as part of its $3 billion settlement.",
+          "sources": [
+            {
+              "label": "US DOJ (2012)",
+              "url": "https://www.justice.gov/opa/pr/2012/July/12-civ-842.html"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Factory quality",
+          "status": "Withdrawn",
+          "by": "Regulator",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "A generic that was not equivalent",
+          "description": "After patients reported it working less well, the FDA found Teva’s Budeprion XL 300 mg did not release the drug like the brand. It was pulled; the 300 mg dose had been approved on studies of the 150 mg dose.",
+          "sources": [
+            {
+              "label": "Chemistry World (2012)",
+              "url": "https://chemistryworld.com/news/teva-pulls-generic-antidepressant/5507.article"
+            },
+            {
+              "label": "RAPS",
+              "url": "https://www.raps.org/resource/teva-withdraws-antidepressant-after-bioequivalence.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Lamotrigine",
+      "area": "Mental health & brain",
+      "brands": "Lamictal",
+      "used_for": "Epilepsy and bipolar disorder",
+      "maker": "GlaxoSmithKline (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Off-label promotion was part of GSK’s $3 billion settlement, and a deal with Teva became a test case for \"pay-for-delay\" without cash.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2012,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "part of $3bn",
+          "about_parent_drug": "",
+          "title": "Off-label promotion and kickbacks",
+          "description": "GSK’s civil settlement resolved claims that it promoted Lamictal, Advair and Zofran for unapproved uses and paid doctors to prescribe them.",
+          "sources": [
+            {
+              "label": "US DOJ (2012)",
+              "url": "https://www.justice.gov/opa/pr/2012/July/12-civ-842.html"
+            }
+          ]
+        },
+        {
+          "year": 2015,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Allowed to proceed",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Pay-for-delay without cash",
+          "description": "Buyers alleged GSK paid Teva to delay generic Lamictal by promising not to launch its own cheaper version. An appeals court ruled such non-cash deals can break antitrust law, and a class was certified in 2018. We could not confirm the final outcome.",
+          "sources": [
+            {
+              "label": "Life Sciences IP Review",
+              "url": "https://www.lifesciencesipreview.com/news/us-court-says-pay-for-delay-settlements-do-not-need-to-involve-cash-1044"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Sodium valproate",
+      "area": "Mental health & brain",
+      "brands": "Epilim, Depakote, Depakine",
+      "used_for": "Epilepsy and bipolar disorder",
+      "maker": "Sanofi; Abbott (now AbbVie) in the US",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "Thousands of French children were harmed in the womb; a Paris court found Sanofi at fault in a class action, and a criminal investigation is open.",
+      "medicine_itself": "Effective for epilepsy, but it causes birth defects and developmental problems if taken in pregnancy. Women who could become pregnant need specialist advice; never stop it suddenly.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2012,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$1.5bn",
+          "about_parent_drug": "",
+          "title": "Depakote marketed for dementia",
+          "description": "Abbott pleaded guilty. It had a sales force marketing Depakote to nursing homes to control agitated dementia patients, an unapproved use.",
+          "sources": [
+            {
+              "label": "US Attorney WD Va (2012)",
+              "url": "https://www.justice.gov/archive/usao/vaw/news/abbott_07may2012.html"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Under investigation",
+          "by": "Non-US government",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "France: manslaughter investigation",
+          "description": "Sanofi was formally placed under investigation over claims it did not adequately warn about the risk to unborn children. Sanofi contests it.",
+          "sources": [
+            {
+              "label": "Sanofi annual report (2019)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1121404/000119312519068926/d614161d20f.htm"
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Found at fault",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "France: class action",
+          "description": "In the first ruling of its kind, a Paris court found Sanofi failed in its duties of care and information. Working out compensation was expected to take years.",
+          "sources": [
+            {
+              "label": "BCLP (2022)",
+              "url": "https://www.bclplaw.com/en-GB/insights/historic-judgment-rendered-by-the-paris-court-in-a-french-class-action.html"
+            },
+            {
+              "label": "Fierce Pharma (2022)",
+              "url": "https://www.fiercepharma.com/pharma/sanofi-ordered-french-court-compensate-epilepsy-drug-side-effects-report"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Topiramate",
+      "area": "Mental health & brain",
+      "brands": "Topamax",
+      "used_for": "Epilepsy and migraine",
+      "maker": "Janssen (J&J) (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Paid outside doctors to ride along with sales reps and push it for psychiatric uses.",
+      "medicine_itself": "Not in question for its approved uses.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2010,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$81m",
+          "about_parent_drug": "",
+          "title": "\"Doctor for a day\"",
+          "description": "Outside doctors were paid to accompany sales reps and promote Topamax for unapproved psychiatric uses.",
+          "sources": [
+            {
+              "label": "FBI Boston (2010)",
+              "url": "https://www.fbi.gov/boston/press-releases/2010/bs042910.htm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Methylphenidate",
+      "area": "Mental health & brain",
+      "brands": "Ritalin, Concerta",
+      "used_for": "ADHD",
+      "maker": "Novartis (Ritalin), Janssen (Concerta) and generic makers",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Two generic versions of Concerta were found not to work like the brand.",
+      "medicine_itself": "The medicine is not in question; two generic versions were.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2014,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Factory quality",
+          "status": "Downgraded",
+          "by": "Regulator",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Generics that released the drug too slowly",
+          "description": "After reports that they worked less well, the FDA found Mallinckrodt’s and Kudco’s generic Concerta released the drug more slowly late in the day, and stopped treating them as interchangeable with the brand.",
+          "sources": [
+            {
+              "label": "HealthDay (2014)",
+              "url": "https://www.healthday.com/health-news/child-health/two-generic-versions-of-adhd-drug-not-as-effective-fda-693742.html"
+            },
+            {
+              "label": "RAPS",
+              "url": "https://www.raps.org/resource/second-generic-version-of-adhd-drug-concerta-found.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Mixed amphetamine salts",
+      "area": "Mental health & brain",
+      "brands": "Adderall",
+      "used_for": "ADHD",
+      "maker": "Shire (now Takeda) and generic makers",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Shire overstated Adderall XR’s benefits compared with other ADHD drugs.",
+      "medicine_itself": "Effective, with known abuse potential.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2014,
+          "conduct_from": 2004,
+          "conduct_to": 2007,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "part of $56.5m",
+          "about_parent_drug": "",
+          "title": "Overstated benefits",
+          "description": "Prosecutors said Shire promoted Adderall XR for uses lacking clinical support and overstated its efficacy over other ADHD drugs. Shire did not admit wrongdoing.",
+          "sources": [
+            {
+              "label": "Fierce Healthcare (2014)",
+              "url": "https://www.fiercehealthcare.com/antifraud/shire-pharmaceuticals-settles-false-claims-charges-for-56-5m"
+            },
+            {
+              "label": "PolicyMed (2014)",
+              "url": "https://policymed.com/2014/09/shire-pharmaceutical-settles-for-565-million-to-resolve-false-claims-act-allegations.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Lisdexamfetamine",
+      "area": "Mental health & brain",
+      "brands": "Vyvanse",
+      "used_for": "ADHD and binge-eating disorder",
+      "maker": "Shire (now Takeda)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Sales staff made misleading claims that it was harder to abuse.",
+      "medicine_itself": "Effective, with known abuse potential.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2014,
+          "conduct_from": 2007,
+          "conduct_to": 2010,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "part of $56.5m",
+          "about_parent_drug": "",
+          "title": "Misleading claims about abuse",
+          "description": "Prosecutors said Shire’s sales staff made misleading statements about Vyvanse’s abuse potential, although no Shire study had concluded it could not be abused. The $56.5 million settlement also covered Adderall XR.",
+          "sources": [
+            {
+              "label": "Fierce Healthcare (2014)",
+              "url": "https://www.fiercehealthcare.com/antifraud/shire-pharmaceuticals-settles-false-claims-charges-for-56-5m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Memantine",
+      "area": "Mental health & brain",
+      "brands": "Ebixa, Namenda",
+      "used_for": "Alzheimer’s disease",
+      "maker": "Lundbeck; Forest/Actavis in the US (now AbbVie)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "The leading \"product hop\" case: a plan to withdraw the old tablet to force patients onto a newly patented version.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2015,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Blocked by court",
+          "by": "US government",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "A forced switch blocked",
+          "description": "Actavis planned to stop selling twice-daily Namenda as generics approached, pushing patients to a once-daily version with longer patents. On a New York lawsuit, a court ordered it to keep the old version on sale, and the appeals court agreed it likely broke antitrust law.",
+          "sources": [
+            {
+              "label": "Arnold & Porter (2015)",
+              "url": "https://arnoldporter.com/en/perspectives/publications/2015/06/20150601_antitrust_alert_second_circuit__11888"
+            },
+            {
+              "label": "AMA Journal of Ethics (2015)",
+              "url": "https://journalofethics.ama-assn.org/article/legal-test-pharmaceutical-company-practice-product-hopping/2015-08"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Pramipexole",
+      "area": "Mental health & brain",
+      "brands": "Sifrol, Mirapex",
+      "used_for": "Parkinson’s disease and restless legs",
+      "maker": "Boehringer Ingelheim (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "A jury found the makers liable after a patient developed a gambling addiction; many cases settled.",
+      "medicine_itself": "Effective. Compulsive gambling, shopping and other impulse problems are now a labelled risk.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2008,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Paid",
+          "by": "Private lawsuit",
+          "amount": "$8.2m",
+          "about_parent_drug": "",
+          "title": "Gambling verdict",
+          "description": "A Minnesota federal jury awarded $8.2 million, mostly punitive, against Boehringer Ingelheim and Pfizer to a patient who developed pathological gambling on Mirapex. Many other cases settled confidentially.",
+          "sources": [
+            {
+              "label": "HarrisMartin (2008)",
+              "url": "https://www.harrismartin.com/publications/4/drugs/articles/9640/federal-jury-awards-82-million-to-compulsive-gambler-in-mirapex-case/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Modafinil",
+      "area": "Mental health & brain",
+      "brands": "Modavigil, Provigil",
+      "used_for": "Narcolepsy and shift-work sleepiness",
+      "maker": "Cephalon (now Teva) (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "An off-label guilty plea, and record US and EU penalties for paying generic makers to stay away.",
+      "medicine_itself": "Not in question for its approved uses.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2008,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "part of $425m",
+          "about_parent_drug": "",
+          "title": "Off-label promotion",
+          "description": "Cephalon pleaded guilty to promoting Provigil and two other drugs for unapproved uses.",
+          "sources": [
+            {
+              "label": "US DOJ (2008)",
+              "url": "https://www.justice.gov/opa/pr/2008/September/08-civ-860.html"
+            }
+          ]
+        },
+        {
+          "year": 2015,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$1.2bn",
+          "about_parent_drug": "",
+          "title": "Record pay-for-delay settlement",
+          "description": "Cephalon paid four generic makers about $300 million to delay cheaper Provigil. Its $1.2 billion settlement with the FTC was the agency’s largest.",
+          "sources": [
+            {
+              "label": "FTC (2015)",
+              "url": "https://www.ftc.gov/news-events/news/press-releases/2015/05/ftc-settlement-cephalon-pay-delay-case-ensures-12-billion-ill-gotten-gains-relinquished-refunds-will"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Paid",
+          "by": "Non-US government",
+          "amount": "€60.5m",
+          "about_parent_drug": "",
+          "title": "EU pay-for-delay fine",
+          "description": "The European Commission fined Teva and Cephalon for a deal that delayed generic modafinil.",
+          "sources": [
+            {
+              "label": "Herbert Smith Freehills (2020)",
+              "url": "https://www.hsfkramer.com/notes/crt/2020-11/the-european-commission-fines-cephalon-and-teva-e60-5-million-in-its-fourth-pay-for-delay-decision"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Phenytoin",
+      "area": "Mental health & brain",
+      "brands": "Dilantin, Epanutin",
+      "used_for": "Epilepsy",
+      "maker": "Pfizer and Flynn Pharma",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "An old epilepsy drug whose NHS price rose up to 1,600% overnight after a \"de-branding\" deal.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2024,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Price & tax",
+          "status": "Paid",
+          "by": "Non-US government",
+          "amount": "£63m",
+          "about_parent_drug": "",
+          "title": "UK: excessive pricing",
+          "description": "The UK competition regulator found Pfizer raised phenytoin’s NHS price by 780–1,600% after a deal with Flynn Pharma. The fine was quashed, re-imposed in 2022 and upheld by the Competition Appeal Tribunal.",
+          "sources": [
+            {
+              "label": "UK Government (2024)",
+              "url": "https://gov.uk/government/news/tribunal-fines-drug-firms-69m-for-excessive-pricing-after-cma-investigation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Varenicline",
+      "area": "Mental health & brain",
+      "brands": "Champix, Chantix",
+      "used_for": "Quitting smoking",
+      "maker": "Pfizer (now mostly generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "Pulled worldwide in 2021 for a carcinogenic impurity; a US buyers’ settlement is awaiting final approval.",
+      "medicine_itself": "The medicine works; the problem was an impurity from manufacturing. Generic versions are available.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2021,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Factory quality",
+          "status": "Recall",
+          "by": "Regulator",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Nitrosamine impurity",
+          "description": "Pfizer recalled Chantix after tablets were found to contain N-nitroso-varenicline, a nitrosamine impurity, above the acceptable limit.",
+          "sources": [
+            {
+              "label": "Endpoints",
+              "url": "https://endpts.com/pfizers-off-the-hook-after-federal-judge-dismisses-proposed-lawsuit-over-chantix-recalls/"
+            },
+            {
+              "label": "Open Class Actions (2026)",
+              "url": "https://openclassactions.com/settlements/pharmaceuticals/chantix-varenicline-class-action-settlement.php"
+            }
+          ]
+        },
+        {
+          "year": 2026,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Factory quality",
+          "status": "Settlement pending",
+          "by": "Private lawsuit",
+          "amount": "$44m",
+          "about_parent_drug": "",
+          "title": "Buyers’ settlement",
+          "description": "US consumers and insurers who paid for Chantix in 2015–21 settled for $44 million, preliminarily approved in June 2026. Pfizer denies wrongdoing.",
+          "sources": [
+            {
+              "label": "Open Class Actions (2026)",
+              "url": "https://openclassactions.com/settlements/pharmaceuticals/chantix-varenicline-class-action-settlement.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Vortioxetine",
+      "area": "Mental health & brain",
+      "brands": "Brintellix, Trintellix",
+      "used_for": "Depression",
+      "maker": "Lundbeck and Takeda",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Takeda settled claims it paid doctors to prescribe it.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2026,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$13.67m",
+          "about_parent_drug": "",
+          "title": "Kickbacks to doctors",
+          "description": "Takeda settled False Claims Act allegations that it made improper payments to doctors to induce Trintellix prescriptions.",
+          "sources": [
+            {
+              "label": "US DOJ (2026)",
+              "url": "https://www.justice.gov/opa/pr/takeda-agrees-pay-136m-resolve-false-claims-allegations-relating-improper-payments"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Rimegepant",
+      "area": "Mental health & brain",
+      "brands": "Nurtec ODT",
+      "used_for": "Migraine",
+      "maker": "Biohaven, now Pfizer",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Speaker fees and lavish meals to induce prescriptions, before Pfizer bought the company.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2025,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$59.7m",
+          "about_parent_drug": "",
+          "title": "Speaker-programme kickbacks",
+          "description": "Biohaven allegedly paid doctors speaker fees and bought them lavish meals to induce prescriptions of Nurtec.",
+          "sources": [
+            {
+              "label": "Mayer Brown (2025)",
+              "url": "https://www.mayerbrown.com/en/insights/publications/2025/10/a-false-claims-act-fy-2025-year-in-review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Clopidogrel",
+      "area": "Heart, blood & cholesterol",
+      "brands": "Plavix, Iscover",
+      "used_for": "Preventing heart attacks and strokes (antiplatelet)",
+      "maker": "Sanofi and Bristol Myers Squibb (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "A secret deal hidden from US regulators, a $700 million settlement over Asian and Pacific Islander patients, and an Australian High Court fight.",
+      "medicine_itself": "Effective for most people, but it works less well in people with a common genetic variant, more frequent in East Asian and Pacific Islander populations.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2007,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$1m",
+          "about_parent_drug": "",
+          "title": "Lied to the FTC about a Plavix deal",
+          "description": "BMS pleaded guilty to making false statements. A senior executive had made a secret side-promise to the generic maker Apotex and hid it from the FTC. The CEO was ousted.",
+          "sources": [
+            {
+              "label": "US DOJ (2007)",
+              "url": "https://www.justice.gov/archive/opa/pr/2007/May/07_at_388.html"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Claim failed",
+          "by": "Non-US government",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Australia: the Commonwealth’s PBS claim",
+          "description": "Sanofi won an injunction blocking Apotex’s generic on a patent later found invalid. The Commonwealth sued for what the PBS overpaid in the meantime, but lost in the High Court in December 2024 because it could not prove a generic would have been listed.",
+          "sources": [
+            {
+              "label": "Clayton Utz (2024)",
+              "url": "https://www.claytonutz.com/insights/2024/december/high-court-of-australia-confirms-limits-on-undertaking-as-to-damages-commonwealth-loses-appeal-in-clopidogrel-pbs-claim"
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$700m",
+          "about_parent_drug": "",
+          "title": "Hawaii: reduced effect in some patients",
+          "description": "Hawaii argued that BMS and Sanofi knew Plavix worked less well in many East Asian and Pacific Islander patients but did not update the label. After court awards of $834 million and $916 million, the companies settled for $700 million.",
+          "sources": [
+            {
+              "label": "Insurance Journal (2025)",
+              "url": "https://amp.insurancejournal.com/news/west/2025/05/12/823332.htm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Rivaroxaban",
+      "area": "Heart, blood & cholesterol",
+      "brands": "Xarelto",
+      "used_for": "Blood thinner",
+      "maker": "Bayer and Janssen (J&J)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "$775 million for bleeding lawsuits, and questions over a faulty device used in its key trial.",
+      "medicine_itself": "Effective. Bleeding is the known risk of every blood thinner.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2016,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Disputed",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "A faulty monitor in the key trial",
+          "description": "The BMJ reported that Janssen withheld problems with the INRatio device, used to adjust warfarin doses in the comparison group of the ROCKET AF trial, from the FDA. Falsely low readings could have inflated bleeding on warfarin. The companies denied it, and a reanalysis found no significant effect.",
+          "sources": [
+            {
+              "label": "BMJ investigation (2016)",
+              "url": "https://www.bmj.com/content/354/bmj.i5131.full"
+            },
+            {
+              "label": "TCTMD",
+              "url": "https://www.tctmd.com/show.aspx?id=136254"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Paid",
+          "by": "Private lawsuit",
+          "amount": "$775m",
+          "about_parent_drug": "",
+          "title": "Bleeding lawsuits",
+          "description": "About 25,000 US lawsuits over bleeding risks were settled for $775 million, split between Bayer and J&J, without admission of liability.",
+          "sources": [
+            {
+              "label": "CNBC (2019)",
+              "url": "https://www.cnbc.com/2019/03/25/bayer-jj-settle-blood-thinner-xarelto-litigation-for-775-million.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Dabigatran",
+      "area": "Heart, blood & cholesterol",
+      "brands": "Pradaxa",
+      "used_for": "Blood thinner",
+      "maker": "Boehringer Ingelheim",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "About $650 million to settle bleeding lawsuits; the BMJ said the company kept internal analyses from regulators.",
+      "medicine_itself": "Effective. Bleeding is the known risk, and a reversal agent now exists.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2014,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Paid",
+          "by": "Private lawsuit",
+          "amount": "$650m",
+          "about_parent_drug": "",
+          "title": "Bleeding lawsuits",
+          "description": "Boehringer agreed to pay about $650 million to settle roughly 4,000 US claims over inadequate warnings of severe bleeding, saying the claims lacked merit.",
+          "sources": [
+            {
+              "label": "ABA Journal (2014)",
+              "url": "https://www.abajournal.com/news/article/pradaxa_suits_will_be_settled_for_about_650m_drug_maker_says"
+            }
+          ]
+        },
+        {
+          "year": 2014,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Disputed",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Unshared analyses on blood tests",
+          "description": "A BMJ investigation said internal analyses found fivefold variation in blood levels and that monitoring could cut major bleeds by 30–40% compared with warfarin, but these were not shared with doctors or regulators. Boehringer disputed this.",
+          "sources": [
+            {
+              "label": "The Pharma Letter (2014)",
+              "url": "https://thepharmaletter.com/pharmaceutical/bmj-alleges-boehringer-ingelheim-withheld-pradaxa-dosing-information-from-regulators"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Apixaban",
+      "area": "Heart, blood & cholesterol",
+      "brands": "Eliquis",
+      "used_for": "Blood thinner",
+      "maker": "Bristol Myers Squibb and Pfizer",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Its approval was delayed after records were altered at trial sites in China.",
+      "medicine_itself": "Not in question. FDA reviewers concluded the main results held.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2012,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Documented",
+          "by": "Regulator",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Altered records in the key trial",
+          "description": "BMS told the FDA that a site manager in Shanghai and a contractor had altered records to hide problems in the ARISTOTLE trial. FDA documents showed concerns about data from many China sites; one official wrote the application would have been refused had the agency known earlier. Reviewers concluded the main results were not substantially changed.",
+          "sources": [
+            {
+              "label": "NEJM CardioExchange (2013)",
+              "url": "https://blogs.nejm.org/cardioexchange/2013/06/24/roller-coaster-path-to-approval-for-eliquis-uncovered-by-fda-documents/"
+            },
+            {
+              "label": "MDedge",
+              "url": "https://mdedge.com/content/fraud-errors-were-behind-delay-apixaban-approval-report-shows"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Ticagrelor",
+      "area": "Heart, blood & cholesterol",
+      "brands": "Brilinta, Brilique",
+      "used_for": "Preventing heart attacks (antiplatelet)",
+      "maker": "AstraZeneca",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Warning signs",
+      "why": "Its landmark trial was investigated by US prosecutors, and a 2024 BMJ investigation raised new questions about its data.",
+      "medicine_itself": "Not in question by regulators, although the size of its advantage is debated.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2013,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Closed, no action",
+          "by": "US government",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Justice Department investigation",
+          "description": "Prosecutors demanded documents about the PLATO trial after critics pointed to inconsistencies, including much of the benefit coming from two countries. The department later closed the investigation with no action.",
+          "sources": [
+            {
+              "label": "MDedge",
+              "url": "https://mdedge.com/content/doj-closes-investigation-plato-trial"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Criticised",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "New questions about the data",
+          "description": "A BMJ investigation, using trial records obtained under freedom of information, reported problems with how PLATO’s data were reported. The trial’s investigators have defended the results.",
+          "sources": [
+            {
+              "label": "BMJ Group (2024)",
+              "url": "https://bmjgroup.com/investigation-raises-new-concerns-over-landmark-trial-for-top-selling-anti-platelet-drug"
+            },
+            {
+              "label": "News-Medical (2024)",
+              "url": "https://www.news-medical.net/news/20241211/Controversy-surrounds-landmark-anti-platelet-drug-trial.aspx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Valsartan",
+      "area": "Heart, blood & cholesterol",
+      "brands": "Diovan",
+      "used_for": "Blood pressure (ARB)",
+      "maker": "Novartis; generics from many makers, including Zhejiang Huahai",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "Faked research in Japan, then a probable carcinogen in generic batches worldwide. Lawsuits over the contamination are still running.",
+      "medicine_itself": "The medicine is not in question. Some generic batches made with one supplier’s ingredient were contaminated.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2013,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Documented",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Japan: manipulated research",
+          "description": "University studies claiming extra benefits for Diovan were found to rest on manipulated data, and a Novartis employee had secretly helped with the statistics. A court accepted the data were manipulated but acquitted, ruling that a paper is not an advertisement.",
+          "sources": [
+            {
+              "label": "Fierce Pharma",
+              "url": "https://www.fiercepharma.com/pharma/judge-japan-lets-novartis-off-hook-advertising-scandal"
+            }
+          ]
+        },
+        {
+          "year": 2018,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Factory quality",
+          "status": "Recall",
+          "by": "Regulator",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "A probable carcinogen in generic batches",
+          "description": "NDMA was found in valsartan ingredient from Zhejiang Huahai, linked to a 2011 manufacturing change, triggering recalls worldwide. The FDA banned imports from the plant and issued a warning letter.",
+          "sources": [
+            {
+              "label": "AAFP (2018)",
+              "url": "https://www.aafp.org/about/news/20180725valsartan"
+            },
+            {
+              "label": "Fierce Pharma (2021)",
+              "url": "https://www.fiercepharma.com/manufacturing/3-years-valsartan-recall-zhejiang-huahai-china-drug-manufacturer-fda-warning-letter"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Factory quality",
+          "status": "In court now",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Contamination lawsuits",
+          "description": "US lawsuits over contaminated valsartan, losartan and irbesartan were grouped in a New Jersey federal court in 2019. Small buyer settlements with some makers were provisionally approved in 2026; Teva reported 231 personal-injury cases against it, with trials expected no earlier than 2027.",
+          "sources": [
+            {
+              "label": "JPML transfer order (2019)",
+              "url": "https://www.jpml.uscourts.gov/sites/jpml/files/MDL-2875-Initial_Transfer-01-19.pdf"
+            },
+            {
+              "label": "Teva quarterly report (2026)",
+              "url": "https://www.sec.gov/Archives/edgar/data/0000818686/000119312526323619/d118828d10q.htm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Losartan",
+      "area": "Heart, blood & cholesterol",
+      "brands": "Cozaar",
+      "used_for": "Blood pressure (ARB)",
+      "maker": "Merck originally; now many generic makers",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "Generic batches contaminated with nitrosamines were recalled; part of the ongoing US lawsuits.",
+      "medicine_itself": "The medicine is not in question; some generic batches were contaminated.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2019,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Factory quality",
+          "status": "Recall",
+          "by": "Regulator",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Nitrosamine recalls",
+          "description": "After valsartan, the FDA found the probable carcinogens NDEA and NMBA in some losartan and irbesartan batches, leading to recalls. Not all lots were affected.",
+          "sources": [
+            {
+              "label": "FDA: ARB recalls",
+              "url": "https://www.fda.gov/ARBrecalls"
+            },
+            {
+              "label": "American College of Cardiology (2019)",
+              "url": "https://acc.org/Latest-in-Cardiology/Articles/2019/01/07/12/42/Heart-of-Health-Policy-Additional-ARBs-Added-to-FDA-Recall-List-Due-to-Contamination"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Factory quality",
+          "status": "In court now",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Part of the contamination lawsuits",
+          "description": "Losartan claims are part of the New Jersey federal litigation over contaminated blood-pressure drugs, which was still running in 2026.",
+          "sources": [
+            {
+              "label": "Teva quarterly report (2026)",
+              "url": "https://www.sec.gov/Archives/edgar/data/0000818686/000119312526323619/d118828d10q.htm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Irbesartan",
+      "area": "Heart, blood & cholesterol",
+      "brands": "Avapro, Karvea",
+      "used_for": "Blood pressure (ARB)",
+      "maker": "Sanofi originally; now many generic makers",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "Some generic batches were recalled for a probable carcinogen in the US and UK; part of the ongoing US lawsuits.",
+      "medicine_itself": "The medicine is not in question; some generic batches were contaminated.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2019,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Factory quality",
+          "status": "Recall",
+          "by": "Regulator",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Nitrosamine recalls",
+          "description": "Regulators in the US and UK recalled batches of irbesartan after testing found possible contamination with NDEA.",
+          "sources": [
+            {
+              "label": "FDA: ARB recalls",
+              "url": "https://www.fda.gov/ARBrecalls"
+            },
+            {
+              "label": "Pharmaceutical Journal (2019)",
+              "url": "https://pharmaceutical-journal.com/?p=18476"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Factory quality",
+          "status": "In court now",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Part of the contamination lawsuits",
+          "description": "Irbesartan claims are part of the New Jersey federal litigation over contaminated blood-pressure drugs, which was still running in 2026.",
+          "sources": [
+            {
+              "label": "Teva quarterly report (2026)",
+              "url": "https://www.sec.gov/Archives/edgar/data/0000818686/000119312526323619/d118828d10q.htm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Telmisartan",
+      "area": "Heart, blood & cholesterol",
+      "brands": "Micardis",
+      "used_for": "Blood pressure (ARB)",
+      "maker": "Boehringer Ingelheim (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Promoted for a kidney use that was never approved.",
+      "medicine_itself": "Not in question for blood pressure.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2012,
+          "conduct_from": 2000,
+          "conduct_to": 2008,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$95m",
+          "about_parent_drug": "",
+          "title": "Off-label promotion",
+          "description": "Boehringer settled claims that it promoted Micardis for early diabetic kidney disease, and three other drugs for unapproved uses, without admitting liability.",
+          "sources": [
+            {
+              "label": "US Attorney, Maryland (2012)",
+              "url": "https://www.justice.gov/archive/usao/md/news/2012/BoehringerIngelheimtoPay95MilliontoResolveOff-labelPromotionandKickbackAllegations.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Ezetimibe",
+      "area": "Heart, blood & cholesterol",
+      "brands": "Ezetrol, Zetia; with simvastatin, Vytorin",
+      "used_for": "Cholesterol",
+      "maker": "Merck (Schering-Plough) (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Bad trial results were sat on for two years, and a deal allegedly delayed the generic.",
+      "medicine_itself": "Not in question. It lowers cholesterol; later trials found a modest benefit when added to a statin.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2013,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Paid",
+          "by": "Private lawsuit",
+          "amount": "$688m",
+          "about_parent_drug": "",
+          "title": "ENHANCE: results delayed",
+          "description": "Investors sued after Merck and Schering-Plough sat on the ENHANCE trial for about two years. It showed Vytorin did no better than cheap simvastatin at reducing artery plaque.",
+          "sources": [
+            {
+              "label": "BLB&G (2013)",
+              "url": "https://www.blbglaw.com/news/updates/2013-02-14-blbg-recovers-688-million-from-merck-and-schering-plough-in-securities-fraud-litigation"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Paid",
+          "by": "Private lawsuit",
+          "amount": "$573m",
+          "about_parent_drug": "",
+          "title": "Pay-for-delay settlement",
+          "description": "Buyers alleged Merck’s 2010 patent deal with Glenmark delayed generic Zetia and included a promise not to launch its own cheaper version. Merck settled on the eve of trial.",
+          "sources": [
+            {
+              "label": "Bloomberg Law (2023)",
+              "url": "https://news.bloomberglaw.com/antitrust/merck-discloses-573-million-settlement-in-zetia-antitrust-suit"
+            },
+            {
+              "label": "Edgeworth Economics",
+              "url": "https://edgewortheconomics.com/antitrustprescription-Merck-and-Glenmark-Settle-on-the-Eve-of-a-Rare-Pay-For-Delay-Trial"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Simvastatin",
+      "area": "Heart, blood & cholesterol",
+      "brands": "Zocor, Lipex",
+      "used_for": "Cholesterol (statin)",
+      "maker": "Merck (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Discounts were disguised to cut Medicaid rebates.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2008,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$650m",
+          "about_parent_drug": "",
+          "title": "Medicaid \"best price\" fraud",
+          "description": "Merck labelled deep hospital discounts on Zocor, Vioxx and Pepcid as \"nominal\" prices to keep them out of Medicaid rebate calculations, and allegedly paid doctors disguised as training fees.",
+          "sources": [
+            {
+              "label": "US DOJ (2008)",
+              "url": "https://www.justice.gov/opa/pr/2008/February/08_civ_094.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Pravastatin",
+      "area": "Heart, blood & cholesterol",
+      "brands": "Pravachol",
+      "used_for": "Cholesterol (statin)",
+      "maker": "Generic makers including Teva and Glenmark",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Generic makers conspired to raise its price; two signed deferred prosecution agreements.",
+      "medicine_itself": "Not in question.",
+      "watch": "Civil claims over generic price-fixing have continued; Glenmark later agreed a further $25 million over pravastatin.",
+      "events": [
+        {
+          "year": 2023,
+          "conduct_from": 2013,
+          "conduct_to": 2015,
+          "issue": "Price & tax",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$255m",
+          "about_parent_drug": "",
+          "title": "Price-fixing",
+          "description": "Teva and Glenmark admitted conspiring with rivals to raise the price of pravastatin and other generics. They paid $225 million and $30 million and had to sell their pravastatin businesses.",
+          "sources": [
+            {
+              "label": "US DOJ (2023)",
+              "url": "https://www.justice.gov/archives/opa/pr/major-generic-drug-companies-pay-over-quarter-billion-dollars-resolve-price-fixing-charges"
+            },
+            {
+              "label": "Fierce Pharma (2023)",
+              "url": "https://www.fiercepharma.com/pharma/teva-glenmark-reach-price-fixing-settlement-doj-225-million-and-30-million-agree-divest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Insulin glargine",
+      "area": "Diabetes, weight & hormones",
+      "brands": "Lantus, Optisulin, Toujeo",
+      "used_for": "Diabetes (long-acting insulin)",
+      "maker": "Sanofi",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "One of the three insulin makers being sued with the big US pharmacy-benefit managers over an alleged price-inflation scheme.",
+      "medicine_itself": "Not in question. The cases are about price.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2023,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Price & tax",
+          "status": "In court now",
+          "by": "US government",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "US insulin pricing lawsuits",
+          "description": "States, cities and other payers allege that Lilly, Novo Nordisk and Sanofi raised list prices in step while paying bigger rebates to the pharmacy-benefit managers CVS Caremark, Express Scripts and OptumRx. About 514 cases were grouped in a New Jersey federal court by July 2026. The companies deny wrongdoing, and none has been found liable.",
+          "sources": [
+            {
+              "label": "Open Class Actions (2026)",
+              "url": "https://openclassactions.com/lawsuits/insulin-pricing-mdl-lawsuit.php"
+            },
+            {
+              "label": "Mealey’s (2026)",
+              "url": "https://www.mealeys.com/mealeys/articles/2426230"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Insulin lispro",
+      "area": "Diabetes, weight & hormones",
+      "brands": "Humalog",
+      "used_for": "Diabetes (mealtime insulin)",
+      "maker": "Eli Lilly",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "Part of the US insulin pricing lawsuits; Lilly has also faced a Medicaid rebate fraud judgment.",
+      "medicine_itself": "Not in question. The cases are about price.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2023,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Price & tax",
+          "status": "In court now",
+          "by": "US government",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "US insulin pricing lawsuits",
+          "description": "Lilly is a defendant in the grouped US cases alleging insulin list prices were inflated in a rebate scheme with pharmacy-benefit managers. In 2024 Lilly agreed to cap insulin at $35 a month for Minnesota residents to settle that state’s claims.",
+          "sources": [
+            {
+              "label": "Open Class Actions (2026)",
+              "url": "https://openclassactions.com/lawsuits/insulin-pricing-mdl-lawsuit.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Insulin aspart",
+      "area": "Diabetes, weight & hormones",
+      "brands": "NovoRapid, Novolog, Fiasp",
+      "used_for": "Diabetes (mealtime insulin)",
+      "maker": "Novo Nordisk",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "Part of the US insulin pricing lawsuits.",
+      "medicine_itself": "Not in question. The cases are about price.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2023,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Price & tax",
+          "status": "In court now",
+          "by": "US government",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "US insulin pricing lawsuits",
+          "description": "Novo Nordisk is a defendant in the grouped US cases alleging insulin list prices were inflated in a rebate scheme with pharmacy-benefit managers. It denies wrongdoing.",
+          "sources": [
+            {
+              "label": "Open Class Actions (2026)",
+              "url": "https://openclassactions.com/lawsuits/insulin-pricing-mdl-lawsuit.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Semaglutide",
+      "area": "Diabetes, weight & hormones",
+      "brands": "Ozempic, Wegovy, Rybelsus",
+      "used_for": "Type 2 diabetes and weight loss (GLP-1)",
+      "maker": "Novo Nordisk",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "Thousands of US lawsuits over stomach paralysis and bowel blockage, and a separate group over sudden vision loss.",
+      "medicine_itself": "Highly effective. Stomach side effects are known; whether it causes stomach paralysis or the rare eye condition NAION is what the lawsuits dispute.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2024,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "In court now",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Stomach-paralysis lawsuits",
+          "description": "Cases claiming GLP-1 drugs caused gastroparesis, ileus or bowel obstruction were grouped in a Pennsylvania federal court in February 2024, with about 3,760 cases by June 2026. In 2025 the judge ruled that gastroparesis claims need objective testing.",
+          "sources": [
+            {
+              "label": "Dechert (2025)",
+              "url": "https://www.dechert.com/knowledge/re-torts/2025/9/GLP-1-MDL-Requires-Objective-Testing-to-Proceed.html/1784458482836"
+            },
+            {
+              "label": "Drug & Device Law (2025)",
+              "url": "https://www.druganddevicelawblog.com/2025/08/trimming-down-the-glp-1-mdl.html"
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "In court now",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Vision-loss lawsuits",
+          "description": "A separate group of cases over NAION, a sudden loss of vision, was set up in late 2025, with about 110 cases by mid-2026.",
+          "sources": [
+            {
+              "label": "The Rx Index tracker (2026)",
+              "url": "https://therxindex.com/research/glp1-lawsuits-enforcement-tracker/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Tirzepatide",
+      "area": "Diabetes, weight & hormones",
+      "brands": "Mounjaro, Zepbound",
+      "used_for": "Type 2 diabetes and weight loss (GLP-1/GIP)",
+      "maker": "Eli Lilly",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "A defendant in the US stomach-paralysis lawsuits alongside Ozempic.",
+      "medicine_itself": "Highly effective. Stomach side effects are known; the lawsuits dispute whether it causes serious injury.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2024,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "In court now",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Stomach-paralysis lawsuits",
+          "description": "Lilly’s Mounjaro and Zepbound are among the drugs in the grouped US cases claiming GLP-1 medicines caused gastroparesis or bowel obstruction.",
+          "sources": [
+            {
+              "label": "The Rx Index tracker (2026)",
+              "url": "https://therxindex.com/research/glp1-lawsuits-enforcement-tracker/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Dulaglutide",
+      "area": "Diabetes, weight & hormones",
+      "brands": "Trulicity",
+      "used_for": "Type 2 diabetes (GLP-1)",
+      "maker": "Eli Lilly",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "Also a defendant in the US stomach-paralysis lawsuits.",
+      "medicine_itself": "Effective. The lawsuits dispute whether it causes serious stomach injury.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2024,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "In court now",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Stomach-paralysis lawsuits",
+          "description": "Trulicity is among the GLP-1 drugs named in the grouped US cases over gastroparesis and bowel obstruction.",
+          "sources": [
+            {
+              "label": "The Rx Index tracker (2026)",
+              "url": "https://therxindex.com/research/glp1-lawsuits-enforcement-tracker/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Liraglutide",
+      "area": "Diabetes, weight & hormones",
+      "brands": "Victoza, Saxenda",
+      "used_for": "Type 2 diabetes and weight loss (GLP-1)",
+      "maker": "Novo Nordisk (generics arriving)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Sales reps allegedly played down a required thyroid-cancer warning.",
+      "medicine_itself": "Not in question. A rare thyroid tumour risk seen in rodents is on the label.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2017,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$58.65m",
+          "about_parent_drug": "",
+          "title": "Thyroid warning downplayed",
+          "description": "Novo Nordisk settled allegations that sales reps gave doctors misleading information about the FDA-required warning on a rare thyroid cancer.",
+          "sources": [
+            {
+              "label": "US DOJ (2017)",
+              "url": "https://www.justice.gov/opa/pr/novo-nordisk-agrees-pay-58-million-failure-comply-fda-mandated-risk-program"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Sitagliptin",
+      "area": "Diabetes, weight & hormones",
+      "brands": "Januvia, Janumet",
+      "used_for": "Type 2 diabetes",
+      "maker": "Merck (MSD)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Warning signs",
+      "why": "A probable carcinogen was found in 2022; the FDA let it stay on sale above the normal limit to avoid a shortage.",
+      "medicine_itself": "The medicine works; the issue was an impurity, which the FDA judged a minimal added risk.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2022,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Factory quality",
+          "status": "Impurity",
+          "by": "Regulator",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Nitrosamine above the limit",
+          "description": "Tests found the nitrosamine NTTP in sitagliptin products. To avoid a shortage, the FDA temporarily allowed up to 246.7 ng a day instead of 37 ng, judging the added cancer risk minimal. Merck added quality controls.",
+          "sources": [
+            {
+              "label": "Fierce Pharma (2022)",
+              "url": "https://www.fiercepharma.com/manufacturing/fda-angles-avert-shortage-mercks-diabetes-med-januvia-after-testing-flags-possible"
+            },
+            {
+              "label": "BioSpace (2022)",
+              "url": "https://www.biospace.com/article/merck-s-blockbuster-diabetes-drug-found-contaminated-with-potential-carcinogen/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Pioglitazone",
+      "area": "Diabetes, weight & hormones",
+      "brands": "Actos",
+      "used_for": "Type 2 diabetes",
+      "maker": "Takeda (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "A jury found Takeda hid bladder-cancer risks; it then settled about 9,000 cases for $2.37 billion.",
+      "medicine_itself": "Still used. A possible bladder-cancer risk is on the label.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2015,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Paid",
+          "by": "Private lawsuit",
+          "amount": "$2.37bn",
+          "about_parent_drug": "",
+          "title": "Bladder-cancer lawsuits",
+          "description": "In 2014 a jury found Takeda had hidden cancer risks and awarded $9 billion in punitive damages against Takeda and Lilly, later cut to $36.8 million. Takeda then settled about 9,000 cases.",
+          "sources": [
+            {
+              "label": "Takeda (2015)",
+              "url": "https://www.takeda.com/en-us/newsroom/news-releases/2015/takeda-agrees-to-settle-actos-product-liability-lawsuits-and-claims-takeda-stresses-continued-commitment-to-actos/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Levothyroxine",
+      "area": "Diabetes, weight & hormones",
+      "brands": "Oroxine, Eutroxsig, Synthroid",
+      "used_for": "Underactive thyroid",
+      "maker": "Many makers; Synthroid by Knoll (later Abbott, now AbbVie)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "The maker of Synthroid blocked publication of a study it had paid for, which found cheaper versions worked just as well.",
+      "medicine_itself": "Not in question. Stick to one brand where possible and have levels checked after any switch.",
+      "watch": "",
+      "events": [
+        {
+          "year": 1997,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Settled",
+          "by": "Private lawsuit",
+          "amount": "$98m+",
+          "about_parent_drug": "",
+          "title": "A suppressed study",
+          "description": "A university study funded by Synthroid’s maker found generic and brand thyroxine interchangeable, potentially saving about $356 million a year. The company blocked publication for years; it appeared in JAMA in 1997. Knoll then agreed to pay at least $98 million to settle class actions, without admitting wrongdoing.",
+          "sources": [
+            {
+              "label": "Nature (1997)",
+              "url": "https://www.nature.com/articles/41836"
+            },
+            {
+              "label": "The Pharma Letter",
+              "url": "https://www.thepharmaletter.com/knoll-to-settle-synthroid-lawsuit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Liothyronine",
+      "area": "Diabetes, weight & hormones",
+      "brands": "Tertroxin, Cytomel",
+      "used_for": "Underactive thyroid (T3)",
+      "maker": "Advanz Pharma (formerly Concordia) in the UK",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "The UK’s competition regulator fined its supplier for overcharging the NHS; the fine survived two appeals.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2025,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Price & tax",
+          "status": "Paid",
+          "by": "Non-US government",
+          "amount": "£99m",
+          "about_parent_drug": "",
+          "title": "UK: excessive pricing",
+          "description": "The CMA fined Advanz and its former owners for overcharging the NHS for liothyronine tablets. The Competition Appeal Tribunal upheld the finding in 2023 and the Court of Appeal refused a further appeal in 2025.",
+          "sources": [
+            {
+              "label": "UK Government",
+              "url": "https://www.gov.uk/government/news/court-upholds-cmas-99m-fine-on-pharma-over-excessive-nhs-thyroid-drug-prices"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Hydrocortisone tablets",
+      "area": "Diabetes, weight & hormones",
+      "brands": "Hysone, Cortef",
+      "used_for": "Adrenal insufficiency (e.g. Addison’s disease)",
+      "maker": "Auden Mckenzie and Actavis UK in the UK",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "A UK pack went from under £1 to over £70; the courts upheld the regulator’s findings.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2021,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Price & tax",
+          "status": "Paid",
+          "by": "Non-US government",
+          "amount": "£260m+ (all suppliers)",
+          "about_parent_drug": "",
+          "title": "UK: excessive pricing",
+          "description": "The CMA found Auden Mckenzie and Actavis UK charged the NHS excessive and unfair prices over a decade: from under £1 to over £70 a pack, taking NHS spending from about £500,000 a year to over £80 million. The Court of Appeal later upheld the findings.",
+          "sources": [
+            {
+              "label": "UK Government",
+              "url": "https://www.gov.uk/government/news/court-upholds-cma-findings-that-firms-charged-excessive-and-unfair-prices-for-lifesaving-nhs-funded-medicine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Testosterone",
+      "area": "Diabetes, weight & hormones",
+      "brands": "AndroGel, Testogel",
+      "used_for": "Low testosterone",
+      "maker": "AbbVie (AndroGel) and others",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Juries found AbbVie misled doctors about heart risks; a court found it filed sham lawsuits to block generics.",
+      "medicine_itself": "Appropriate for proven deficiency. Marketing \"low T\" to ageing men was the problem.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2017,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Settled",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Heart-attack lawsuits",
+          "description": "Chicago juries awarded $150 million and $140 million in punitive damages, finding AbbVie misled about cardiovascular risks; both were later retried. AbbVie signed a master settlement covering existing claims in 2018.",
+          "sources": [
+            {
+              "label": "Mealey’s",
+              "url": "https://www.lexislegalnews.com/mealeys/amp/articles/1628757"
+            },
+            {
+              "label": "AbbVie quarterly report (2019)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115219000023/Financial_Report.xlsx"
+            }
+          ]
+        },
+        {
+          "year": 2018,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Found; money overturned",
+          "by": "US government",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "\"Sham\" patent lawsuits",
+          "description": "A court found AbbVie filed baseless patent suits to keep generic testosterone gel off the market and ordered $448 million in relief. The appeals court upheld the wrongdoing in 2020 but struck the money.",
+          "sources": [
+            {
+              "label": "PolicyMed (2020)",
+              "url": "https://policymed.com/2020/10/court-of-appeals-overturns-448-million-disgorgement-against-abbvie-revives-ftc-reverse-payment-claim.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Colchicine",
+      "area": "Diabetes, weight & hormones",
+      "brands": "Colgout, Colcrys",
+      "used_for": "Gout",
+      "maker": "URL Pharma, then Takeda, in the US",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "A centuries-old remedy whose US price jumped about 50-fold when one company won exclusive rights.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2010,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Price & tax",
+          "status": "Price rise",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "An old drug, a new monopoly",
+          "description": "After URL Pharma ran trials and won FDA approval for Colcrys, cheap unapproved colchicine was removed from the US market. The price rose from about $0.09 to about $5 a tablet, and a study later linked the rise to worse gout control.",
+          "sources": [
+            {
+              "label": "Fierce Pharma",
+              "url": "https://www.fiercepharma.com/pharma/centuries-old-treatment-gets-a-brand-name-price"
+            },
+            {
+              "label": "BioSpace",
+              "url": "https://www.biospace.com/gout-drug-colchicine-spikes-for-a-decade-after-2010-fda-policy-change"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Conjugated oestrogens",
+      "area": "Contraception & sexual health",
+      "brands": "Premarin, Prempro",
+      "used_for": "Menopause hormone therapy",
+      "maker": "Wyeth, now Pfizer",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Wyeth paid a medical-writing firm to draft more than 50 papers that overstated benefits and played down risks.",
+      "medicine_itself": "Useful for menopause symptoms; the risks, including breast cancer, depend on type, dose and duration.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2010,
+          "conduct_from": 1997,
+          "conduct_to": 2003,
+          "issue": "Research & marketing spin",
+          "status": "Documented",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Ghostwritten science",
+          "description": "About 1,500 documents unsealed in lawsuits by more than 14,000 women with breast cancer showed Wyeth hired DesignWrite to draft more than 50 peer-reviewed papers, which promoted unproven benefits and played down risks.",
+          "sources": [
+            {
+              "label": "Fugh-Berman, PLoS Medicine (2010)",
+              "url": "https://journals.plos.org/plosmedicine/article/info:doi/10.1371/journal.pmed.1000335"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Drospirenone with ethinyloestradiol",
+      "area": "Contraception & sexual health",
+      "brands": "Yaz, Yasmin",
+      "used_for": "Contraceptive pill",
+      "maker": "Bayer",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Hundreds of millions paid to settle claims it raised the risk of blood clots more than older pills.",
+      "medicine_itself": "Effective. Its clot risk is somewhat higher than some older pills, as the label now says.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2012,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Paid",
+          "by": "Private lawsuit",
+          "amount": "$402.6m",
+          "about_parent_drug": "",
+          "title": "Blood-clot lawsuits",
+          "description": "By mid-2012 Bayer had paid about $403 million to settle roughly 1,900 lawsuits, and set aside more for thousands of others, without admitting wrongdoing.",
+          "sources": [
+            {
+              "label": "Fierce Pharma (2012)",
+              "url": "https://www.fiercepharma.com/regulatory/bayer-settles-yasmin-suits-for-212k-each-402m-total"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Etonogestrel vaginal ring",
+      "area": "Contraception & sexual health",
+      "brands": "NuvaRing",
+      "used_for": "Contraception",
+      "maker": "Merck (MSD)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Settled lawsuits claiming it downplayed blood-clot risks.",
+      "medicine_itself": "Effective. Clot risk is a known risk of combined hormonal contraception.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2014,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Paid",
+          "by": "Private lawsuit",
+          "amount": "$100m",
+          "about_parent_drug": "",
+          "title": "Blood-clot lawsuits",
+          "description": "Merck agreed to pay $100 million to resolve US lawsuits alleging it failed to warn of NuvaRing’s higher clot risk, denying fault.",
+          "sources": [
+            {
+              "label": "Fierce Pharma (2014)",
+              "url": "https://www.fiercepharma.com/regulatory/merck-ready-to-settle-nuvaring-lawsuits-for-100m"
+            },
+            {
+              "label": "JURIST (2014)",
+              "url": "https://www.jurist.org/news/2014/02/merck-agrees-to-100-million-nuvaring-settlement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Levonorgestrel IUD",
+      "area": "Contraception & sexual health",
+      "brands": "Mirena",
+      "used_for": "Contraception and heavy periods",
+      "maker": "Bayer",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Two waves of injury lawsuits were thrown out for lack of evidence.",
+      "medicine_itself": "Not in question. Perforation is a rare, known risk of any IUD.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2016,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Thrown out",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Perforation lawsuits thrown out",
+          "description": "About 1,300 federal cases claiming the device moved and perforated the uterus were dismissed after the judge rejected the plaintiffs’ experts; the appeals court affirmed. Bayer later reportedly paid $12.2 million to settle remaining claims.",
+          "sources": [
+            {
+              "label": "Court opinion (2016)",
+              "url": "https://cite.case.law/f-supp-3d/341/213/"
+            },
+            {
+              "label": "Drugwatch",
+              "url": "https://www.drugwatch.com/mirena/lawsuits/"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Thrown out",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Brain-pressure lawsuits thrown out",
+          "description": "A separate group of cases claiming Mirena caused raised pressure in the skull was dismissed because the plaintiffs could not prove it was the cause.",
+          "sources": [
+            {
+              "label": "Court opinion (2019)",
+              "url": "https://cite.case.law/f-supp-3d/387/323/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Medroxyprogesterone injection",
+      "area": "Contraception & sexual health",
+      "brands": "Depo-Provera, Depo-Ralovera",
+      "used_for": "Contraceptive injection",
+      "maker": "Pfizer",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "Thousands of US lawsuits claim long-term use causes meningioma, a brain tumour; the first trial is set for December 2026.",
+      "medicine_itself": "An effective contraceptive. The lawsuits claim a higher risk of meningioma, usually a non-cancerous tumour, with long-term use; Pfizer disputes them. Talk to your doctor before stopping.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2025,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "In court now",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Brain-tumour lawsuits",
+          "description": "About 3,500 or more cases were grouped in a Florida federal court in 2025. Pfizer has argued US regulators would not have allowed a warning; Daubert hearings were held in mid-2026 and the first bellwether trial is scheduled for 7 December 2026.",
+          "sources": [
+            {
+              "label": "US District Court, N.D. Fla.",
+              "url": "https://flnd.uscourts.gov/node/1421"
+            },
+            {
+              "label": "Anapol Weiss (2026)",
+              "url": "https://blog.anapolweiss.com/blog/the-depo-provera-mdl-where-things-stand/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Finasteride",
+      "area": "Contraception & sexual health",
+      "brands": "Propecia, Proscar",
+      "used_for": "Hair loss and enlarged prostate",
+      "maker": "Merck (MSD) (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Warning signs",
+      "why": "Documents showed Merck knew of hundreds of depression reports, including suicidal thoughts, years before warnings caught up.",
+      "medicine_itself": "Effective. Sexual side effects and depression are reported; whether some persist after stopping, and the suicide link, are disputed.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2019,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Mostly settled",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Sexual side-effect lawsuits",
+          "description": "Lawsuits claimed Propecia caused lasting sexual dysfunction. Most plaintiffs accepted settlements; court records unsealed after Reuters intervened showed what Merck knew.",
+          "sources": [
+            {
+              "label": "Insurance Journal (2019)",
+              "url": "https://www.insurancejournal.com/news/national/2019/09/12/539585.htm"
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Reported",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Suicide reports and a slow label",
+          "description": "Reuters reported that by 2009 Merck knew of more than 200 reports of depression, some with suicidal thoughts, and that an FDA reviewer’s 2010 call for a suicide warning was overruled. Merck says the evidence does not support a causal link.",
+          "sources": [
+            {
+              "label": "Public Citizen",
+              "url": "https://www.citizen.org/article/outrage-of-the-month-merck-fda-failed-to-warn-consumers-about-potential-suicide-risk-linked-to-anti-baldness-drug/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Alendronate",
+      "area": "Bones",
+      "brands": "Fosamax",
+      "used_for": "Osteoporosis",
+      "maker": "Merck (MSD) (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "Lawsuits over unusual thigh-bone fractures have bounced between courts, including the US Supreme Court, for more than a decade.",
+      "medicine_itself": "Effective at preventing fractures. Rare unusual thigh-bone fractures with long-term use are now on the label.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2019,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "In court now",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Thigh-fracture lawsuits",
+          "description": "Many claims say Merck failed to warn about atypical femur fractures. In 2019 the US Supreme Court ruled judges, not juries, decide whether federal law blocks such claims. A judge then found them blocked, but in 2024 the appeals court sent the cases back again.",
+          "sources": [
+            {
+              "label": "Supreme Court opinion (2019)",
+              "url": "https://www.law.cornell.edu/supremecourt/text/17-290"
+            },
+            {
+              "label": "Fishman Haygood (2024)",
+              "url": "https://www.fishmanhaygood.com/resources/fosamax-cases-allowed-to-proceed-herman-examines-u-s-third-circuits-rejection-of-mercks-preemption-claims/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Risedronate",
+      "area": "Bones",
+      "brands": "Actonel, Atelvia",
+      "used_for": "Osteoporosis",
+      "maker": "Warner Chilcott (later Allergan, now AbbVie)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Its US seller pleaded guilty to health-care fraud after paying doctors and faking prior-authorisation paperwork.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2015,
+          "conduct_from": 2009,
+          "conduct_to": 2013,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$125m",
+          "about_parent_drug": "",
+          "title": "Guilty plea: kickbacks and false paperwork",
+          "description": "Warner Chilcott paid doctors through sham speaker events and meals and coached them to justify prior-authorisation requests for patients who did not qualify, for Actonel, Asacol and five other drugs.",
+          "sources": [
+            {
+              "label": "PharmExec (2015)",
+              "url": "https://www.pharmexec.com/view/warner-chilcott-pay-125-million-resolve-physician-kickback-allegations"
+            },
+            {
+              "label": "Healthcare Finance (2015)",
+              "url": "https://www.healthcarefinancenews.com/news/warner-chilcott-pay-125-million-over-kickback-scheme-former-drug-company-officials-indicted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Fluticasone with salmeterol",
+      "area": "Breathing",
+      "brands": "Seretide, Advair",
+      "used_for": "Asthma and COPD (preventer)",
+      "maker": "GlaxoSmithKline",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Promoted as a first-line asthma treatment for patients who did not need it, as part of GSK’s $3 billion case.",
+      "medicine_itself": "Not in question for the patients it suits.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2012,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "part of $3bn",
+          "about_parent_drug": "",
+          "title": "Off-label promotion",
+          "description": "GSK’s civil settlement resolved claims that it promoted Advair for unapproved uses, including first-line use for mild asthma, and paid doctors to prescribe it.",
+          "sources": [
+            {
+              "label": "US DOJ (2012)",
+              "url": "https://www.justice.gov/opa/pr/2012/July/12-civ-842.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Fluticasone inhaler",
+      "area": "Breathing",
+      "brands": "Flixotide, Flovent",
+      "used_for": "Asthma (preventer)",
+      "maker": "GlaxoSmithKline",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "GSK withdrew brand-name Flovent in the US the day a Medicaid rebate cap ended, replacing it with an \"authorised generic\"; Arizona is suing.",
+      "medicine_itself": "Not in question. Families reported trouble getting it covered after the switch.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2024,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Price & tax",
+          "status": "Criticised",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Pulled to dodge rebates?",
+          "description": "GSK stopped selling Flovent and launched an authorised generic just as a US cap on Medicaid rebates was removed. Johns Hopkins researchers estimated the move cost state Medicaid programs nearly $1 billion in 2024. GSK called it a business decision to preserve access.",
+          "sources": [
+            {
+              "label": "Senator Warren (2024)",
+              "url": "https://www.warren.senate.gov/newsroom/press-releases/warren-slams-inhaler-manufacturer-gsk-for-its-billion-dollar-drug-price-gouging-scheme-harming-millions-of-children"
+            },
+            {
+              "label": "Fierce Pharma",
+              "url": "https://www.fiercepharma.com/pharma/sen-warren-rebukes-gsk-alleged-price-gouging-after-pulling-popular-childrens-asthma-med"
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Price & tax",
+          "status": "In court now",
+          "by": "US government",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Arizona consumer-fraud lawsuit",
+          "description": "Arizona’s attorney general sued, alleging GSK switched to the authorised generic to avoid paying Medicaid rebates.",
+          "sources": [
+            {
+              "label": "Arizona AG complaint (2025)",
+              "url": "https://www.azag.gov/sites/default/files/2025-06/GlaxoSmithKline%2Baka%2BFlovent%2BComplaint.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Montelukast",
+      "area": "Breathing",
+      "brands": "Singulair",
+      "used_for": "Asthma and hay fever",
+      "maker": "Merck, now Organon (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Warning signs",
+      "why": "A boxed warning about suicidal thoughts and behaviour was added in 2020; lawsuits say it came far too late.",
+      "medicine_itself": "Effective, but mood and behaviour changes, including suicidal thoughts, are a boxed warning. Watch for them, especially in children.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2020,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Boxed warning",
+          "by": "Regulator",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "A boxed warning, 22 years on",
+          "description": "The FDA required its strongest warning about serious neuropsychiatric events, including suicidal thoughts and actions, and advised against using it for mild allergies.",
+          "sources": [
+            {
+              "label": "NewsNation",
+              "url": "https://digital-release.newsnationnow.com/?p=2584330"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Mixed rulings",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Injury lawsuits",
+          "description": "Families have sued Merck and Organon claiming inadequate warnings. Courts have split: some claims were thrown out as pre-empted by federal law, one was allowed to proceed, and Merck won another on summary judgment.",
+          "sources": [
+            {
+              "label": "HarrisMartin",
+              "url": "https://www.harrismartin.com/publications/4/drugs/articles/29699/merck-organon-must-face-warning-warranty-claims-in-calif-federal-singulair-action/"
+            },
+            {
+              "label": "HarrisMartin",
+              "url": "https://harrismartin.com/publications/4/drugs/articles/37227/merck-prevails-in-calif-federal-singulair-neuropsychiatric-injury-action/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Omeprazole",
+      "area": "Stomach & gut",
+      "brands": "Losec, Prilosec",
+      "used_for": "Reflux and ulcers (proton pump inhibitor)",
+      "maker": "AstraZeneca (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "An EU fine for misleading patent offices to block generics, and a share of the $425 million kidney settlement.",
+      "medicine_itself": "Not in question. Long-term use should be reviewed with your doctor.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2005,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Paid",
+          "by": "Non-US government",
+          "amount": "€52.5m",
+          "about_parent_drug": "",
+          "title": "EU: misleading patent offices",
+          "description": "The European Commission found AstraZeneca gave patent offices \"deliberately misleading\" information to extend Losec’s protection and withdrew products to block generics. Upheld by the EU Court of Justice in 2012.",
+          "sources": [
+            {
+              "label": "BioPharm International",
+              "url": "https://www.biopharminternational.com/view/eu-court-dismisses-astrazeneca-appeal"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Paid",
+          "by": "Private lawsuit",
+          "amount": "part of $425m",
+          "about_parent_drug": "",
+          "title": "Kidney-injury lawsuits",
+          "description": "AstraZeneca paid $425 million to settle US lawsuits claiming Prilosec and Nexium caused kidney disease, saying the claims lacked merit.",
+          "sources": [
+            {
+              "label": "Bloomberg via BNN (2023)",
+              "url": "https://www.bnnbloomberg.ca/astrazeneca-pays-425-million-to-settle-nexium-prilosec-cases-1.1979445"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Lansoprazole",
+      "area": "Stomach & gut",
+      "brands": "Zoton, Prevacid",
+      "used_for": "Reflux and ulcers (proton pump inhibitor)",
+      "maker": "Takeda (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "More than 6,100 US kidney-injury lawsuits, settled confidentially in 2024.",
+      "medicine_itself": "Not in question. Long-term use should be reviewed with your doctor.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2024,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Settled",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Kidney-injury lawsuits",
+          "description": "Takeda faced more than 6,100 US lawsuits claiming Prevacid and Dexilant caused kidney injury, and settled them in 2024 for an undisclosed amount it called not material.",
+          "sources": [
+            {
+              "label": "Takeda report to the SEC (2025)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1395064/000139506425000048/form6k-1_050825.htm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Ondansetron",
+      "area": "Stomach & gut",
+      "brands": "Zofran",
+      "used_for": "Nausea and vomiting",
+      "maker": "GlaxoSmithKline (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Promoted for morning sickness without approval; birth-defect lawsuits were later thrown out.",
+      "medicine_itself": "Not in question. Use in pregnancy is a decision for you and your doctor.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2012,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "part of $3bn",
+          "about_parent_drug": "",
+          "title": "Off-label promotion",
+          "description": "GSK’s civil settlement resolved claims that it promoted Zofran for unapproved uses, including pregnancy nausea.",
+          "sources": [
+            {
+              "label": "US DOJ (2012)",
+              "url": "https://www.justice.gov/opa/pr/2012/July/12-civ-842.html"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Thrown out",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Birth-defect lawsuits thrown out",
+          "description": "A judge ruled the claims were pre-empted because the FDA, fully informed, had rejected the proposed birth-defect warning; the appeals court agreed in 2023.",
+          "sources": [
+            {
+              "label": "American Bar Association (2023)",
+              "url": "https://www.americanbar.org/groups/litigation/resources/newsletters/mass-torts/first-circuit-upholds-preemption-zofran-mdl/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Mesalazine",
+      "area": "Stomach & gut",
+      "brands": "Asacol, Mesasal, Salofalk",
+      "used_for": "Ulcerative colitis",
+      "maker": "Asacol: Warner Chilcott (later Allergan, now AbbVie)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Asacol was one of seven drugs in Warner Chilcott’s 2015 health-care fraud guilty plea.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2015,
+          "conduct_from": 2009,
+          "conduct_to": 2013,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "part of $125m",
+          "about_parent_drug": "",
+          "title": "Guilty plea: kickbacks",
+          "description": "Warner Chilcott pleaded guilty to health-care fraud over kickbacks and false prior-authorisation paperwork covering Asacol, Actonel and five other drugs.",
+          "sources": [
+            {
+              "label": "PharmExec (2015)",
+              "url": "https://www.pharmexec.com/view/warner-chilcott-pay-125-million-resolve-physician-kickback-allegations"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Ciprofloxacin",
+      "area": "Infections",
+      "brands": "Ciproxin, Cipro",
+      "used_for": "Bacterial infections (antibiotic)",
+      "maker": "Bayer (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Bayer paid a generic maker $398 million to stay off the market, and hid a discount from Medicaid.",
+      "medicine_itself": "Effective, but tendon, nerve and other serious side effects carry boxed warnings; it is now reserved for when other antibiotics will not do.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2003,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$257m",
+          "about_parent_drug": "",
+          "title": "Hiding a discount from Medicaid",
+          "description": "Bayer pleaded guilty. It sold \"private label\" Cipro and Adalat to the insurer Kaiser cheaply and did not report it as its best price, short-changing Medicaid rebates.",
+          "sources": [
+            {
+              "label": "Bayer report to the SEC (2003)",
+              "url": "https://www.sec.gov/Archives/edgar/data/0001144145/000115697303001761/f00655e6vk.txt"
+            }
+          ]
+        },
+        {
+          "year": 2015,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Paid",
+          "by": "Private lawsuit",
+          "amount": "$399m",
+          "about_parent_drug": "",
+          "title": "Paying a rival to wait",
+          "description": "In a 1997 deal Bayer paid Barr about $398 million to hold off its generic Cipro until the patent expired. California buyers sued; Bayer settled for $74 million and Barr later for $225 million, after the state’s Supreme Court revived the case in 2015.",
+          "sources": [
+            {
+              "label": "Lieff Cabraser",
+              "url": "https://lieffcabraser.com/Antitrust/Cipro"
+            },
+            {
+              "label": "Crowell & Moring (2015)",
+              "url": "https://crowell.com/en/insights/client-alerts/ca-supreme-court-fashions-structural-rule-of-reason-analysis-for-pay-for-delay-settlement-agreements"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Levofloxacin",
+      "area": "Infections",
+      "brands": "Levaquin, Tavanic",
+      "used_for": "Bacterial infections (antibiotic)",
+      "maker": "Janssen (J&J) (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Thousands of tendon-rupture lawsuits; J&J lost the first trial and won others.",
+      "medicine_itself": "Effective, but tendon rupture and other serious side effects carry boxed warnings.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2010,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Paid",
+          "by": "Private lawsuit",
+          "amount": "$1.8m",
+          "about_parent_drug": "",
+          "title": "Tendon-rupture lawsuits",
+          "description": "A Minneapolis federal jury awarded $1.8 million to a man whose Achilles tendons ruptured after a short course. J&J went on to win other trials among thousands of cases.",
+          "sources": [
+            {
+              "label": "PharmaTimes",
+              "url": "https://pharmatimes.com/?p=51569"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Oseltamivir",
+      "area": "Infections",
+      "brands": "Tamiflu",
+      "used_for": "Influenza (antiviral)",
+      "maker": "Roche",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Governments stockpiled it for years before Roche released the full trial data, which showed weaker benefits than claimed.",
+      "medicine_itself": "Shortens flu symptoms by about half a day; evidence that it prevents complications is weak.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2014,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Data released",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "The missing trial data",
+          "description": "After a campaign of more than four years by Cochrane and the BMJ, Roche released all 77 clinical study reports. The review found no good evidence that Tamiflu reduces hospital admissions or complications. The UK alone had spent about £424 million on stockpiles.",
+          "sources": [
+            {
+              "label": "Scientific American (2014)",
+              "url": "https://www.scientificamerican.com/article/flu-drug-stockpiling-reported-to-be-a-waste-of-money/"
+            },
+            {
+              "label": "Goldacre / CEBM",
+              "url": "https://www.cebm.net/announcement/ben-goldacre-tamiflu-saga-tells-us-drug-trials-big-pharma/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Tenofovir disoproxil with emtricitabine",
+      "area": "Infections",
+      "brands": "Truvada",
+      "used_for": "HIV treatment and prevention (PrEP)",
+      "maker": "Gilead (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Thousands of patients claimed Gilead held back a kidney- and bone-friendlier version to protect sales; California’s Supreme Court threw out the claims in 2026.",
+      "medicine_itself": "Effective. Kidney and bone effects are known; newer TAF versions have less of them.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2026,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Thrown out",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "The \"delayed safer drug\" lawsuits",
+          "description": "More than 20,000 plaintiffs alleged Gilead slowed development of its TAF-based drugs to keep selling TDF. A lower court let the claims proceed in 2024, but in August 2026 California’s Supreme Court ruled 6–1 that drugmakers have no general duty to bring an alternative drug to market sooner.",
+          "sources": [
+            {
+              "label": "Court opinion via Leagle (2026)",
+              "url": "https://www.leagle.com/decision/incaco20260803034"
+            },
+            {
+              "label": "BioSpace",
+              "url": "https://www.biospace.com/gilead-lawsuits-california-hiv-patients-file-class-action-and-personal-injury-cases-over-key-hiv-drug"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Bictegravir, emtricitabine and tenofovir alafenamide",
+      "area": "Infections",
+      "brands": "Biktarvy",
+      "used_for": "HIV treatment",
+      "maker": "Gilead",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Gilead paid $202 million over speaker programmes that allegedly rewarded doctors for prescribing its HIV drugs.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2025,
+          "conduct_from": 2011,
+          "conduct_to": 2017,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$202m",
+          "about_parent_drug": "",
+          "title": "Speaker-programme kickbacks",
+          "description": "Gilead settled whistleblower claims that lavish speaker events and fees, including more than $20 million in speaker fees, induced doctors to prescribe Biktarvy, Descovy and other HIV drugs.",
+          "sources": [
+            {
+              "label": "CNBC via NBC (2025)",
+              "url": "https://www.nbcwashington.com/news/business/money-report/gilead-sciences-agrees-to-pay-202-million-to-settle-claims-of-kickbacks-to-doctors-for-hiv-drug-prescriptions/3902230/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Sofosbuvir",
+      "area": "Infections",
+      "brands": "Sovaldi, Harvoni, Epclusa",
+      "used_for": "Hepatitis C cure",
+      "maker": "Gilead",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "A genuine cure priced at about $1,000 a pill \"to maximise revenue\", a Senate investigation found.",
+      "medicine_itself": "Not in question. It cures most people with hepatitis C.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2015,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Price & tax",
+          "status": "Senate finding",
+          "by": "US government",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "$84,000 a course",
+          "description": "An 18-month Senate Finance Committee investigation found Gilead set the price to maximise revenue, and that broad, affordable access was not a key consideration. Medicare spent $8.2 billion on Sovaldi and Harvoni in 18 months.",
+          "sources": [
+            {
+              "label": "US Senate Finance Committee (2015)",
+              "url": "https://www.finance.senate.gov/ranking-members-news/wyden-grassley-sovaldi-investigation-finds-revenue-driven-pricing-strategy-behind-84-000-hepatitis-drug"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Doxycycline",
+      "area": "Infections",
+      "brands": "Doryx, Vibramycin",
+      "used_for": "Bacterial infections, acne and malaria prevention",
+      "maker": "Generic makers including Heritage Pharmaceuticals",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Generic makers’ executives pleaded guilty to fixing its price, the first charges in the US generic price-fixing probe.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2017,
+          "conduct_from": 2013,
+          "conduct_to": 2015,
+          "issue": "Price & tax",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$7.3m",
+          "about_parent_drug": "",
+          "title": "Price-fixing guilty pleas",
+          "description": "Heritage’s former chief executive and president pleaded guilty to conspiring to fix the prices of doxycycline hyclate and the diabetes drug glyburide. Heritage entered a deferred prosecution agreement and paid $7.1 million in a civil settlement.",
+          "sources": [
+            {
+              "label": "AJMC",
+              "url": "https://ajmc.com/view/drug-price-fixing-charges-result-from-investigation-of-generic-drug-industry"
+            },
+            {
+              "label": "Connecticut AG (2017)",
+              "url": "https://portal.ct.gov/AG/Press-Releases-Archived/2017-Press-Releases/AG-Jepsen-States-Reach-Settlements-Cooperation-Agreements-with-Two-Former-Executives-in-Generic-Drug"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Adalimumab",
+      "area": "Immune system",
+      "brands": "Humira, Hadlima, Amgevita",
+      "used_for": "Arthritis, psoriasis and Crohn’s disease",
+      "maker": "AbbVie (biosimilars now available)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "A 132-patent wall kept US copies out until 2023, while the price rose about 470%.",
+      "medicine_itself": "Not in question. Cheaper biosimilars work the same way.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2020,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$24m",
+          "about_parent_drug": "",
+          "title": "Free \"nurse ambassadors\"",
+          "description": "A whistleblower case claimed AbbVie gave doctors free nurse services and other perks to drive Humira prescriptions. Settled with California’s Insurance Commissioner without admitting wrongdoing.",
+          "sources": [
+            {
+              "label": "California Dept of Insurance (2020)",
+              "url": "https://www.insurance.ca.gov/0400-news/0100-press-releases/2020/release071-2020.cfm"
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Congressional finding",
+          "by": "US government",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Patents, price and tax",
+          "description": "Congressional investigators found Humira’s US list price rose about 470% and executive bonuses were tied to Humira revenue. AbbVie’s 132-patent \"thicket\" kept US biosimilars out until 2023, five years after Europe; courts found this legal.",
+          "sources": [
+            {
+              "label": "Endpoints",
+              "url": "https://endpts.com/house-committee-uncovers-how-humiras-price-spiked-by-470-as-abbvie-execs-cashed-bonuses-tied-to-the-hikes"
+            },
+            {
+              "label": "Petrie-Flom",
+              "url": "https://petrieflom.law.harvard.edu/2021/01/06/abbvie-humira-antitrust-patent-thicket/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Etanercept",
+      "area": "Immune system",
+      "brands": "Enbrel, Brenzys",
+      "used_for": "Arthritis and psoriasis",
+      "maker": "Amgen in the US; Pfizer elsewhere",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Warning signs",
+      "why": "Patents bought from another company keep US copies out until 2029; a rival is suing.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2020,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Patents upheld",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "A patent wall to 2029",
+          "description": "An appeals court upheld two Amgen patents running to 2028 and 2029, blocking Sandoz’s approved biosimilar. Sandoz argued Amgen had acquired the patents from Roche to stretch protection.",
+          "sources": [
+            {
+              "label": "Bloomberg Law (2020)",
+              "url": "https://news.bloomberglaw.com/ip-law/amgen-wins-appeals-court-ruling-upholding-patents-on-enbrel-1"
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Suit filed",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Sandoz antitrust suit",
+          "description": "Sandoz sued Amgen in Virginia, alleging it extended its monopoly by buying and using patent rights, and seeking triple damages.",
+          "sources": [
+            {
+              "label": "Pharmaceutical Technology (2025)",
+              "url": "https://www.pharmaceutical-technology.com/newsletters/sandoz-challenges-amgens-enbrel-patents-in-us-antitrust-lawsuit/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Infliximab",
+      "area": "Immune system",
+      "brands": "Remicade, Inflectra, Renflexis",
+      "used_for": "Crohn’s disease, colitis and arthritis",
+      "maker": "Janssen (J&J) (biosimilars now available)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Pfizer accused J&J of using rebate deals to lock out its cheaper biosimilar; they settled confidentially.",
+      "medicine_itself": "Not in question. Biosimilars work the same way.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2021,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Settled",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Locking out a cheaper copy",
+          "description": "Pfizer sued in 2017, alleging J&J tied Remicade discounts to insurers and providers shunning biosimilars such as Inflectra. The case settled confidentially in 2021, without a ruling.",
+          "sources": [
+            {
+              "label": "Fierce Pharma (2021)",
+              "url": "https://www.fiercepharma.com/pharma/pfizer-johnson-johnson-agree-to-a-settlement-terms-undisclosed-biosimilar-lawsuit"
+            },
+            {
+              "label": "Goodwin (2021)",
+              "url": "https://goodwinlaw.com/en/insights/blogs/2021/08/jj-and-pfizer-settle-remicade-biosimilar-antitrust"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Glatiramer",
+      "area": "Immune system",
+      "brands": "Copaxone",
+      "used_for": "Multiple sclerosis",
+      "maker": "Teva",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Teva funnelled money through charities to cover patients’ copays while repeatedly raising the price.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2024,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$450m",
+          "about_parent_drug": "",
+          "title": "Copay kickbacks and price-fixing",
+          "description": "Teva allegedly paid Medicare patients’ Copaxone copays through charities while raising its price. The settlement also covered generic price-fixing claims.",
+          "sources": [
+            {
+              "label": "HHS-OIG (2024)",
+              "url": "https://oig.hhs.gov/fraud/enforcement/drug-maker-teva-pharmaceuticals-agrees-to-pay-450m-in-false-claims-act-settlement-to-resolve-kickback-allegations-relating-to-copayments-and-price-fixing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Dimethyl fumarate",
+      "area": "Immune system",
+      "brands": "Tecfidera",
+      "used_for": "Multiple sclerosis",
+      "maker": "Biogen (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "One of three Biogen MS drugs in a $900 million kickback settlement brought by a whistleblower.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2022,
+          "conduct_from": 2009,
+          "conduct_to": 2014,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$900m",
+          "about_parent_drug": "",
+          "title": "Speaker and consulting kickbacks",
+          "description": "Biogen settled claims that it paid doctors speaker and consulting fees to prescribe Avonex, Tysabri and Tecfidera, without admitting liability. The whistleblower pursued the case after the government declined to join.",
+          "sources": [
+            {
+              "label": "BioPharm International (2022)",
+              "url": "https://www.biopharminternational.com/view/biogen-to-settle-kickbacks-lawsuit-for-900-million"
+            },
+            {
+              "label": "Reuters via PharmaLive",
+              "url": "https://www.pharmalive.com/biogen-finalizes-900-mln-drug-kickback-settlement-u-s-says/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Lenalidomide",
+      "area": "Cancer, blood & eyes",
+      "brands": "Revlimid",
+      "used_for": "Multiple myeloma",
+      "maker": "Celgene, now Bristol Myers Squibb",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "Patent deals capped how much generic Revlimid could be sold until 2026; a court let antitrust claims go ahead in September 2026.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2017,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$280m",
+          "about_parent_drug": "",
+          "title": "Off-label promotion",
+          "description": "Celgene settled a whistleblower case alleging off-label cancer promotion of Revlimid and Thalomid and payments to doctors, denying wrongdoing.",
+          "sources": [
+            {
+              "label": "Pharma Manufacturing (2017)",
+              "url": "https://www.pharmamanufacturing.com/industrynews/2017/celgene-settles-cancer-med-fraud-suit-for-280-million/"
+            }
+          ]
+        },
+        {
+          "year": 2026,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Allowed to proceed",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Generic volume limits",
+          "description": "Under patent settlements, generic makers could sell only a small, slowly rising share of Revlimid’s volume until January 2026. Buyers allege a conspiracy to monopolise; in September 2026 a New Jersey judge refused to dismiss the claims against Celgene, Teva and others.",
+          "sources": [
+            {
+              "label": "MLex (2026)",
+              "url": "https://www.mlex.com/mlex/antitrust/articles/2531685/celgene-teva-others-must-face-us-antitrust-claims-over-revlimid-judge-rules"
+            },
+            {
+              "label": "Teva quarterly report (2026)",
+              "url": "https://www.sec.gov/Archives/edgar/data/0000818686/000119312526191513/d115083d10q.htm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Imatinib",
+      "area": "Cancer, blood & eyes",
+      "brands": "Glivec, Gleevec",
+      "used_for": "Leukaemia (CML) and GIST",
+      "maker": "Novartis (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "India’s Supreme Court refused Novartis a patent on a new form of the drug, calling it an attempt to extend protection without a real improvement.",
+      "medicine_itself": "Not in question. A landmark targeted cancer drug.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2013,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Patent refused",
+          "by": "Non-US government",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "India: \"evergreening\" rejected",
+          "description": "The Supreme Court of India upheld the rejection of a patent on a crystalline form of imatinib, finding Novartis had not shown it worked better than the known substance. Cheap generics continued in India.",
+          "sources": [
+            {
+              "label": "PharmaTimes (2013)",
+              "url": "https://pharmatimes.com/news/novartis_loses_indian_glivec_patent_case_1004741/"
+            },
+            {
+              "label": "Penningtons (2013)",
+              "url": "https://www.penningtonslaw.com/news-publications/latest-news/2013/supreme-court-rules-against-novartis-in-glivec-patent-case"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Ranibizumab",
+      "area": "Cancer, blood & eyes",
+      "brands": "Lucentis",
+      "used_for": "Macular degeneration (eye injections)",
+      "maker": "Genentech/Roche and Novartis",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Italy fined Roche and Novartis for colluding to steer doctors from cheap Avastin to Lucentis, which cost up to 30 times more.",
+      "medicine_itself": "Not in question. Avastin used off-label is a far cheaper alternative many eye doctors use.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2014,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Paid",
+          "by": "Non-US government",
+          "amount": "€180m",
+          "about_parent_drug": "",
+          "title": "Italy: Avastin/Lucentis collusion",
+          "description": "Italy’s competition authority found Roche and Novartis colluded to steer eye doctors away from Avastin. Upheld after the EU Court of Justice ruled in 2018.",
+          "sources": [
+            {
+              "label": "Healio (2014)",
+              "url": "https://www.healio.com/news/ophthalmology/20140305/italian-agency-fines-novartis-roche-180-million-euros-for-manipulation-of-pharmaceutical-market"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Overturned",
+          "by": "Non-US government",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "France: fine overturned",
+          "description": "France fined Novartis, Roche and Genentech €444 million in 2020 for similar conduct, but the Paris Court of Appeal annulled it in 2023.",
+          "sources": [
+            {
+              "label": "Pharmaphorum (2023)",
+              "url": "https://pharmaphorum.com/news/french-court-overturns-eu444m-fine-novartis-roche"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Docetaxel",
+      "area": "Cancer, blood & eyes",
+      "brands": "Taxotere",
+      "used_for": "Breast, prostate and lung cancer (chemotherapy)",
+      "maker": "Sanofi (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "More than 10,000 women sued over permanent hair loss; Sanofi has won the trials so far, and eye-injury cases continue.",
+      "medicine_itself": "An important chemotherapy. Permanent hair loss and tear-duct damage are now recognised risks.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2021,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Sanofi won trials",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Permanent hair-loss lawsuits",
+          "description": "Thousands of cases claimed Sanofi failed to warn of permanent hair loss. Juries cleared Sanofi in 2019 and 2021, thousands of cases were dismissed, and there has been no global settlement.",
+          "sources": [
+            {
+              "label": "FDAnews",
+              "url": "https://fdanews.com/articles/192908-jury-clears-sanofi-of-liability-for-hair-loss-from-taxotere-therapy"
+            },
+            {
+              "label": "Drugwatch (2026)",
+              "url": "https://www.drugwatch.com/taxotere/lawsuits/"
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "In court now",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Eye-injury lawsuits",
+          "description": "A separate group of cases claims docetaxel caused chronic tearing and blocked tear ducts. In 2026 some generic makers won, while cases against Sanofi continued.",
+          "sources": [
+            {
+              "label": "Open Class Actions",
+              "url": "https://openclassactions.com/investigations/taxotere-eye-injury-mdl-lawsuit.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Epoetin and darbepoetin",
+      "area": "Cancer, blood & eyes",
+      "brands": "Aranesp, Eprex",
+      "used_for": "Anaemia from kidney disease or chemotherapy",
+      "maker": "Amgen and Janssen (J&J)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Amgen pleaded guilty to promoting higher doses than approved; aiming for normal blood counts later proved dangerous.",
+      "medicine_itself": "Useful, but targeting high haemoglobin raises the risk of strokes, clots and death.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2012,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$762m",
+          "about_parent_drug": "",
+          "title": "Guilty plea: off-label doses",
+          "description": "Amgen pleaded guilty. It had promoted Aranesp at higher doses than the label allowed, and for cancer patients not on chemotherapy, uses that later proved dangerous.",
+          "sources": [
+            {
+              "label": "BioPharm International (2012)",
+              "url": "https://www.biopharminternational.com/view/amgen-pay-762-million-settlement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Erlotinib",
+      "area": "Cancer, blood & eyes",
+      "brands": "Tarceva",
+      "used_for": "Lung cancer",
+      "maker": "Genentech (Roche) and OSI (now generic)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Told doctors it worked in patients for whom there was little evidence.",
+      "medicine_itself": "Not in question for patients with an EGFR mutation.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2016,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$67m",
+          "about_parent_drug": "",
+          "title": "Misleading efficacy claims",
+          "description": "Genentech and OSI allegedly told doctors Tarceva worked for lung-cancer patients who had smoked or lacked an EGFR mutation, with little evidence.",
+          "sources": [
+            {
+              "label": "US DOJ (2016)",
+              "url": "https://www.justice.gov/opa/pr/pharmaceutical-companies-pay-67-million-resolve-false-claims-act-allegations-relating-tarceva"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Adrenaline auto-injector",
+      "area": "Skin, allergy & other",
+      "brands": "EpiPen",
+      "used_for": "Severe allergic reactions (anaphylaxis)",
+      "maker": "Mylan (now Viatris); made by Pfizer’s Meridian",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "The US price of a two-pack went from about $100 to about $600; Mylan also misclassified it to cut Medicaid rebates.",
+      "medicine_itself": "Not in question. Always carry it if prescribed.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2017,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Price & tax",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$465m",
+          "about_parent_drug": "",
+          "title": "Misclassified to dodge rebates",
+          "description": "Mylan classified EpiPen as a generic to pay smaller Medicaid rebates while raising the two-pack price from about $100 in 2007 to about $600 in 2016.",
+          "sources": [
+            {
+              "label": "BioSpace (2017)",
+              "url": "https://www.biospace.com/mylan-finalizes-465-million-epipen-settlement"
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Paid",
+          "by": "Private lawsuit",
+          "amount": "$609m",
+          "about_parent_drug": "",
+          "title": "Antitrust class action",
+          "description": "Buyers alleged a pay-for-delay deal with Teva delayed a generic EpiPen. Pfizer settled for $345 million in 2021 and Viatris for $264 million in 2022, without admitting liability.",
+          "sources": [
+            {
+              "label": "NBC News (2022)",
+              "url": "https://www.nbcnews.com/business/business-news/epipen-maker-pay-264-million-settle-lawsuit-rcna18082"
+            },
+            {
+              "label": "Viatris annual report (2022)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1792044/000119312523270456/d520890dars.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Isotretinoin",
+      "area": "Skin, allergy & other",
+      "brands": "Roaccutane, Oratane, Accutane",
+      "used_for": "Severe acne",
+      "maker": "Roche originally; now generic makers",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Thousands of US lawsuits claimed it caused bowel disease; some juries agreed, but the courts ended most cases.",
+      "medicine_itself": "Very effective, but it causes birth defects and needs strict pregnancy prevention; mood changes should be reported.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2018,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Mostly dismissed",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Bowel-disease lawsuits",
+          "description": "Juries awarded plaintiffs between $2 million and $25 million in some trials, but New Jersey’s Supreme Court dismissed 532 claims in 2018, holding that FDA-approved warnings are presumed adequate.",
+          "sources": [
+            {
+              "label": "STAT (2018)",
+              "url": "https://www.statnews.com/pharmalot/2018/10/04/roche-new-jersey-accutane-lawsuits/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Ciclosporin eye drops",
+      "area": "Skin, allergy & other",
+      "brands": "Restasis",
+      "used_for": "Dry eye",
+      "maker": "Allergan (now AbbVie)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Allergan transferred its patents to a Native American tribe to try to shield them from challenge.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2020,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Paid",
+          "by": "Private lawsuit",
+          "amount": "$51.25m",
+          "about_parent_drug": "",
+          "title": "\"Renting\" a tribe’s immunity",
+          "description": "Allergan sold its Restasis patents to the Saint Regis Mohawk Tribe, which licensed them straight back, claiming tribal immunity from patent challenges. Courts rejected the tactic, and Allergan settled buyers’ antitrust claims.",
+          "sources": [
+            {
+              "label": "Bloomberg Law (2020)",
+              "url": "https://news.bloomberglaw.com/antitrust/allergans-restasis-antitrust-settlement-is-worth-51-million"
+            },
+            {
+              "label": "Allergan quarterly report (2018)",
+              "url": "https://www.sec.gov/Archives/edgar/data/0001578845/000156459018010702/agn-10q_20180331.htm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Botulinum toxin",
+      "area": "Skin, allergy & other",
+      "brands": "Botox",
+      "used_for": "Migraine, spasticity, sweating and cosmetic use",
+      "maker": "Allergan (now AbbVie)",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Allergan pleaded guilty to promoting Botox for unapproved uses and paying doctors as \"advisers\".",
+      "medicine_itself": "Not in question for its approved uses.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2010,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$600m",
+          "about_parent_drug": "",
+          "title": "Off-label promotion",
+          "description": "Allergan pleaded guilty. It promoted Botox for headache, pain and other unapproved uses, paid doctors to sit on \"advisory boards\" and created a supposedly independent education group.",
+          "sources": [
+            {
+              "label": "US DOJ (2010)",
+              "url": "https://www.justice.gov/opa/pr/2010/September/10-civ-988.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "list": "Still on the shelf",
+      "medicine": "Clobetasol",
+      "area": "Skin, allergy & other",
+      "brands": "Dermovate, Clobex",
+      "used_for": "Severe eczema and psoriasis (strong steroid cream)",
+      "maker": "Generic makers including Taro and Sandoz",
+      "launched": null,
+      "market": "",
+      "pbs_basis": "",
+      "pbs_rank": null,
+      "pbs_prescriptions_2024_25": null,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Generic makers admitted fixing prices of this and other skin creams.",
+      "medicine_itself": "Not in question.",
+      "watch": "",
+      "events": [
+        {
+          "year": 2020,
+          "conduct_from": 2013,
+          "conduct_to": 2015,
+          "issue": "Price & tax",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$205.7m",
+          "about_parent_drug": "",
+          "title": "Price-fixing",
+          "description": "Taro admitted conspiring with Sandoz to allocate customers and fix prices of generic drugs including clobetasol, under a deferred prosecution agreement. It paid a further $213 million in a civil settlement in 2021; Sandoz paid $195 million in 2020.",
+          "sources": [
+            {
+              "label": "Faruqi & Faruqi",
+              "url": "https://www.faruqilaw.com/blog/564/taro-agrees-to-pay-205-million-to-resolve-price-fixing-charges"
+            },
+            {
+              "label": "Taro annual report (2022)",
+              "url": "https://www.sec.gov/Archives/edgar/data/906338/000095017022012998/taro-20220331.htm"
+            },
+            {
+              "label": "CNBC (2020)",
+              "url": "https://www.cnbc.com/2020/03/02/novartis-subsidiary-sandoz-to-pay-195-million-over-antitrust-allegations.html"
             }
           ]
         }

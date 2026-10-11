@@ -557,6 +557,7 @@
     if (window.Bench) window.Bench.init();
     initCompanies();
     if (window.Meds) window.Meds.init();
+    if (window.Shelf) window.Shelf.init();
     initMoney();
     renderOz();
     initScore();

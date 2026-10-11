@@ -427,28 +427,18 @@
         <p>A pilot that looks at medicines rather than companies. We took the 15 that matter most to Australia’s PBS (the ten most prescribed and the five that cost the government most in 2024–25) and checked each for fines, lawsuits, research problems and factory scandals. The list was fixed by that rule before any research began, so nothing was cherry-picked.</p>
       </div>
       <div class="med-caution reveal" role="note">
-        <strong>Not medical advice.</strong> A company’s record is not a verdict on your medicine. Each card says whether the medicine itself is in question, and for most of them it is not. Never stop or change a medicine without talking to your doctor.
+        <strong>Not medical advice.</strong> A company’s record is not a verdict on your medicine. Every record on this page says whether the medicine itself is in question, and for most of them it is not. Never stop or change a medicine without talking to your doctor.
       </div>
 
       <h3 class="med-h">What the pilot found</h3>
       <div class="findings" id="medFindings"></div>
       <div class="predict reveal" id="medPredict"></div>
 
-      <h3 class="med-h" id="medLookup">Look up a medicine</h3>
-      <div class="light-tiles" id="medTiles" role="group" aria-label="Filter by status"></div>
-      <div class="filters">
-        <input type="search" id="medSearch" placeholder="Search by name or brand, e.g. Lipitor" aria-label="Search the 15 medicines">
-        <span class="count" id="medCount" aria-live="polite"></span>
-      </div>
-      <div class="med-grid" id="medGrid"></div>
-      <div class="med-empty" id="medEmpty" hidden>
-        <p><strong>Not in the pilot yet.</strong> <span id="medNear"></span> The pilot covers the PBS’s ten most-prescribed medicines and its five most expensive. A full version would cover the top 100.</p>
-        <button class="btn" id="medShowAll" type="button">Show all 15</button>
-      </div>
+      <p class="med-pointer reveal">All 15 are in the searchable table in the next section, <a href="#shelf">Still on the shelf</a>, alongside 93 more medicines with a record.</p>
 
       <div class="chart-card reveal" style="margin-top:28px">
         <div class="chart-title">Where the trouble is</div>
-        <div class="chart-sub">What we found for each medicine, by type of problem. Hover over or tap a mark for the details, or select a name to open its card.</div>
+        <div class="chart-sub">What we found for each medicine, by type of problem. Hover over or tap a mark for the details, or select a name to open its full record.</div>
         <div class="legend" id="medMatrixLegend"></div>
         <div class="chart" id="medMatrix"></div>
       </div>
@@ -467,7 +457,73 @@
           <p><strong>The lights.</strong> In court now: a live government case, class action or group of injury lawsuits over the medicine. Warning signs: nothing live, but an active concern such as a patent wall, a pricing probe, or a safety or factory problem. Quiet now: nothing live that we found. Past cases can still be serious.</p>
           <p><strong>Limits.</strong> This used web searches, not full database pulls, so smaller matters may be missed. Whistleblower cases are sealed and invisible. A record belongs to companies, not molecules: a generic made by another company carries none of the original maker’s record. Amounts are as reported, in the currency paid. Launch is the first approval in a major market.</p>
           <p><strong>The full version.</strong> The same method for the top 100 medicines, drawing on the FDA’s recall and adverse-event data, ClinicalTrials.gov, court dockets and the Retraction Watch database. It would also include a back-test: score each medicine using only what was known in 2010, then check what happened by 2025, to see whether the warning signs actually predict trouble.</p>
-          <p><strong>Download.</strong> The pilot data as <a href="data/medicines.csv">CSV</a> or <a href="data/medicines.json">JSON</a>.</p>
+          <p><strong>Download.</strong> All 108 medicines on this page, including the pilot, as <a href="data/medicines.csv">CSV</a> or <a href="data/medicines.json">JSON</a>.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ═══════════════ STILL ON THE SHELF ═══════════════ -->
+  <section class="block" id="shelf">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2><span class="num">05</span>Still on the shelf</h2>
+        <p>108 widely prescribed medicines with a cloud over them: the pilot’s 15, plus 93 more chosen because something about them is, or is alleged to be, dodgy. Fraud and kickbacks, buried data, injury lawsuits, price gouging, contamination. Search for your medicine, filter by the kind of problem, or sort by the money paid.</p>
+      </div>
+      <div class="med-caution reveal" role="note">
+        <strong>Picked for their records.</strong> Unlike the pilot, these 93 were chosen because they have a history, so the share in court here says nothing about medicines in general. Most are still the right medicine for the people who take them: each record says whether the medicine itself is in question. Never stop or change a medicine without talking to your doctor.
+      </div>
+
+      <div class="shelf-controls">
+        <input type="search" id="shelfSearch" placeholder="Search a medicine, brand, company or topic, e.g. Ozempic, Pfizer, kickbacks" aria-label="Search the medicines">
+        <select id="shelfArea" aria-label="Filter by area of medicine"><option value="all">All areas</option></select>
+        <select id="shelfList" aria-label="Which medicines">
+          <option value="all">All 108 medicines</option>
+          <option value="pilot">PBS top 15 (the pilot)</option>
+          <option value="more">The other 93</option>
+        </select>
+        <select id="shelfSort" aria-label="Sort by">
+          <option value="light">Sort: status</option>
+          <option value="name">Sort: medicine A–Z</option>
+          <option value="paid">Sort: money paid</option>
+          <option value="latest">Sort: most recent</option>
+          <option value="issues">Sort: most problems</option>
+          <option value="maker">Sort: maker</option>
+        </select>
+      </div>
+      <div class="chips shelf-chips" id="shelfLights" role="group" aria-label="Filter by status"></div>
+      <div class="chips shelf-chips" id="shelfIssues" role="group" aria-label="Filter by kind of problem"></div>
+      <div class="shelf-summary"><span id="shelfSummary" aria-live="polite"></span> <button class="linkish" id="shelfClear" type="button" hidden>Clear filters</button></div>
+      <div class="shelf-wrap">
+        <table class="data shelf" id="shelfTable">
+          <thead>
+            <tr>
+              <th data-sort="name"><button type="button">Medicine</button></th>
+              <th class="c-for">Used for</th>
+              <th data-sort="maker"><button type="button">Maker</button></th>
+              <th data-sort="light"><button type="button">Status</button></th>
+              <th data-sort="issues"><button type="button">Problems</button></th>
+              <th data-sort="paid" class="num"><button type="button">Paid</button></th>
+              <th data-sort="latest" class="num"><button type="button">Latest</button></th>
+            </tr>
+          </thead>
+          <tbody id="shelfBody"></tbody>
+        </table>
+      </div>
+      <div class="med-empty" id="shelfEmpty" hidden>
+        <p><strong>Nothing matches.</strong> This list covers 108 medicines. If yours is not here, we have not found a significant record for it, or have not checked it yet.</p>
+        <button class="btn" id="shelfReset" type="button">Clear the filters</button>
+      </div>
+
+      <details class="data-view med-method reveal">
+        <summary>How this list was made, and its limits</summary>
+        <div class="methods" style="margin-top:8px">
+          <p><strong>How the 93 were chosen.</strong> Medicines widely prescribed in Australia, the US or the UK with a documented record: a government penalty or lawsuit, a class action or group of injury lawsuits, a regulator’s recall or safety action, a documented research problem, or a case about blocking cheaper copies or excessive pricing. They were picked for that record, so this is not a random sample.</p>
+          <p><strong>What the columns mean.</strong> Status uses the same lights as the pilot. Problems shows each kind of issue on record: filled for paid or proven, red ring for in court now, hollow for raised but not proven (or thrown out). Paid adds up the payments on record for that medicine; a payment shared by several medicines is counted once, against one of them, and non-US amounts are converted at approximate current exchange rates (≈).</p>
+          <p><strong>Limits.</strong> Built from web searches of news reports, court records, regulators’ notices and company filings, not full database pulls, so smaller matters may be missed and the status of some cases may have moved on. Settling is not admitting: many settlements were made without admission of liability. A record belongs to a company, not a molecule: a generic made by another company carries none of the original maker’s record.</p>
+          <p><strong>Download.</strong> All 108 medicines as <a href="data/medicines.csv">CSV</a> or <a href="data/medicines.json">JSON</a>.</p>
         </div>
       </details>
     </div>
@@ -479,7 +535,7 @@
   <section class="block" id="money">
     <div class="wrap">
       <div class="section-head reveal">
-        <h2><span class="num">05</span>Follow the money</h2>
+        <h2><span class="num">06</span>Follow the money</h2>
         <p>Big numbers, but compared with what? These charts total the penalties by company, by year and by type of misconduct. They also translate the record fines into days of sales, which is how a chief financial officer would see them.</p>
       </div>
       <div class="filters reveal" style="margin-bottom:16px">
@@ -550,7 +606,7 @@
   <section class="block" id="verdict">
     <div class="wrap">
       <div class="section-head reveal">
-        <h2><span class="num">06</span>The verdict</h2>
+        <h2><span class="num">07</span>The verdict</h2>
         <p>Two questions: are they good or bad? And are they getting any better? Here is the evidence on both sides, followed by a straight answer.</p>
       </div>
 
@@ -596,7 +652,7 @@
   <section class="block" id="cases">
     <div class="wrap">
       <div class="section-head reveal">
-        <h2><span class="num">07</span>Every case</h2>
+        <h2><span class="num">08</span>Every case</h2>
         <p>The complete database behind every chart on this page. Filter, search and sort it, and follow the source links. This table is also the accessible version of all the charts. You can also download the whole database as <a href="https://github.com/RickUsingGitHub/BigPharma/blob/main/data/cases.csv" target="_blank" rel="noopener">a spreadsheet (CSV)</a> or <a href="https://github.com/RickUsingGitHub/BigPharma/blob/main/data/cases.json" target="_blank" rel="noopener">JSON</a>.</p>
       </div>
       <div class="filters">
@@ -633,7 +689,7 @@
   <section class="block" id="sources">
     <div class="wrap">
       <div class="section-head">
-        <h2><span class="num">08</span>Method &amp; sources</h2>
+        <h2><span class="num">09</span>Method &amp; sources</h2>
       </div>
       <div class="methods">
         <p><strong>What is counted.</strong> The headline totals include only money paid to governments (criminal fines, forfeitures and civil settlements or judgments) that is final. Private lawsuits (product liability, class actions, shareholder suits) are tracked separately and shown only where labelled. Tax disputes are never counted as penalties. Rulings that were overturned or are still under appeal are listed but excluded.</p>
@@ -664,6 +720,8 @@
 <script src="assets/js/bench.js"></script>
 <script src="assets/js/meds-data.js"></script>
 <script src="assets/js/meds.js"></script>
+<script src="assets/js/shelf-data.js"></script>
+<script src="assets/js/shelf.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>

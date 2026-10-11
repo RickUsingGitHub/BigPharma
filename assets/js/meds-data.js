@@ -12,6 +12,7 @@
 
    self: is the medicine itself in question? q = no | maybe | factory
    pbs:  2024–25 rank, by prescriptions (n = scripts) or by cost to government (aud, excluding rebates)
+   area: grouping used by the Still on the shelf table (see shelf-data.js)
 */
 window.MEDS = (function () {
   const S = (label, url) => [label, url];
@@ -41,19 +42,11 @@ window.MEDS = (function () {
 
   const PBS_SRC = S('Australian Prescriber: Top 10 drugs 2024–25', 'https://australianprescriber.tg.org.au/articles/top-10-drugs-2024%E2%80%9325.html');
 
-  // Ranks 6–10 by cost, just outside the pilot.
-  const NEARBY = [
-    { name: 'Nivolumab', brands: 'Opdivo', rank: 6 },
-    { name: 'Semaglutide', brands: 'Ozempic', alias: 'Wegovy', rank: 7 },
-    { name: 'Denosumab', brands: 'Prolia', rank: 8 },
-    { name: 'Upadacitinib', brands: 'Rinvoq', rank: 9 },
-    { name: 'Apixaban', brands: 'Eliquis', rank: 10 }
-  ];
 
   const MEDS = [
     // ───────────── top 10 by prescriptions ─────────────
     {
-      id: 'rosuvastatin', name: 'Rosuvastatin', brands: 'Crestor', what: 'Cholesterol (statin)',
+      id: 'rosuvastatin', area: 'heart', name: 'Rosuvastatin', brands: 'Crestor', what: 'Cholesterol (statin)',
       maker: 'AstraZeneca', co: 'astrazeneca', launch: 2003, market: 'Generic',
       pbs: { by: 'scripts', rank: 1, n: 16313366 },
       light: 'green',
@@ -84,7 +77,7 @@ window.MEDS = (function () {
       watch: 'Nothing live. Rosuvastatin is now made by many generic companies, so the remaining risk is factory quality, as for any generic.'
     },
     {
-      id: 'atorvastatin', name: 'Atorvastatin', brands: 'Lipitor', what: 'Cholesterol (statin)',
+      id: 'atorvastatin', area: 'heart', name: 'Atorvastatin', brands: 'Lipitor', what: 'Cholesterol (statin)',
       maker: 'Pfizer', co: 'pfizer', launch: 1997, market: 'Generic',
       pbs: { by: 'scripts', rank: 2, n: 11319805 },
       light: 'green',
@@ -111,7 +104,7 @@ window.MEDS = (function () {
       watch: 'Nothing live. Generic in the US since 2011.'
     },
     {
-      id: 'pantoprazole', name: 'Pantoprazole', brands: 'Somac', alias: 'Protonix', what: 'Reflux and ulcers (proton pump inhibitor)',
+      id: 'pantoprazole', area: 'gut', name: 'Pantoprazole', brands: 'Somac', alias: 'Protonix', what: 'Reflux and ulcers (proton pump inhibitor)',
       maker: 'Byk Gulden (now Takeda); sold in the US by Wyeth, now Pfizer', co: 'pfizer', launch: 1994, market: 'Generic',
       pbs: { by: 'scripts', rank: 3, n: 11030917 },
       light: 'green',
@@ -130,7 +123,7 @@ window.MEDS = (function () {
       watch: 'Nothing live that we found.'
     },
     {
-      id: 'esomeprazole', name: 'Esomeprazole', brands: 'Nexium', what: 'Reflux and ulcers (proton pump inhibitor)',
+      id: 'esomeprazole', area: 'gut', name: 'Esomeprazole', brands: 'Nexium', what: 'Reflux and ulcers (proton pump inhibitor)',
       maker: 'AstraZeneca', co: 'astrazeneca', launch: 2000, market: 'Generic',
       pbs: { by: 'scripts', rank: 4, n: 7974275 },
       light: 'green',
@@ -161,7 +154,7 @@ window.MEDS = (function () {
       watch: 'Nothing live that we found.'
     },
     {
-      id: 'escitalopram', name: 'Escitalopram', brands: 'Lexapro', what: 'Depression and anxiety (SSRI)',
+      id: 'escitalopram', area: 'mind', name: 'Escitalopram', brands: 'Lexapro', what: 'Depression and anxiety (SSRI)',
       maker: 'Lundbeck; sold in the US by Forest Laboratories, now AbbVie', co: 'abbvie', launch: 2002, market: 'Generic',
       pbs: { by: 'scripts', rank: 5, n: 6557355 },
       light: 'green',
@@ -185,7 +178,7 @@ window.MEDS = (function () {
       watch: 'Nothing live that we found.'
     },
     {
-      id: 'perindopril', name: 'Perindopril', brands: 'Coversyl', what: 'Blood pressure and heart failure (ACE inhibitor)',
+      id: 'perindopril', area: 'heart', name: 'Perindopril', brands: 'Coversyl', what: 'Blood pressure and heart failure (ACE inhibitor)',
       maker: 'Servier', launch: 1988, market: 'Generic',
       pbs: { by: 'scripts', rank: 6, n: 6375761 },
       light: 'red',
@@ -210,7 +203,7 @@ window.MEDS = (function () {
       watch: 'The NHS claim. In Australia, Coversyl is still sold alongside cheaper generics.'
     },
     {
-      id: 'sertraline', name: 'Sertraline', brands: 'Zoloft', what: 'Depression and anxiety (SSRI)',
+      id: 'sertraline', area: 'mind', name: 'Sertraline', brands: 'Zoloft', what: 'Depression and anxiety (SSRI)',
       maker: 'Pfizer (the brand is now Viatris)', co: 'pfizer', launch: 1991, market: 'Generic',
       pbs: { by: 'scripts', rank: 7, n: 6245846 },
       light: 'green',
@@ -230,7 +223,7 @@ window.MEDS = (function () {
       watch: 'Nothing live that we found.'
     },
     {
-      id: 'metformin', name: 'Metformin', brands: 'Diabex, Diaformin', what: 'Type 2 diabetes',
+      id: 'metformin', area: 'hormones', name: 'Metformin', brands: 'Diabex, Diaformin', what: 'Type 2 diabetes',
       maker: 'Many generic makers', launch: 1957, market: 'Generic',
       pbs: { by: 'scripts', rank: 8, n: 6147265 },
       light: 'amber',
@@ -249,7 +242,7 @@ window.MEDS = (function () {
       watch: 'No scandal over the medicine itself. Regulators now require makers to test for this family of contaminants, so factory quality is the thing to watch.'
     },
     {
-      id: 'cefalexin', name: 'Cefalexin', brands: 'Keflex', what: 'Bacterial infections (antibiotic)',
+      id: 'cefalexin', area: 'infection', name: 'Cefalexin', brands: 'Keflex', what: 'Bacterial infections (antibiotic)',
       maker: 'Eli Lilly originally; now many generic makers', launch: 1969, market: 'Generic',
       pbs: { by: 'scripts', rank: 9, n: 5163370 },
       light: 'green',
@@ -260,7 +253,7 @@ window.MEDS = (function () {
       watchSrc: [S('Distributor notice (2023)', 'https://adpha.au/publicassets/ff527890-5c91-ed11-9116-00505696223b/Cephalexin-capsules--USP-500mg--Ascend----DHCP.pdf')]
     },
     {
-      id: 'amoxicillin', name: 'Amoxicillin', brands: 'Amoxil', what: 'Bacterial infections (antibiotic)',
+      id: 'amoxicillin', area: 'infection', name: 'Amoxicillin', brands: 'Amoxil', what: 'Bacterial infections (antibiotic)',
       maker: 'Beecham (now GSK) originally; now many generic makers', launch: 1972, market: 'Generic',
       pbs: { by: 'scripts', rank: 10, n: 4965405 },
       light: 'green',
@@ -273,7 +266,7 @@ window.MEDS = (function () {
 
     // ───────────── top 5 by cost to government ─────────────
     {
-      id: 'pembrolizumab', name: 'Pembrolizumab', brands: 'Keytruda', what: 'Cancer immunotherapy',
+      id: 'pembrolizumab', area: 'cancer', name: 'Pembrolizumab', brands: 'Keytruda', what: 'Cancer immunotherapy',
       maker: 'Merck & Co. (MSD)', co: 'merck', launch: 2014, market: 'Patented',
       pbs: { by: 'cost', rank: 1, aud: 684838086, n: 80712 },
       light: 'amber',
@@ -301,7 +294,7 @@ window.MEDS = (function () {
       watchSrc: [S('Fierce Pharma (2025)', 'https://www.fiercepharma.com/pharma/mercks-keytruda-sc-launch-germany-faces-new-hurdle-halozyme-scores-preliminary-injunction'), S('Halozyme (Oct 2026)', 'https://www.placera.se/pressmeddelanden/halozyme-therapeutics-halozyme-wins-injunction-stopping-manufacture-and-sale-of-merck-s-keytruda-sc-in-multiple-european-markets-20261007')]
     },
     {
-      id: 'trikafta', name: 'Elexacaftor, tezacaftor and ivacaftor', short: 'Trikafta', brands: 'Trikafta', what: 'Cystic fibrosis',
+      id: 'trikafta', area: 'breathing', name: 'Elexacaftor, tezacaftor and ivacaftor', short: 'Trikafta', brands: 'Trikafta', what: 'Cystic fibrosis',
       maker: 'Vertex', launch: 2019, market: 'Patented',
       pbs: { by: 'cost', rank: 2, aud: 618324241, n: 29293 },
       light: 'amber',
@@ -322,7 +315,7 @@ window.MEDS = (function () {
       watch: 'Price and access: still unaffordable or unavailable in many countries.'
     },
     {
-      id: 'ustekinumab', name: 'Ustekinumab', brands: 'Stelara', what: 'Psoriasis, Crohn’s disease and colitis',
+      id: 'ustekinumab', area: 'immune', name: 'Ustekinumab', brands: 'Stelara', what: 'Psoriasis, Crohn’s disease and colitis',
       maker: 'Janssen (Johnson & Johnson)', co: 'jnj', launch: 2009, market: 'Biosimilars arriving',
       pbs: { by: 'cost', rank: 3, aud: 520156660, n: 74000 },
       light: 'red',
@@ -337,7 +330,7 @@ window.MEDS = (function () {
       watch: 'The class action. J&J’s settlements with biosimilar makers set US launches from 2025.'
     },
     {
-      id: 'dupilumab', name: 'Dupilumab', brands: 'Dupixent', what: 'Eczema and asthma',
+      id: 'dupilumab', area: 'immune', name: 'Dupilumab', brands: 'Dupixent', what: 'Eczema and asthma',
       maker: 'Sanofi and Regeneron', co: 'sanofi', launch: 2017, market: 'Patented',
       pbs: { by: 'cost', rank: 4, aud: 485257657, n: 282908 },
       light: 'red',
@@ -356,7 +349,7 @@ window.MEDS = (function () {
       watch: 'An early stage: no trials scheduled yet. Any payout depends on courts accepting a causal link.'
     },
     {
-      id: 'aflibercept', name: 'Aflibercept', brands: 'Eylea', what: 'Macular degeneration (eye injections)',
+      id: 'aflibercept', area: 'cancer', name: 'Aflibercept', brands: 'Eylea', what: 'Macular degeneration (eye injections)',
       maker: 'Regeneron (US); Bayer elsewhere, including Australia', launch: 2011, market: 'Biosimilars arriving',
       pbs: { by: 'cost', rank: 5, aud: 476335237, n: 485167 },
       light: 'red',
@@ -376,5 +369,5 @@ window.MEDS = (function () {
     }
   ];
 
-  return { ISSUES, STATUS, LIGHTS, MEDS, PBS_SRC, NEARBY };
+  return { ISSUES, STATUS, LIGHTS, MEDS, PBS_SRC };
 })();
