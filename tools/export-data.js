@@ -48,3 +48,67 @@ const csv = [cols.join(',')].concat(rows.map(r => cols.map(k =>
 fs.writeFileSync(path.join(root, 'data/cases.csv'), csv);
 
 console.log(`Wrote ${rows.length} cases to data/cases.json and data/cases.csv`);
+
+// ---------- medicines: the pilot plus "Still on the shelf" ----------
+vm.runInNewContext(fs.readFileSync(path.join(root, 'assets/js/meds-data.js'), 'utf8'), sandbox);
+const M = sandbox.window.MEDS;
+const issueName = Object.fromEntries(M.ISSUES.map(i => [i.id, i.name]));
+const byName = { gov: 'US government', foreign: 'Non-US government', private: 'Private lawsuit', regulator: 'Regulator', other: 'Research, press or company' };
+const links = (list) => (list || []).map(([label, url]) => ({ label, url }));
+vm.runInNewContext(fs.readFileSync(path.join(root, 'assets/js/shelf-data.js'), 'utf8'), sandbox);
+const SH = sandbox.window.SHELF;
+const areaName = Object.fromEntries(SH.AREAS.map(a => [a.id, a.name]));
+const all = M.MEDS.map(m => Object.assign({ list: 'PBS top 15 (pilot)' }, m))
+  .concat(SH.MEDS.map(m => Object.assign({ list: 'Still on the shelf' }, m)));
+const meds = all.map(m => ({
+  list: m.list,
+  medicine: m.name,
+  area: areaName[m.area] || '',
+  brands: m.brands,
+  used_for: m.what,
+  maker: m.maker,
+  launched: m.launch || null,
+  market: m.market || '',
+  pbs_basis: m.pbs ? (m.pbs.by === 'scripts' ? 'prescriptions' : 'cost to government') : '',
+  pbs_rank: m.pbs ? m.pbs.rank : null,
+  pbs_prescriptions_2024_25: m.pbs ? m.pbs.n : null,
+  pbs_cost_aud_2024_25: m.pbs && m.pbs.aud || null,
+  status_light: M.LIGHTS[m.light].label,
+  why: m.why,
+  medicine_itself: m.self.text,
+  watch: m.watch || '',
+  events: m.events.map(e => ({
+    year: e.year,
+    conduct_from: e.during ? e.during[0] : null,
+    conduct_to: e.during ? e.during[1] : null,
+    issue: issueName[e.issue],
+    status: e.tag || M.STATUS[e.status].label,
+    by: byName[e.by],
+    amount: e.amount || '',
+    about_parent_drug: e.related || '',
+    title: e.title,
+    description: e.desc,
+    sources: links(e.src)
+  }))
+}));
+fs.writeFileSync(path.join(root, 'data/medicines.json'), JSON.stringify({
+  pilot_sample_source: { label: M.PBS_SRC[0], url: M.PBS_SRC[1] },
+  note: 'The 15 pilot medicines were chosen by rule (PBS top 10 by prescriptions and top 5 by cost, 2024-25). The others were chosen because they have a documented record, so they are not a random sample.',
+  medicines: meds
+}, null, 2) + '\n');
+
+const mcols = ['list', 'medicine', 'brands', 'area', 'maker', 'pbs_basis', 'pbs_rank', 'status_light', 'year', 'conduct_from', 'conduct_to',
+  'issue', 'status', 'by', 'amount', 'about_parent_drug', 'title', 'description', 'sources'];
+const mrows = [];
+meds.forEach(m => {
+  const base = { list: m.list, medicine: m.medicine, brands: m.brands, area: m.area, maker: m.maker, pbs_basis: m.pbs_basis, pbs_rank: m.pbs_rank, status_light: m.status_light };
+  if (!m.events.length) mrows.push(Object.assign({}, base, { title: 'Nothing significant found' }));
+  m.events.forEach(e => mrows.push(Object.assign({}, base, e)));
+});
+const mcsv = [mcols.join(',')].concat(mrows.map(r => mcols.map(k => {
+  const v = r[k];
+  if (k === 'sources') return esc((v || []).map(s => `${s.label} <${s.url}>`).join('; '));
+  return esc(v == null ? '' : v);
+}).join(','))).join('\n') + '\n';
+fs.writeFileSync(path.join(root, 'data/medicines.csv'), mcsv);
+console.log(`Wrote ${meds.length} medicines (${mrows.length} rows) to data/medicines.json and data/medicines.csv`);

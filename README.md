@@ -10,6 +10,8 @@ An interactive, evidence-based website covering 30 years (1996–2026) of miscon
 | **The science lab** | An animation of Turner et al. (NEJM 2008) showing 74 antidepressant trials shrinking from 51% positive (FDA) to 94% positive (journals). A **p-hacking simulator**: run real simulated trials of a sugar pill and watch the false-positive rate climb from 5% to over 60%. A **funnel plot** showing how hiding small negative trials shifts a meta-analysis away from zero. A **lab bench** with five more experiments: a headline translator (relative v absolute risk, with a 1,000-person icon array and number needed to treat), trials stopped early for benefit, the regression-to-the-mean "miracle cure", the surrogate-endpoint trap (CAST, torcetrapib, Avandia, anaemia drugs) and a spot-the-outcome-switch game. Plus research-on-research stats and the Study 329 "same data, opposite conclusion". |
 | **The rap sheets** | Dossiers for the 12 biggest companies by revenue (J&J, Roche, Lilly, Merck, Pfizer, AbbVie, AstraZeneca, Novartis, Sanofi, BMS, Novo Nordisk, GSK) plus Purdue, Teva, Bayer, Takeda, Mallinckrodt, Endo, Valeant, Amgen, Mylan, Insys, Ranbaxy, Gilead and Vyera. Each has a timeline, every case with sources, and "credit where it's due". |
 | **Meanwhile, in Australia** | Merck's fake journal and doctor "hit list", the A$300m pelvic-mesh settlement, Tasmanian poppies, and what one month of Ozempic costs here compared with the US and other countries. |
+| **Check your medicine** (pilot) | The 15 medicines that matter most to Australia's PBS (the ten most prescribed and the five most expensive in 2024–25), chosen by rule and each checked for fines, lawsuits, research problems, factory scandals and patent games. Four findings, an answer to "can anyone predict the next payout?", and charts showing where the trouble sits and how many years after launch it arrives. |
+| **Still on the shelf** | A searchable, sortable table of 108 widely prescribed medicines with a cloud over them: the pilot's 15 plus 93 more picked because they have a documented record (fraud, kickbacks, buried data, injury lawsuits, price gouging, contamination). Search by medicine, brand, company or topic; filter by status, kind of problem, area of medicine or list; sort by status, name, money paid, most recent, most problems or maker. Each row opens to the full record with sources. |
 | **Follow the money** | Penalties by company, by year and by type; fines measured in days of revenue; the 15 biggest cases; a company-by-misconduct heatmap. A switch restates every amount in 2025 dollars. Every chart has hover tooltips and a table view. |
 | **The verdict** | The case for the defence and for the prosecution, a 13-point "are they getting better?" scorecard, and the bottom line. |
 | **Every case** | A searchable, filterable table of all ~130 cases with source links, also downloadable as [CSV](data/cases.csv) or [JSON](data/cases.json). |
@@ -26,15 +28,20 @@ It is a plain static site (HTML, CSS and vanilla JavaScript, with no build step 
 ```
 index.html            page structure and static text
 assets/css/style.css  design tokens (light and dark), layout, components
-assets/js/data.js     the case database (~120 cases), company profiles, research stats
+assets/js/data.js     the case database (~130 cases), company profiles, research stats
 assets/js/playbook.js the 16 tactics
 assets/js/charts.js   small SVG chart kit (stacked bars, columns, heatmap, timeline, tooltips)
 assets/js/lab.js      publication-bias animation, p-hacking simulator (Welch t-tests), funnel plot
 assets/js/bench.js    the lab bench: five more experiments in tabs
+assets/js/meds-data.js  the medicine pilot: 15 PBS medicines and their records
+assets/js/meds.js     the medicine pilot: findings, matrix and timeline
+assets/js/shelf-data.js  the other 93 medicines in Still on the shelf
+assets/js/shelf.js    the Still on the shelf table: search, filters, sorting, records
 assets/js/app.js      wires everything together
 assets/og-card.png    link-preview image for social media and messages
 data/cases.csv|json   the case database as downloadable files (generated)
-tools/export-data.js  regenerates data/cases.csv and data/cases.json
+data/medicines.csv|json all 108 medicines as downloadable files (generated)
+tools/export-data.js  regenerates the files in data/
 tools/og-card.html    source for the link-preview image (tools/render-og-card.js renders it)
 ```
 
@@ -53,6 +60,10 @@ Add an object to `CASES` in `assets/js/data.js`:
 - `status: 'appeal'` or `'overturned'` keeps a case visible but out of the totals.
 
 All charts and totals recalculate automatically. Then run `node tools/export-data.js` to refresh the downloadable CSV and JSON, and optionally `node tools/render-og-card.js` to refresh the link-preview image (needs Playwright).
+
+## Adding a medicine
+
+Add an object to `MEDS` in `assets/js/shelf-data.js` (or, for the rule-based pilot, `assets/js/meds-data.js`), following the comments at the top of those files: an area, a status light, a sentence on whether the medicine itself is in question, and its events (each with an issue type, a status, who acted, an amount where there was one, and sources). The table, filters, totals and charts recalculate from the data. Run `node tools/export-data.js` afterwards.
 
 ## Method, in brief
 
