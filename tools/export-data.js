@@ -48,3 +48,59 @@ const csv = [cols.join(',')].concat(rows.map(r => cols.map(k =>
 fs.writeFileSync(path.join(root, 'data/cases.csv'), csv);
 
 console.log(`Wrote ${rows.length} cases to data/cases.json and data/cases.csv`);
+
+// ---------- the "Check your medicine" pilot ----------
+vm.runInNewContext(fs.readFileSync(path.join(root, 'assets/js/meds-data.js'), 'utf8'), sandbox);
+const M = sandbox.window.MEDS;
+const issueName = Object.fromEntries(M.ISSUES.map(i => [i.id, i.name]));
+const byName = { gov: 'US government', foreign: 'Non-US government', private: 'Private lawsuit', regulator: 'Regulator', other: 'Research, press or company' };
+const links = (list) => (list || []).map(([label, url]) => ({ label, url }));
+const meds = M.MEDS.map(m => ({
+  medicine: m.name,
+  brands: m.brands,
+  used_for: m.what,
+  maker: m.maker,
+  launched: m.launch,
+  market: m.market,
+  pbs_basis: m.pbs.by === 'scripts' ? 'prescriptions' : 'cost to government',
+  pbs_rank: m.pbs.rank,
+  pbs_prescriptions_2024_25: m.pbs.n,
+  pbs_cost_aud_2024_25: m.pbs.aud || null,
+  status_light: M.LIGHTS[m.light].label,
+  why: m.why,
+  medicine_itself: m.self.text,
+  watch: m.watch,
+  events: m.events.map(e => ({
+    year: e.year,
+    conduct_from: e.during ? e.during[0] : null,
+    conduct_to: e.during ? e.during[1] : null,
+    issue: issueName[e.issue],
+    status: e.tag || M.STATUS[e.status].label,
+    by: byName[e.by],
+    amount: e.amount || '',
+    about_parent_drug: e.related || '',
+    title: e.title,
+    description: e.desc,
+    sources: links(e.src)
+  }))
+}));
+fs.writeFileSync(path.join(root, 'data/medicines.json'), JSON.stringify({
+  source_of_sample: { label: M.PBS_SRC[0], url: M.PBS_SRC[1] },
+  medicines: meds
+}, null, 2) + '\n');
+
+const mcols = ['medicine', 'brands', 'pbs_basis', 'pbs_rank', 'status_light', 'year', 'conduct_from', 'conduct_to',
+  'issue', 'status', 'by', 'amount', 'about_parent_drug', 'title', 'description', 'sources'];
+const mrows = [];
+meds.forEach(m => {
+  const base = { medicine: m.medicine, brands: m.brands, pbs_basis: m.pbs_basis, pbs_rank: m.pbs_rank, status_light: m.status_light };
+  if (!m.events.length) mrows.push(Object.assign({}, base, { title: 'Nothing significant found' }));
+  m.events.forEach(e => mrows.push(Object.assign({}, base, e)));
+});
+const mcsv = [mcols.join(',')].concat(mrows.map(r => mcols.map(k => {
+  const v = r[k];
+  if (k === 'sources') return esc((v || []).map(s => `${s.label} <${s.url}>`).join('; '));
+  return esc(v == null ? '' : v);
+}).join(','))).join('\n') + '\n';
+fs.writeFileSync(path.join(root, 'data/medicines.csv'), mcsv);
+console.log(`Wrote ${meds.length} medicines (${mrows.length} rows) to data/medicines.json and data/medicines.csv`);

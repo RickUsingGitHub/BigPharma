@@ -1,0 +1,1018 @@
+{
+  "source_of_sample": {
+    "label": "Australian Prescriber: Top 10 drugs 2024–25",
+    "url": "https://australianprescriber.tg.org.au/articles/top-10-drugs-2024%E2%80%9325.html"
+  },
+  "medicines": [
+    {
+      "medicine": "Rosuvastatin",
+      "brands": "Crestor",
+      "used_for": "Cholesterol (statin)",
+      "maker": "AstraZeneca",
+      "launched": 2003,
+      "market": "Generic",
+      "pbs_basis": "prescriptions",
+      "pbs_rank": 1,
+      "pbs_prescriptions_2024_25": 16313366,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Nothing live. The marketing fights and a failed bid to block generics are history.",
+      "medicine_itself": "Not in question now. Safety concerns raised in 2004 did not lead to a ban.",
+      "watch": "Nothing live. Rosuvastatin is now made by many generic companies, so the remaining risk is factory quality, as for any generic.",
+      "events": [
+        {
+          "year": 2003,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Raised, not proven",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "The Lancet: \"AstraZeneca must retreat\"",
+          "description": "The Lancet’s editor accused AstraZeneca of marketing the new statin with \"adventurous statistics\" before its research was complete, and urged doctors to pause before prescribing it. AstraZeneca called the editorial flawed and incorrect.",
+          "sources": [
+            {
+              "label": "Outsourcing-Pharma (2003)",
+              "url": "https://www.outsourcing-pharma.com/Article/2003/10/27/Don-t-ride-the-Crestor-wave-says-Lancet"
+            }
+          ]
+        },
+        {
+          "year": 2004,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Raised, not proven",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Petition to ban it",
+          "description": "The consumer group Public Citizen asked the FDA to take Crestor off the market, citing reports of muscle breakdown and kidney damage. The FDA kept it on sale.",
+          "sources": [
+            {
+              "label": "Public Citizen (2004)",
+              "url": "https://www.citizen.org/article/petition-to-ban-cholesterol-lowering-drug-rosuvastatin-crestor/"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Raised, not proven",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Its landmark trial was stopped early",
+          "description": "The JUPITER trial was stopped for benefit after less than two years. Critics in the Archives of Internal Medicine argued that stopping early exaggerated the benefit, and noted that 9 of its 14 authors had financial ties to the sponsor.",
+          "sources": [
+            {
+              "label": "NEJM CardioExchange (2010)",
+              "url": "https://blogs.nejm.org/cardioexchange/?p=1570"
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Raised, not proven",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Sued the FDA to keep generics out",
+          "description": "AstraZeneca argued that a seven-year \"orphan drug\" exclusivity, earned for a rare inherited cholesterol disorder in children, should block every generic. A judge refused, and generics launched in the US in 2016.",
+          "sources": [
+            {
+              "label": "TCTMD (2016)",
+              "url": "https://www.tctmd.com/news/judge-dismisses-astrazenecas-bid-block-generic-crestor"
+            }
+          ]
+        },
+        {
+          "year": 2018,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$20m",
+          "about_parent_drug": "",
+          "title": "Texas Medicaid settlement",
+          "description": "$20 million of a $110 million settlement with Texas was over allegedly misrepresenting Crestor’s benefits. AstraZeneca denied wrongdoing.",
+          "sources": [
+            {
+              "label": "CNBC (2018)",
+              "url": "https://www.cnbc.com/2018/08/08/astrazeneca-settles-texas-drug-lawsuits-for-110-million.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "medicine": "Atorvastatin",
+      "brands": "Lipitor",
+      "used_for": "Cholesterol (statin)",
+      "maker": "Pfizer",
+      "launched": 1997,
+      "market": "Generic",
+      "pbs_basis": "prescriptions",
+      "pbs_rank": 2,
+      "pbs_prescriptions_2024_25": 11319805,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Nothing live. A pay-for-delay case settled in 2024; an injury lawsuit failed.",
+      "medicine_itself": "Not in question. The cases were about advertising and competition, and the diabetes lawsuits failed in court.",
+      "watch": "Nothing live. Generic in the US since 2011.",
+      "events": [
+        {
+          "year": 2008,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Raised, not proven",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Ads pulled after a congressional inquiry",
+          "description": "Pfizer cancelled TV ads starring Robert Jarvik, an artificial-heart inventor who was not licensed to practise medicine, after members of Congress questioned them. A stunt double had done his rowing.",
+          "sources": [
+            {
+              "label": "Fierce Pharma (2008)",
+              "url": "https://www.fiercepharma.com/pharma/pfizer-yanks-lipitor-ads-starring-jarvik"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Factory quality",
+          "status": "Recall",
+          "by": "Regulator",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Generic recalled for glass particles",
+          "description": "Ranbaxy, a generic maker, recalled 41 lots of its atorvastatin after finding tiny glass particles. No injuries were reported. Ranbaxy pleaded guilty to US felony charges over its factories the following year.",
+          "sources": [
+            {
+              "label": "PharmaFile (2012)",
+              "url": "https://pharmafile.com/news/glass-particles-force-recall-ranbaxy-lipitor/"
+            }
+          ]
+        },
+        {
+          "year": 2018,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Thrown out",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Diabetes lawsuits thrown out",
+          "description": "More than 3,000 women sued, saying Pfizer failed to warn that Lipitor could cause diabetes. The court ruled their expert evidence unreliable, and in 2018 the appeals court upheld Pfizer’s win.",
+          "sources": [
+            {
+              "label": "US District Court, MDL 2502",
+              "url": "https://www.scd.uscourts.gov/mdlipitor/current.asp"
+            },
+            {
+              "label": "Washington Legal Foundation (2018)",
+              "url": "https://www.wlf.org/case/in-re-lipitor-marketing-sales-practices-and-products-liability-litigation/"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "conduct_from": 2008,
+          "conduct_to": 2011,
+          "issue": "Blocking cheaper copies",
+          "status": "Paid",
+          "by": "Private lawsuit",
+          "amount": "$128m",
+          "about_parent_drug": "",
+          "title": "Pay-for-delay settlements",
+          "description": "US buyers said Pfizer’s 2008 patent deal with Ranbaxy delayed cheaper generic Lipitor. Pfizer settled in 2024, paying $93 million to wholesalers and $35 million to consumers and insurers.",
+          "sources": [
+            {
+              "label": "Bloomberg Law (2024)",
+              "url": "https://news.bloomberglaw.com/ip-law/pfizer-settles-lipitor-antitrust-lawsuit-with-93-million-payout"
+            },
+            {
+              "label": "Law360 via Cohen Milstein (2024)",
+              "url": "https://www.cohenmilstein.com/lipitor-buyers-seek-final-ok-for-35m-deal-in-antitrust-fight/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "medicine": "Pantoprazole",
+      "brands": "Somac",
+      "used_for": "Reflux and ulcers (proton pump inhibitor)",
+      "maker": "Byk Gulden (now Takeda); sold in the US by Wyeth, now Pfizer",
+      "launched": 1994,
+      "market": "Generic",
+      "pbs_basis": "prescriptions",
+      "pbs_rank": 3,
+      "pbs_prescriptions_2024_25": 11030917,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Nothing live. One of the largest Medicaid rebate frauds on record, settled in 2016.",
+      "medicine_itself": "Not in question. The fraud was about billing Medicaid, and the kidney lawsuits were settled, so no court decided them.",
+      "watch": "Nothing live that we found.",
+      "events": [
+        {
+          "year": 2016,
+          "conduct_from": 2001,
+          "conduct_to": 2006,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$784.6m",
+          "about_parent_drug": "",
+          "title": "Hid discounts from Medicaid",
+          "description": "Wyeth was alleged to have hidden deep discounts it gave hospitals on Protonix from Medicaid’s \"best price\" calculation, underpaying the rebates it owed. Wyeth and Pfizer paid $784.6 million.",
+          "sources": [
+            {
+              "label": "HHS-OIG (2016)",
+              "url": "https://oig.hhs.gov/fraud/enforcement/wyeth-and-pfizer-agree-to-pay-7846-million-to-resolve-lawsuit-alleging-that-wyeth-underpaid-drug-rebates-to-medicaid"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Settled",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Kidney-injury lawsuits settled",
+          "description": "Thousands of US lawsuits claimed that acid-suppressing PPIs caused kidney disease. Pfizer, which sold Protonix in the US, settled before AstraZeneca’s $425 million deal in 2023. Its amount was not disclosed.",
+          "sources": [
+            {
+              "label": "Bloomberg via BNN (2023)",
+              "url": "https://www.bnnbloomberg.ca/astrazeneca-pays-425-million-to-settle-nexium-prilosec-cases-1.1979445"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "medicine": "Esomeprazole",
+      "brands": "Nexium",
+      "used_for": "Reflux and ulcers (proton pump inhibitor)",
+      "maker": "AstraZeneca",
+      "launched": 2000,
+      "market": "Generic",
+      "pbs_basis": "prescriptions",
+      "pbs_rank": 4,
+      "pbs_prescriptions_2024_25": 7974275,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Nothing live. A textbook \"evergreen\" drug, with kickback and injury settlements behind it.",
+      "medicine_itself": "Not in question. The cases were about marketing, competition and billing, and the kidney lawsuits were settled, so no court decided them.",
+      "watch": "Nothing live that we found.",
+      "events": [
+        {
+          "year": 2001,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Raised, not proven",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "The \"chiral switch\"",
+          "description": "Esomeprazole is one of the two mirror-image forms that make up AstraZeneca’s older omeprazole (Losec, or Prilosec in the US). It was launched as omeprazole’s patent ran out, and patients were moved across with heavy marketing. A 2022 case study calls it a textbook evergreening strategy.",
+          "sources": [
+            {
+              "label": "GaBI Journal (2022)",
+              "url": "https://gabi-journal.net/?p=6301"
+            },
+            {
+              "label": "NBC News",
+              "url": "https://www.nbcnews.com/news/amp/wbna20249591"
+            }
+          ]
+        },
+        {
+          "year": 2005,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Paid",
+          "by": "Non-US government",
+          "amount": "€52.5m",
+          "about_parent_drug": "omeprazole",
+          "title": "EU fine over the older drug’s patents",
+          "description": "The European Commission found AstraZeneca gave patent offices \"deliberately misleading\" information to extend protection for omeprazole, the drug Nexium replaced, and withdrew products to block generics. The fine was €52.5 million after appeal.",
+          "sources": [
+            {
+              "label": "BioPharm International",
+              "url": "https://www.biopharminternational.com/view/eu-court-dismisses-astrazeneca-appeal"
+            }
+          ]
+        },
+        {
+          "year": 2014,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Found, no damages",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Jury: a \"large and unjustified\" payment",
+          "description": "In a US pay-for-delay trial, the jury found AstraZeneca’s 2008 deal with the generic maker Ranbaxy involved a large and unjustified payment, but not that it delayed generic Nexium, so no damages were awarded. The appeals court upheld the verdict in 2016.",
+          "sources": [
+            {
+              "label": "US Court of Appeals, 1st Cir. (2016)",
+              "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/15-2005P-01A.pdf"
+            }
+          ]
+        },
+        {
+          "year": 2015,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$7.9m",
+          "about_parent_drug": "",
+          "title": "Kickbacks for formulary placement",
+          "description": "AstraZeneca settled allegations that it cut prices on other drugs for Medco, a pharmacy-benefit manager, in return for Nexium being the only PPI on Medco’s lists. The case began as a whistleblower suit by two former employees.",
+          "sources": [
+            {
+              "label": "US DOJ (2015)",
+              "url": "https://www.justice.gov/opa/pr/astrazeneca-pay-79-million-resolve-kickback-allegations"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Settled",
+          "by": "Private lawsuit",
+          "amount": "$425m",
+          "about_parent_drug": "",
+          "title": "Kidney-injury lawsuits",
+          "description": "AstraZeneca paid $425 million to settle US lawsuits claiming Nexium and Prilosec caused kidney disease. It said the claims were without merit.",
+          "sources": [
+            {
+              "label": "Bloomberg via BNN (2023)",
+              "url": "https://www.bnnbloomberg.ca/astrazeneca-pays-425-million-to-settle-nexium-prilosec-cases-1.1979445"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "medicine": "Escitalopram",
+      "brands": "Lexapro",
+      "used_for": "Depression and anxiety (SSRI)",
+      "maker": "Lundbeck; sold in the US by Forest Laboratories, now AbbVie",
+      "launched": 2002,
+      "market": "Generic",
+      "pbs_basis": "prescriptions",
+      "pbs_rank": 5,
+      "pbs_prescriptions_2024_25": 6557355,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Nothing live. Kickbacks and a guilty plea by its US seller, and a disputed approval for teenagers.",
+      "medicine_itself": "Not in question for its main use. The concerns were about marketing, and about the evidence behind its approval for teenagers.",
+      "watch": "Nothing live that we found.",
+      "events": [
+        {
+          "year": 2009,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Research & marketing spin",
+          "status": "Raised, not proven",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "citalopram",
+          "title": "Teen approval leaned on a disputed trial",
+          "description": "The FDA approved Lexapro for 12 to 17-year-olds partly on the strength of a positive trial of its parent drug, citalopram (study MD-18). A 2016 analysis of court documents called the published report of that trial ghostwritten and said it mischaracterised the data.",
+          "sources": [
+            {
+              "label": "Fierce Biotech (2009)",
+              "url": "https://www.fiercebiotech.com/biotech/forest-laboratories-inc-announces-fda-approval-of-lexapro-r-for-treatment-of-major"
+            },
+            {
+              "label": "Int. J. Risk & Safety in Medicine (2016)",
+              "url": "https://journals.sagepub.com/doi/10.3233/JRS-160671"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "Paid",
+          "by": "US government",
+          "amount": "$313m",
+          "about_parent_drug": "",
+          "title": "Guilty plea and kickbacks",
+          "description": "Forest pleaded guilty to obstruction of justice, distributing an unapproved thyroid drug and promoting Celexa for children. The $313 million total also settled claims that it paid kickbacks (cash disguised as grants and consulting fees, meals and entertainment) to boost Celexa and Lexapro prescriptions.",
+          "sources": [
+            {
+              "label": "US DOJ (2010)",
+              "url": "https://www.justice.gov/opa/pr/2010/September/10-civ-1028.html"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "conduct_from": 2002,
+          "conduct_to": 2002,
+          "issue": "Blocking cheaper copies",
+          "status": "Paid",
+          "by": "Non-US government",
+          "amount": "€94m",
+          "about_parent_drug": "citalopram",
+          "title": "EU fine: paying generics to stay out",
+          "description": "The European Commission fined Lundbeck about €94 million for paying generic makers in 2002 to stay out of the market for citalopram, the older drug of which escitalopram is the active half. The EU’s top court upheld the fines in 2021.",
+          "sources": [
+            {
+              "label": "CMS (2013)",
+              "url": "https://cms.law/en/bel/legal-updates/european-commission-fines-pharmaceutical-companies-in-first-pay-for-delay-case"
+            },
+            {
+              "label": "Cuatrecasas (2021)",
+              "url": "https://www.cuatrecasas.com/en/latam/article/pay-for-delay-the-cjeu-confirms-e146-million-in-fines-against-four-pharmaceutical-companies-for-delaying-the-market-entry-of-a-g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "medicine": "Perindopril",
+      "brands": "Coversyl",
+      "used_for": "Blood pressure and heart failure (ACE inhibitor)",
+      "maker": "Servier",
+      "launched": 1988,
+      "market": "Generic",
+      "pbs_basis": "prescriptions",
+      "pbs_rank": 6,
+      "pbs_prescriptions_2024_25": 6375761,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "In court now",
+      "why": "The NHS’s claim for more than £250 million over the delayed generic is still running.",
+      "medicine_itself": "Not in question. The cases are about price and competition: health budgets, not patients, were the ones harmed.",
+      "watch": "The NHS claim. In Australia, Coversyl is still sold alongside cheaper generics.",
+      "events": [
+        {
+          "year": 2006,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Raised, not proven",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "A new salt",
+          "description": "Servier switched Coversyl to a new form, perindopril arginine. Australia’s NPS said it was more stable in hot climates and equivalent in the body. NHS reviewers in England found no clinically significant benefit over the cheaper generic, and critics called it evergreening.",
+          "sources": [
+            {
+              "label": "NPS MedicineWise",
+              "url": "https://www.nps.org.au/radar/articles/perindopril-arginine-with-indapamide-hemihydrate-coversyl-plus"
+            },
+            {
+              "label": "PrescQIPP (NHS)",
+              "url": "https://www.prescqipp.info/media/1535/b59-perindopril-arginine-201.pdf"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "In court now",
+          "by": "Non-US government",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "NHS damages claim, still running",
+          "description": "The NHS in England sued Servier in 2011 for the extra it paid while cheaper generic perindopril was kept off the market, a claim put at more than £250 million. Servier lost key preliminary arguments in 2022 and on appeal in 2023, and the case was still active in 2026.",
+          "sources": [
+            {
+              "label": "The Pharma Letter (2022)",
+              "url": "https://www.thepharmaletter.com/generics-news/setback-for-servier-in-generic-delay-case-claimed-to-have-cost-the-nhs-250-million"
+            },
+            {
+              "label": "Monckton Chambers (2023)",
+              "url": "https://www.monckton.com/servier-pay-for-delay-litigation-monckton-success-for-nhs-in-the-court-of-appeal/"
+            },
+            {
+              "label": "Global Competition Review (2026)",
+              "url": "https://globalcompetitionreview.com/article/uk-tribunal-rejects-nhs-evidence-request-in-pay-delay-damages-claim"
+            }
+          ]
+        },
+        {
+          "year": 2014,
+          "conduct_from": 2005,
+          "conduct_to": 2007,
+          "issue": "Blocking cheaper copies",
+          "status": "Paid",
+          "by": "Non-US government",
+          "amount": "€331m",
+          "about_parent_drug": "",
+          "title": "EU fine: paying generics to stay out",
+          "description": "Between 2005 and 2007, whenever a generic maker came close to launching, Servier settled with it, with cash payments running to tens of millions of euros. The European Commission fined Servier €331 million and five generic companies €97 million. The General Court cut Servier’s fine to €228 million in 2018, and the EU Court of Justice largely upheld the case in 2024.",
+          "sources": [
+            {
+              "label": "GaBI Online (2014)",
+              "url": "https://www.gabionline.net/policies-legislation/Servier-and-generics-makers-fined-for-pay-for-delay"
+            },
+            {
+              "label": "Concurrences (2018)",
+              "url": "https://www.concurrences.com/en/bulletin/news-issues/december-2018/the-eu-general-court-annuls-a-decision-of-the-commission-for-wrongly-qualifying"
+            },
+            {
+              "label": "Walder Wyss (2024)",
+              "url": "https://walderwyss.com/en/news/2024-06-28_judgments-of-the-court-of-justice-in-cases-c-144-19-p-c-151-19-p-c-164-19-p-c-166-19-p-c-176-19-p-c-197-19-p-c-198-19-p-c-201-19-p-c-207-19-p"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "medicine": "Sertraline",
+      "brands": "Zoloft",
+      "used_for": "Depression and anxiety (SSRI)",
+      "maker": "Pfizer (the brand is now Viatris)",
+      "launched": 1991,
+      "market": "Generic",
+      "pbs_basis": "prescriptions",
+      "pbs_rank": 7,
+      "pbs_prescriptions_2024_25": 6245846,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Nothing live. Ghostwritten papers in the 1990s; the big injury lawsuit failed.",
+      "medicine_itself": "Not in question. The birth-defect lawsuits failed in court.",
+      "watch": "Nothing live that we found.",
+      "events": [
+        {
+          "year": 2003,
+          "conduct_from": 1998,
+          "conduct_to": 2000,
+          "issue": "Research & marketing spin",
+          "status": "Documented",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Ghostwritten science",
+          "description": "A Pfizer document disclosed in litigation listed 85 sertraline papers being coordinated by a medical-writing agency. Healy and Cattell found agency-linked papers made up 55 of the 96 sertraline articles of 1998–2000, and were cited about five times as often as the rest.",
+          "sources": [
+            {
+              "label": "Healy & Cattell, Br J Psychiatry (2003)",
+              "url": "https://doi.org/10.1192/bjp.183.1.22"
+            },
+            {
+              "label": "BMJ Open (figure)",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4120312/figure/BMJOPEN2013004777F2"
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Thrown out",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Birth-defect lawsuits thrown out",
+          "description": "Families claimed Zoloft taken in pregnancy caused birth defects. The court excluded their experts’ evidence as unreliable and ended more than 300 cases, and in 2017 the appeals court upheld Pfizer’s win.",
+          "sources": [
+            {
+              "label": "HarrisMartin (2017)",
+              "url": "https://harrismartin.com/publications/4/drugs/articles/21497/3rd-cir-upholds-summary-judgment-award-to-pfizer-in-zoloft-birth-defect-mdl/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "medicine": "Metformin",
+      "brands": "Diabex, Diaformin",
+      "used_for": "Type 2 diabetes",
+      "maker": "Many generic makers",
+      "launched": 1957,
+      "market": "Generic",
+      "pbs_basis": "prescriptions",
+      "pbs_rank": 8,
+      "pbs_prescriptions_2024_25": 6147265,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Warning signs",
+      "why": "A likely carcinogen turned up in some factories’ batches, including in Australia.",
+      "medicine_itself": "The medicine is not the problem. Contamination at some factories was.",
+      "watch": "No scandal over the medicine itself. Regulators now require makers to test for this family of contaminants, so factory quality is the thing to watch.",
+      "events": [
+        {
+          "year": 2020,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Factory quality",
+          "status": "Recall",
+          "by": "Regulator",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Carcinogen contamination in the US",
+          "description": "In May 2020 the FDA asked five companies, including Teva and Apotex, to recall extended-release metformin after finding high levels of NDMA, a probable carcinogen. More makers followed.",
+          "sources": [
+            {
+              "label": "RAPS (2020)",
+              "url": "https://raps.org/news-and-articles/news-articles/2020/6/fda-names-five-companies-recalling-ndma-contaminat"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Factory quality",
+          "status": "Recall",
+          "by": "Regulator",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "And in Australia",
+          "description": "TGA testing found about 30% of batches slightly above the acceptable NDMA limit (under twice the limit) and one batch at 4.4 times the limit, which was recalled. The TGA judged the risk low and told patients not to stop taking metformin.",
+          "sources": [
+            {
+              "label": "TGA (2020)",
+              "url": "https://www.tga.gov.au/news/safety-alerts/metformin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "medicine": "Cefalexin",
+      "brands": "Keflex",
+      "used_for": "Bacterial infections (antibiotic)",
+      "maker": "Eli Lilly originally; now many generic makers",
+      "launched": 1969,
+      "market": "Generic",
+      "pbs_basis": "prescriptions",
+      "pbs_rank": 9,
+      "pbs_prescriptions_2024_25": 5163370,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Nothing significant found.",
+      "medicine_itself": "Not in question.",
+      "watch": "Supply rather than misconduct. When Sandoz cefalexin capsules ran short, Australia allowed an unregistered imported substitute until July 2023.",
+      "events": []
+    },
+    {
+      "medicine": "Amoxicillin",
+      "brands": "Amoxil",
+      "used_for": "Bacterial infections (antibiotic)",
+      "maker": "Beecham (now GSK) originally; now many generic makers",
+      "launched": 1972,
+      "market": "Generic",
+      "pbs_basis": "prescriptions",
+      "pbs_rank": 10,
+      "pbs_prescriptions_2024_25": 4965405,
+      "pbs_cost_aud_2024_25": null,
+      "status_light": "Quiet now",
+      "why": "Nothing significant found.",
+      "medicine_itself": "Not in question.",
+      "watch": "Supply rather than misconduct. Children’s amoxicillin was short in the US from late 2022, and one big maker blamed prices too low to be worth making it. In 2024 members of Congress asked makers to explain the shortages.",
+      "events": []
+    },
+    {
+      "medicine": "Pembrolizumab",
+      "brands": "Keytruda",
+      "used_for": "Cancer immunotherapy",
+      "maker": "Merck & Co. (MSD)",
+      "launched": 2014,
+      "market": "Patented",
+      "pbs_basis": "cost to government",
+      "pbs_rank": 1,
+      "pbs_prescriptions_2024_25": 80712,
+      "pbs_cost_aud_2024_25": 684838086,
+      "status_light": "Warning signs",
+      "why": "A genuine breakthrough. The concerns are a wall of extra patents, offshore profits and price, not fraud.",
+      "medicine_itself": "Not in question. The concerns are patents, tax, price and dose.",
+      "watch": "The core patents expire from 2028. Watch whether follow-on patents and the switch to the injectable version keep cheaper biosimilars away. That version is itself in a patent fight with Halozyme, which won injunctions against it in Germany (2025) and, on 7 October 2026, the Netherlands. Merck says the patent is invalid.",
+      "events": [
+        {
+          "year": 2021,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Raised, not proven",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "A wall of patents",
+          "description": "The patent-reform group I-MAK counted 129 patent applications on Keytruda, 74% of them not for the active ingredient, and estimated they could extend Merck’s monopoly by eight years or more beyond 2028.",
+          "sources": [
+            {
+              "label": "I-MAK (2021)",
+              "url": "https://www.i-mak.org/wp-content/uploads/2021/05/I-MAK-Keytruda-deck-2021-05-03F.pdf"
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Price & tax",
+          "status": "Inquiry",
+          "by": "US government",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Senate tax inquiry",
+          "description": "The chair of the US Senate Finance Committee said Merck booked Keytruda’s profits offshore, holding the rights in the Netherlands and making it in Ireland: 46% of its 2021 sales were in the US but only 14% of its pre-tax income. Merck said it had cooperated.",
+          "sources": [
+            {
+              "label": "Fierce Pharma (2022)",
+              "url": "https://www.fiercepharma.com/pharma/merck-has-dodged-billions-us-taxes-offshoring-keytruda-profits-senate-democrats-contend"
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "Raised, not proven",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "The \"product hop\"",
+          "description": "Merck launched an under-the-skin version, Keytruda Qlex. I-MAK called it a product hop: moving patients to a newly patented form before the original’s patents expire.",
+          "sources": [
+            {
+              "label": "I-MAK (2025)",
+              "url": "https://www.i-mak.org/?p=5312"
+            }
+          ]
+        },
+        {
+          "year": 2026,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Price & tax",
+          "status": "Raised, not proven",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Price, patents and dose",
+          "description": "An April 2026 investigation by the International Consortium of Investigative Journalists found 50 active US patents that could protect Keytruda until at least 2042, and list prices from about US$80,000 a year in Germany to US$208,000 in the US. Researchers it consulted said Merck promotes a higher dose than necessary.",
+          "sources": [
+            {
+              "label": "ICIJ (2026)",
+              "url": "https://www.icij.org/investigations/cancer-calculus/keytruda-evergreening-patents-merck/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "medicine": "Elexacaftor, tezacaftor and ivacaftor",
+      "brands": "Trikafta",
+      "used_for": "Cystic fibrosis",
+      "maker": "Vertex",
+      "launched": 2019,
+      "market": "Patented",
+      "pbs_basis": "cost to government",
+      "pbs_rank": 2,
+      "pbs_prescriptions_2024_25": 29293,
+      "pbs_cost_aud_2024_25": 618324241,
+      "status_light": "Warning signs",
+      "why": "Life-changing for most people with cystic fibrosis. The issue is price: about 57 times the estimated cost of making it.",
+      "medicine_itself": "Not in question. The concern is price.",
+      "watch": "Price and access: still unaffordable or unavailable in many countries.",
+      "events": [
+        {
+          "year": 2022,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Price & tax",
+          "status": "Raised, not proven",
+          "by": "Research, press or company",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Price v cost of making it",
+          "description": "A 2022 study estimated a year’s supply could be made for about US$5,700, against a US list price of about US$325,000. The estimate covers manufacturing only, not research.",
+          "sources": [
+            {
+              "label": "Guo et al., J Cyst Fibros (2022)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35440408/"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Price & tax",
+          "status": "Probe closed",
+          "by": "Non-US government",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "South African competition probe",
+          "description": "South Africa’s Competition Commission investigated Vertex from 2022 over alleged excessive pricing and refusal to supply. It closed the case in December 2024 after Vertex gave undertakings, and patient groups asked in 2025 for it to be reopened.",
+          "sources": [
+            {
+              "label": "GroundUp (2024)",
+              "url": "https://groundup.org.za/article/life-savingcystic-fibrosis-drugs-still-not-available-to-most"
+            },
+            {
+              "label": "STAT (2025)",
+              "url": "https://www.statnews.com/pharmalot/2025/08/08/vertex-cystic-fibrosis-access-medicines-pharma-south-africa-patents-trikafta/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "medicine": "Ustekinumab",
+      "brands": "Stelara",
+      "used_for": "Psoriasis, Crohn’s disease and colitis",
+      "maker": "Janssen (Johnson & Johnson)",
+      "launched": 2009,
+      "market": "Biosimilars arriving",
+      "pbs_basis": "cost to government",
+      "pbs_rank": 3,
+      "pbs_prescriptions_2024_25": 74000,
+      "pbs_cost_aud_2024_25": 520156660,
+      "status_light": "In court now",
+      "why": "A certified class action accuses J&J of delaying cheaper biosimilars.",
+      "medicine_itself": "Not in question. The case is about competition.",
+      "watch": "The class action. J&J’s settlements with biosimilar makers set US launches from 2025.",
+      "events": [
+        {
+          "year": 2023,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Blocking cheaper copies",
+          "status": "In court now",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Insurers’ antitrust class action",
+          "description": "US health insurers sued in December 2023, alleging J&J kept biosimilars off the market with a patent they say was wrongly granted and by buying a rival’s patents. The court certified a class in December 2025. In January 2026 it ruled for J&J on the patent-purchase claim, but the rest of the case continues. J&J is contesting it.",
+          "sources": [
+            {
+              "label": "J&J annual report (2026)",
+              "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000016/jnj-20251228.htm"
+            },
+            {
+              "label": "Goodwin (2024)",
+              "url": "https://goodwinlaw.com/en/insights/blogs/2024/01/ustekinumab-antitrust-litigation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "medicine": "Dupilumab",
+      "brands": "Dupixent",
+      "used_for": "Eczema and asthma",
+      "maker": "Sanofi and Regeneron",
+      "launched": 2017,
+      "market": "Patented",
+      "pbs_basis": "cost to government",
+      "pbs_rank": 4,
+      "pbs_prescriptions_2024_25": 282908,
+      "pbs_cost_aud_2024_25": 485257657,
+      "status_light": "In court now",
+      "why": "About 30 US lymphoma lawsuits were grouped in one federal court in June 2026. A causal link is unproven.",
+      "medicine_itself": "Possibly. The lawsuits claim a link to a rare lymphoma, which is not proven.",
+      "watch": "An early stage: no trials scheduled yet. Any payout depends on courts accepting a causal link.",
+      "events": [
+        {
+          "year": 2025,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "Safety signal",
+          "by": "Regulator",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "An FDA safety signal",
+          "description": "In March 2025 the FDA listed cutaneous T-cell lymphoma, a rare cancer that can look like eczema, as a potential risk it was evaluating. Studies disagree: some found many more reports than expected, and at least one large study found no increased risk.",
+          "sources": [
+            {
+              "label": "Law-journal summary (2025)",
+              "url": "https://mydigitalpublication.com/article/Duped+by+Dupixent%3A+Emerging+Cutaneous+T-Cell+Lymphoma+Litigation/5073197/856941/article.html"
+            },
+            {
+              "label": "Physician’s Weekly",
+              "url": "https://www.physiciansweekly.com/post/association-between-dupilumab-therapy-and-ctcl-progression"
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "conduct_from": null,
+          "conduct_to": null,
+          "issue": "Injury lawsuits & safety signals",
+          "status": "In court now",
+          "by": "Private lawsuit",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Lymphoma lawsuits",
+          "description": "The first suits were filed in 2025. In June 2026 about 30 federal cases claiming Dupixent caused or worsened T-cell lymphoma were grouped before one judge in New Jersey, with more in state court and a proposed class action in Maryland. Sanofi says it cannot yet assess the outcome.",
+          "sources": [
+            {
+              "label": "Sanofi half-year report (2026)",
+              "url": "https://www.sec.gov/Archives/edgar/data/0001121404/000162828026050803/sny-20260630_d2.htm"
+            },
+            {
+              "label": "Regeneron quarterly report (2026)",
+              "url": "https://www.sec.gov/Archives/edgar/data/0000872589/000087258926000025/regn-20260630.htm"
+            },
+            {
+              "label": "AboutLawsuits (2026)",
+              "url": "https://www.aboutlawsuits.com/dupixent-lawsuit/dupixent-injection-lawsuits-consolidated-mdl-ctcl-diagnoses/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "medicine": "Aflibercept",
+      "brands": "Eylea",
+      "used_for": "Macular degeneration (eye injections)",
+      "maker": "Regeneron (US); Bayer elsewhere, including Australia",
+      "launched": 2011,
+      "market": "Biosimilars arriving",
+      "pbs_basis": "cost to government",
+      "pbs_rank": 5,
+      "pbs_prescriptions_2024_25": 485167,
+      "pbs_cost_aud_2024_25": 476335237,
+      "status_light": "In court now",
+      "why": "Two live US government fraud cases against Regeneron.",
+      "medicine_itself": "Not in question. The cases are about billing and kickbacks.",
+      "watch": "Both cases. Under the False Claims Act, damages are tripled. Bayer, which sells Eylea in Australia, is not part of them.",
+      "events": [
+        {
+          "year": 2020,
+          "conduct_from": 2013,
+          "conduct_to": 2014,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "In court now",
+          "by": "US government",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Kickbacks through a copay charity",
+          "description": "The US government alleges Regeneron gave tens of millions of dollars in 2013–14 to a supposedly independent charity to cover Medicare patients’ Eylea copays, an illegal kickback. A 2025 appeals ruling made such cases harder to prove, but the case continues. Regeneron says it has no merit.",
+          "sources": [
+            {
+              "label": "STAT (2020)",
+              "url": "https://www.statnews.com/pharmalot/2020/06/24/regeneron-kickbacks-medicare-foundations/"
+            },
+            {
+              "label": "US Court of Appeals, 1st Cir. (2025)",
+              "url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/23-2086P-01A.pdf"
+            },
+            {
+              "label": "Regeneron quarterly report (2026)",
+              "url": "https://www.sec.gov/Archives/edgar/data/0000872589/000087258926000025/regn-20260630.htm"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "conduct_from": 2012,
+          "conduct_to": 2023,
+          "issue": "Fraud, kickbacks & illegal marketing",
+          "status": "In court now",
+          "by": "US government",
+          "amount": "",
+          "about_parent_drug": "",
+          "title": "Inflating Medicare’s price",
+          "description": "The Justice Department alleges Regeneron hid hundreds of millions of dollars of credit-card-fee payments to distributors that should have lowered Eylea’s reported average price, inflating what Medicare paid from 2012 to 2023. It began as a whistleblower suit. A judge refused to dismiss it in 2025; Regeneron says the claims are without merit.",
+          "sources": [
+            {
+              "label": "US DOJ (2024)",
+              "url": "https://www.justice.gov/opa/pr/false-claims-act-complaint-filed-against-regeneron-pharmaceuticals-fraudulent-drug-pricing"
+            },
+            {
+              "label": "Court order via Endpoints (2025)",
+              "url": "https://endpoints.news/wp-content/uploads/2025/04/regeneronfalseclaimsorder.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

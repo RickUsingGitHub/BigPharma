@@ -556,6 +556,7 @@
     window.Lab.init();
     if (window.Bench) window.Bench.init();
     initCompanies();
+    if (window.Meds) window.Meds.init();
     initMoney();
     renderOz();
     initScore();
